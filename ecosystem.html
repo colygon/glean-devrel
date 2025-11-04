@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Warp Ecosystem - Integrations & Tools</title>
+    <link rel="stylesheet" href="assets/css/portal.css">
+    <style>
+        .integration-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+            gap: 2rem;
+            margin-top: 3rem;
+        }
+
+        .integration-card {
+            background: white;
+            border-radius: 16px;
+            padding: 2.5rem;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            transition: all 0.3s ease;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .integration-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 12px 24px rgba(0,0,0,0.15);
+        }
+
+        .integration-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 4px;
+            background: linear-gradient(90deg, var(--primary-color), var(--secondary-color));
+        }
+
+        .integration-header {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .integration-icon {
+            font-size: 3rem;
+            line-height: 1;
+        }
+
+        .integration-logo {
+            width: 48px;
+            height: 48px;
+            object-fit: contain;
+        }
+
+        .integration-title {
+            display: flex;
+            flex-direction: column;
+            gap: 0.25rem;
+        }
+
+        .integration-card h3 {
+            font-size: 1.5rem;
+            margin: 0;
+            color: var(--text-dark);
+        }
+
+        .integration-category {
+            font-size: 0.85rem;
+            color: var(--text-light);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            font-weight: 600;
+        }
+
+        .integration-description {
+            color: var(--text-light);
+            line-height: 1.6;
+            margin-bottom: 1.5rem;
+            flex-grow: 1;
+        }
+
+        .integration-features {
+            list-style: none;
+            padding: 0;
+            margin: 0 0 1.5rem 0;
+        }
+
+        .integration-features li {
+            padding: 0.5rem 0;
+            color: var(--text-dark);
+            font-size: 0.95rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .integration-features li::before {
+            content: '✓';
+            color: var(--success);
+            font-weight: bold;
+            font-size: 1.1rem;
+        }
+
+        .integration-footer {
+            display: flex;
+            gap: 1rem;
+            margin-top: auto;
+        }
+
+        .integration-status {
+            display: inline-block;
+            padding: 0.4rem 1rem;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .status-live {
+            background: rgba(0, 184, 148, 0.1);
+            color: var(--success);
+        }
+
+        .status-beta {
+            background: rgba(253, 203, 110, 0.1);
+            color: var(--warning);
+        }
+
+        .status-coming {
+            background: rgba(108, 92, 231, 0.1);
+            color: var(--primary-color);
+        }
+
+        .category-filter {
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-bottom: 3rem;
+        }
+
+        .filter-btn {
+            padding: 0.75rem 1.5rem;
+            border-radius: 24px;
+            border: 2px solid var(--border-color);
+            background: white;
+            color: var(--text-dark);
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        .filter-btn:hover, .filter-btn.active {
+            border-color: var(--primary-color);
+            background: var(--primary-color);
+            color: white;
+        }
+
+        .stats-banner {
+            background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+            color: white;
+            padding: 3rem 2rem;
+            border-radius: 16px;
+            text-align: center;
+            margin-top: 3rem;
+        }
+
+        .stats-banner h3 {
+            font-size: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 2rem;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .stat-item {
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+        }
+
+        .stat-number {
+            font-size: 2.5rem;
+            font-weight: 800;
+        }
+
+        .stat-label {
+            opacity: 0.9;
+            font-size: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <header class="portal-header">
+        <nav class="portal-nav">
+            <div class="logo">
+                <h1>⚡ Warp Ecosystem</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="portal.html">Portal Home</a></li>
+                <li><a href="#integrations">Integrations</a></li>
+                <li><a href="#api">API</a></li>
+                <li><a href="docs/warplets-prd.md">Warplets PRD</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero-portal">
+        <div class="hero-content">
+            <h1>Warp Ecosystem</h1>
+            <p class="hero-subtitle">Powerful integrations that extend Warp's capabilities and connect your entire development workflow</p>
+        </div>
+    </section>
+
+    <section id="integrations" class="section section-light">
+        <div class="container">
+            <h2>Integrations</h2>
+            <p class="section-intro">Connect Warp with the tools you love</p>
+            
+            <div class="category-filter">
+                <button class="filter-btn active" data-category="all">All</button>
+                <button class="filter-btn" data-category="ai">AI & Agents</button>
+                <button class="filter-btn" data-category="devtools">Dev Tools</button>
+                <button class="filter-btn" data-category="cloud">Cloud & Infrastructure</button>
+                <button class="filter-btn" data-category="productivity">Productivity</button>
+            </div>
+
+            <div class="integration-grid">
+                <!-- Warplets -->
+                <div class="integration-card" data-category="cloud">
+                    <div class="integration-card::before"></div>
+                    <div class="integration-header">
+                        <span class="integration-icon">🚀</span>
+                        <div class="integration-title">
+                            <h3>Warplets</h3>
+                            <span class="integration-category">Cloud Development</span>
+                        </div>
+                    </div>
+                    <p class="integration-description">
+                        Deploy ephemeral cloud development environments with Warp pre-installed. One-command setup for Docker containers on AWS, GCP, Azure, and more.
+                    </p>
+                    <ul class="integration-features">
+                        <li>Auto-Warpify on SSH connection</li>
+                        <li>Multi-cloud deployment</li>
+                        <li>Template marketplace</li>
+                        <li>Cost tracking & auto-destroy</li>
+                    </ul>
+                    <div class="integration-footer">
+                        <span class="integration-status status-coming">Coming Soon</span>
+                        <a href="docs/warplets-prd.md" class="btn btn-outline">View PRD</a>
+                    </div>
+                </div>
+
+                <!-- Warp Drive -->
+                <div class="integration-card" data-category="productivity">
+                    <div class="integration-header">
+                        <span class="integration-icon">💾</span>
+                        <div class="integration-title">
+                            <h3>Warp Drive</h3>
+                            <span class="integration-category">Knowledge Management</span>
+                        </div>
+                    </div>
+                    <p class="integration-description">
+                        Your workspace in the terminal for saving workflows, notebooks, prompts, and environment variables. Share with teams or keep personal.
+                    </p>
+                    <ul class="integration-features">
+                        <li>Sync workflows & notebooks</li>
+                        <li>Team collaboration</li>
+                        <li>AI context integration</li>
+                        <li>Import/export (YAML, Markdown)</li>
+                    </ul>
+                    <div class="integration-footer">
+                        <span class="integration-status status-live">Live</span>
+                        <a href="https://docs.warp.dev/knowledge-and-collaboration/warp-drive" class="btn btn-outline">Documentation</a>
+                    </div>
+                </div>
+
+                <!-- Claude (Anthropic) -->
+                <div class="integration-card" data-category="ai">
+                    <div class="integration-header">
+                        <span class="integration-icon">🤖</span>
+                        <div class="integration-title">
+                            <h3>Claude (Anthropic)</h3>
+                            <span class="integration-category">AI Agent</span>
+                        </div>
+                    </div>
+                    <p class="integration-description">
+                        Use Claude Sonnet and Opus models for code generation, debugging, and command suggestions. Available as an AI agent in Warp.
+                    </p>
+                    <ul class="integration-features">
+                        <li>Code writing & refactoring</li>
+                        <li>Complex debugging</li>
+                        <li>Multi-step task execution</li>
+                        <li>Context-aware responses</li>
+                    </ul>
+                    <div class="integration-footer">
+                        <span class="integration-status status-live">Live</span>
+                        <a href="https://docs.warp.dev/agents/agents-overview" class="btn btn-outline">Learn More</a>
+                    </div>
+                </div>
+
+                <!-- OpenAI -->
+                <div class="integration-card" data-category="ai">
+                    <div class="integration-header">
+                        <span class="integration-icon">✨</span>
+                        <div class="integration-title">
+                            <h3>OpenAI (GPT-4/5)</h3>
+                            <span class="integration-category">AI Agent</span>
+                        </div>
+                    </div>
+                    <p class="integration-description">
+                        Access GPT-4, GPT-4o, and GPT-5 models directly in Warp. Fast command generation, script writing, and natural language query responses.
+                    </p>
+                    <ul class="integration-features">
+                        <li>GPT-5 support (latest)</li>
+                        <li>Streaming responses</li>
+                        <li>Command explanations</li>
+                        <li>Quick terminal assistance</li>
+                    </ul>
+                    <div class="integration-footer">
+                        <span class="integration-status status-live">Live</span>
+                        <a href="https://docs.warp.dev/agents/agents-overview" class="btn btn-outline">Learn More</a>
+                    </div>
+                </div>
+
+                <!-- Google Gemini -->
+                <div class="integration-card" data-category="ai">
+                    <div class="integration-header">
+                        <span class="integration-icon">💎</span>
+                        <div class="integration-title">
+                            <h3>Google Gemini</h3>
+                            <span class="integration-category">AI Agent</span>
+                        </div>
+                    </div>
+                    <p class="integration-description">
+                        Integrate Google's Gemini models for multimodal AI capabilities. Process images, analyze code, and get comprehensive technical assistance.
+                    </p>
+                    <ul class="integration-features">
+                        <li>Multimodal support</li>
+                        <li>Code analysis</li>
+                        <li>Large context windows</li>
+                        <li>Fast inference</li>
+                    </ul>
+                    <div class="integration-footer">
+                        <span class="integration-status status-live">Live</span>
+                        <a href="https://docs.warp.dev/agents/agents-overview" class="btn btn-outline">Learn More</a>
+                    </div>
+                </div>
+
+                <!-- Docker -->
+                <div class="integration-card" data-category="devtools">
+                    <div class="integration-header">
+                        <span class="integration-icon">🐳</span>
+                        <div class="integration-title">
+                            <h3>Docker</h3>
+                            <span class="integration-category">Containerization</span>
+                        </div>
+                    </div>
+                    <p class="integration-description">
+                        Seamless Docker commands with AI-powered assistance. Get help with Dockerfiles, compose files, and container management.
+                    </p>
+                    <ul class="integration-features">
+                        <li>Dockerfile generation</li>
+                        <li>Container debugging</li>
+                        <li>Compose file assistance</li>
+                        <li>Best practices guidance</li>
+                    </ul>
+                    <div class="integration-footer">
+                        <span class="integration-status status-live">Live</span>
+                        <a href="#" class="btn btn-outline">Documentation</a>
+                    </div>
+                </div>
+
+                <!-- VS Code -->
+                <div class="integration-card" data-category="devtools">
+                    <div class="integration-header">
+                        <span class="integration-icon">💻</span>
+                        <div class="integration-title">
+                            <h3>VS Code</h3>
+                            <span class="integration-category">Code Editor</span>
+                        </div>
+                    </div>
+                    <p class="integration-description">
+                        Open projects in VS Code directly from Warp. Terminal-first workflow with seamless editor integration for the best of both worlds.
+                    </p>
+                    <ul class="integration-features">
+                        <li>Quick project opening</li>
+                        <li>Integrated terminal</li>
+                        <li>Command palette sync</li>
+                        <li>Workspace management</li>
+                    </ul>
+                    <div class="integration-footer">
+                        <span class="integration-status status-live">Live</span>
+                        <a href="#" class="btn btn-outline">Documentation</a>
+                    </div>
+                </div>
+
+                <!-- JetBrains -->
+                <div class="integration-card" data-category="devtools">
+                    <div class="integration-header">
+                        <span class="integration-icon">🧠</span>
+                        <div class="integration-title">
+                            <h3>JetBrains IDEs</h3>
+                            <span class="integration-category">Code Editor</span>
+                        </div>
+                    </div>
+                    <p class="integration-description">
+                        Launch IntelliJ IDEA, PyCharm, WebStorm, and other JetBrains IDEs from Warp. Smart project detection and workspace integration.
+                    </p>
+                    <ul class="integration-features">
+                        <li>IDE launcher commands</li>
+                        <li>Project detection</li>
+                        <li>Recent projects access</li>
+                        <li>Configuration sync</li>
+                    </ul>
+                    <div class="integration-footer">
+                        <span class="integration-status status-live">Live</span>
+                        <a href="#" class="btn btn-outline">Documentation</a>
+                    </div>
+                </div>
+
+                <!-- Raycast -->
+                <div class="integration-card" data-category="productivity">
+                    <div class="integration-header">
+                        <span class="integration-icon">⚡</span>
+                        <div class="integration-title">
+                            <h3>Raycast</h3>
+                            <span class="integration-category">Launcher</span>
+                        </div>
+                    </div>
+                    <p class="integration-description">
+                        Execute Warp commands and workflows directly from Raycast. Quick access to your favorite terminal actions without leaving your keyboard.
+                    </p>
+                    <ul class="integration-features">
+                        <li>Launch Warp commands</li>
+                        <li>Workflow triggers</li>
+                        <li>Recent blocks access</li>
+                        <li>Quick SSH connections</li>
+                    </ul>
+                    <div class="integration-footer">
+                        <span class="integration-status status-beta">Beta</span>
+                        <a href="#" class="btn btn-outline">Install Extension</a>
+                    </div>
+                </div>
+
+                <!-- n8n -->
+                <div class="integration-card" data-category="productivity">
+                    <div class="integration-header">
+                        <span class="integration-icon">🔄</span>
+                        <div class="integration-title">
+                            <h3>n8n</h3>
+                            <span class="integration-category">Automation</span>
+                        </div>
+                    </div>
+                    <p class="integration-description">
+                        Automate terminal workflows with n8n. Trigger Warp commands, capture output, and integrate with 300+ other services for powerful automation.
+                    </p>
+                    <ul class="integration-features">
+                        <li>Execute Warp workflows</li>
+                        <li>Capture command output</li>
+                        <li>Scheduled automation</li>
+                        <li>Multi-service integration</li>
+                    </ul>
+                    <div class="integration-footer">
+                        <span class="integration-status status-coming">Coming Soon</span>
+                        <a href="#" class="btn btn-outline">Documentation</a>
+                    </div>
+                </div>
+
+                <!-- GitHub -->
+                <div class="integration-card" data-category="devtools">
+                    <div class="integration-header">
+                        <span class="integration-icon">🐙</span>
+                        <div class="integration-title">
+                            <h3>GitHub</h3>
+                            <span class="integration-category">Version Control</span>
+                        </div>
+                    </div>
+                    <p class="integration-description">
+                        Enhanced git and GitHub CLI integration. AI-powered commit messages, PR management, and issue tracking directly from your terminal.
+                    </p>
+                    <ul class="integration-features">
+                        <li>AI-generated commits</li>
+                        <li>PR creation & review</li>
+                        <li>Issue management</li>
+                        <li>GitHub Actions triggers</li>
+                    </ul>
+                    <div class="integration-footer">
+                        <span class="integration-status status-live">Live</span>
+                        <a href="#" class="btn btn-outline">Documentation</a>
+                    </div>
+                </div>
+
+                <!-- Kubernetes -->
+                <div class="integration-card" data-category="cloud">
+                    <div class="integration-header">
+                        <span class="integration-icon">☸️</span>
+                        <div class="integration-title">
+                            <h3>Kubernetes</h3>
+                            <span class="integration-category">Orchestration</span>
+                        </div>
+                    </div>
+                    <p class="integration-description">
+                        Simplified Kubernetes management with AI assistance. Get help with kubectl commands, YAML files, and cluster debugging.
+                    </p>
+                    <ul class="integration-features">
+                        <li>kubectl command help</li>
+                        <li>YAML generation</li>
+                        <li>Pod debugging</li>
+                        <li>Resource management</li>
+                    </ul>
+                    <div class="integration-footer">
+                        <span class="integration-status status-live">Live</span>
+                        <a href="#" class="btn btn-outline">Documentation</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <div class="stats-banner">
+                <h3>Growing Ecosystem</h3>
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <div class="stat-number">12+</div>
+                        <div class="stat-label">Official Integrations</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">5</div>
+                        <div class="stat-label">AI Models Supported</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">300+</div>
+                        <div class="stat-label">MCP Servers Available</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">1,000+</div>
+                        <div class="stat-label">Community Workflows</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="api" class="section section-light">
+        <div class="container">
+            <h2>Build Your Own Integration</h2>
+            <p class="section-intro">Extend Warp with custom integrations using our API and SDK</p>
+            
+            <div class="learning-grid">
+                <div class="learning-card" style="background: white; color: var(--text-dark);">
+                    <h3>🔌 Warp API</h3>
+                    <p style="margin: 1rem 0;">Build custom integrations that interact with Warp programmatically.</p>
+                    <ul>
+                        <li>Execute commands</li>
+                        <li>Read command output</li>
+                        <li>Manage workflows</li>
+                        <li>Access Warp Drive</li>
+                    </ul>
+                    <a href="#" class="btn btn-primary" style="margin-top: 1rem;">View API Docs</a>
+                </div>
+
+                <div class="learning-card" style="background: white; color: var(--text-dark);">
+                    <h3>📦 MCP SDK</h3>
+                    <p style="margin: 1rem 0;">Build Model Context Protocol servers that extend Warp's AI capabilities.</p>
+                    <ul>
+                        <li>Python, TypeScript, Go SDKs</li>
+                        <li>Template repositories</li>
+                        <li>Testing tools</li>
+                        <li>Marketplace publishing</li>
+                    </ul>
+                    <a href="docs/mcp-marketplace.md" class="btn btn-primary" style="margin-top: 1rem;">Get Started</a>
+                </div>
+
+                <div class="learning-card" style="background: white; color: var(--text-dark);">
+                    <h3>🎨 Extension Framework</h3>
+                    <p style="margin: 1rem 0;">Create custom UI extensions and workflows for the Warp ecosystem.</p>
+                    <ul>
+                        <li>React-based UI</li>
+                        <li>Custom commands</li>
+                        <li>Theme support</li>
+                        <li>Workflow automation</li>
+                    </ul>
+                    <a href="#" class="btn btn-primary" style="margin-top: 1rem;">Extension Docs</a>
+                </div>
+
+                <div class="learning-card" style="background: white; color: var(--text-dark);">
+                    <h3>🤝 Partnership Program</h3>
+                    <p style="margin: 1rem 0;">Partner with Warp to co-develop deep integrations and promote to our community.</p>
+                    <ul>
+                        <li>Technical support</li>
+                        <li>Co-marketing opportunities</li>
+                        <li>Early access to features</li>
+                        <li>Revenue sharing options</li>
+                    </ul>
+                    <a href="#" class="btn btn-primary" style="margin-top: 1rem;">Apply Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta-section">
+        <div class="container">
+            <h2>Ready to Integrate?</h2>
+            <p>Start building with Warp's ecosystem today</p>
+            <div class="cta-buttons">
+                <a href="#" class="btn btn-primary btn-large">View API Documentation</a>
+                <a href="docs/mcp-marketplace.md" class="btn btn-outline btn-large">Browse MCP Servers</a>
+                <a href="portal.html" class="btn btn-outline btn-large">Developer Portal</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="portal-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-section">
+                    <h4>Ecosystem</h4>
+                    <ul>
+                        <li><a href="#integrations">All Integrations</a></li>
+                        <li><a href="#api">API Documentation</a></li>
+                        <li><a href="docs/mcp-marketplace.md">MCP Marketplace</a></li>
+                        <li><a href="docs/warplets-prd.md">Warplets</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Developers</h4>
+                    <ul>
+                        <li><a href="portal.html">Developer Portal</a></li>
+                        <li><a href="learning-paths.html">Learning Paths</a></li>
+                        <li><a href="docs/workshops.md">Workshops</a></li>
+                        <li><a href="docs/bounty-system.md">Bounties</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Community</h4>
+                    <ul>
+                        <li><a href="community.html">Dashboard</a></li>
+                        <li><a href="https://go.warp.dev/join-preview">Slack</a></li>
+                        <li><a href="https://github.com/warpdotdev">GitHub</a></li>
+                        <li><a href="https://twitter.com/warpdotdev">Twitter</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="index.html">DevRel Home</a></li>
+                        <li><a href="https://docs.warp.dev">Documentation</a></li>
+                        <li><a href="https://warp.dev/blog">Blog</a></li>
+                        <li><a href="https://warp.dev/university">Warp University</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Warp. Built with ❤️ by the community.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Simple filter functionality
+        const filterBtns = document.querySelectorAll('.filter-btn');
+        const integrationCards = document.querySelectorAll('.integration-card');
+
+        filterBtns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                // Remove active class from all buttons
+                filterBtns.forEach(b => b.classList.remove('active'));
+                // Add active class to clicked button
+                btn.classList.add('active');
+
+                const category = btn.dataset.category;
+
+                integrationCards.forEach(card => {
+                    if (category === 'all' || card.dataset.category === category) {
+                        card.style.display = 'flex';
+                    } else {
+                        card.style.display = 'none';
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
