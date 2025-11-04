@@ -1,7 +1,7 @@
 # Warp.dev SWOT Analysis
 ## Competitive Intelligence Report
 
-**Prepared:** January 4, 2025  
+**Prepared:** January 4, 2026  
 **Analyst:** DevRel Strategy Team  
 **Version:** 1.0
 
@@ -119,7 +119,7 @@ Warp has positioned itself as the **#1 Agentic Development Environment (ADE)**, 
 - **Competitive Parity:** Remove biggest disadvantage
 - **Timeline:** Rumored to be in development
 
-**Strategic Priority:** Windows support should be top priority for 2025.
+**Strategic Priority:** Windows support should be top priority for 2026.
 
 #### 2. **Enterprise Segment Growth**
 - **Warp Academy:** New training/certification program addresses enterprise needs
@@ -265,8 +265,8 @@ Warp has positioned itself as the **#1 Agentic Development Environment (ADE)**, 
 
 1. **Accelerate Windows Support**
    - Make this the #1 engineering priority
-   - Beta launch Q1 2025
-   - GA launch Q2 2025
+   - Beta launch Q1 2026
+   - GA launch Q2 2026
 
 2. **Simplify Pricing**
    - Flat $20/month tier (match Cursor)
@@ -343,7 +343,7 @@ Warp has positioned itself as the **#1 Agentic Development Environment (ADE)**, 
 
 ### Pricing Risk
 - **Action:** A/B test simplified pricing, survey 1,000 users
-- **Timeline:** Q1 2025
+- **Timeline:** Q1 2026
 - **Fallback:** Freemium model with usage-based upsell
 
 ### Security Risk
@@ -379,7 +379,7 @@ Warp has positioned itself as the **#1 Agentic Development Environment (ADE)**, 
 
 Warp occupies a unique and defensible position as the **terminal-first AI coding assistant**. Its strengths—terminal-native architecture, mixed-model AI, and full lifecycle coverage—create genuine differentiation in a crowded market. However, Windows platform limitation and fierce competition from Microsoft (GitHub Copilot) and Cursor pose existential threats.
 
-### Critical Success Factors (2025)
+### Critical Success Factors (2026)
 
 1. ✅ **Ship Windows support** (non-negotiable)
 2. ✅ **Simplify pricing** (reduce friction)
@@ -387,7 +387,7 @@ Warp occupies a unique and defensible position as the **terminal-first AI coding
 4. ✅ **Launch Warplets** (create new revenue stream)
 5. ✅ **Grow enterprise** (increase ACV, reduce churn)
 
-**Bottom Line:** Warp can win if it executes flawlessly on Windows support and enterprise go-to-market. Failure to ship Windows in 2025 puts the company at severe risk of being marginalized by cross-platform competitors.
+**Bottom Line:** Warp can win if it executes flawlessly on Windows support and enterprise go-to-market. Failure to ship Windows in 2026 puts the company at severe risk of being marginalized by cross-platform competitors.
 
 **Recommended Strategy:** "Terminal-First, Platform-Agnostic, Enterprise-Ready"
 

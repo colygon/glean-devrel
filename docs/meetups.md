@@ -11,7 +11,7 @@ Join us for monthly community meetups to connect with other Warp users, learn ne
 - **Duration**: 2 hours (6:00 PM - 8:00 PM local time)
 - **Format**: Hybrid (in-person + virtual)
 
-### 2025 Schedule
+### 2026 Schedule
 
 | Month | Date | Topic | Location |
 |-------|------|-------|----------|
@@ -42,7 +42,7 @@ Join us for monthly community meetups to connect with other Warp users, learn ne
 - **Recording**: All sessions recorded and available 24 hours after
 
 ### Future Expansion Cities
-We're planning to expand to additional cities in 2025-2026:
+We're planning to expand to additional cities in 2026-2026:
 - New York City
 - Austin
 - Seattle

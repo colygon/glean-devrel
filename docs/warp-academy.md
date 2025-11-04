@@ -15,21 +15,21 @@ Monthly live interactive sessions with Warp experts and Q&A.
 **Format**: Virtual (Zoom)  
 **Recording**: Available within 24 hours for registered attendees
 
-#### Upcoming Webinars (Q1 2025)
+#### Upcoming Webinars (Q1 2026)
 
-**January 8, 2025 - Warp for Engineering Teams**
+**January 8, 2026 - Warp for Engineering Teams**
 - Onboarding best practices
 - Team workflows and collaboration
 - Admin controls and security
 - SSO and access management
 
-**February 5, 2025 - Advanced AI Workflows**
+**February 5, 2026 - Advanced AI Workflows**
 - Custom rules and prompts
 - Agent orchestration
 - MCP integration strategies
 - Building internal MCP servers
 
-**March 5, 2025 - Maximizing Developer Productivity**
+**March 5, 2026 - Maximizing Developer Productivity**
 - Power user shortcuts and workflows
 - Custom extensions for your stack
 - Integration with CI/CD pipelines

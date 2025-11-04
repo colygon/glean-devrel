@@ -170,7 +170,7 @@ This document captures key lessons from Warp's founder and translates them into 
 - **Evangelism Mission:** We're not just supporting Warp users - we're teaching a new way to code
 - **Education Priority:** Heavy investment in introductory content and onboarding
 - **Community Building:** Create safe spaces for developers to learn and experiment
-- **Long-term Thinking:** Build foundations for massive adoption wave coming in 2025-2026
+- **Long-term Thinking:** Build foundations for massive adoption wave coming in 2026-2026
 
 **Action Items:**
 - Content pillar: "Your First Prompt-Driven Project" (complete beginner focus)
@@ -220,7 +220,7 @@ This document captures key lessons from Warp's founder and translates them into 
 ### Tier 3: Future-Focused Investments
 
 7. **Education for the Coming Wave**
-   - Prepare for massive adoption in 2025-2026
+   - Prepare for massive adoption in 2026-2026
    - Build beginner-friendly content at scale
    - Partner with educational institutions
 

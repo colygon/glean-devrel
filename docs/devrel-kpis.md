@@ -407,7 +407,7 @@ utm_content=[specific-initiative]
 **Examples:**
 - Workshop: `?utm_source=devrel&utm_medium=workshop&utm_campaign=mcp-basics`
 - Bounty: `?utm_source=devrel&utm_medium=bounty&utm_campaign=tutorial-creation`
-- Hackathon: `?utm_source=devrel&utm_medium=hackathon&utm_campaign=q1-2025`
+- Hackathon: `?utm_source=devrel&utm_medium=hackathon&utm_campaign=q1-2026`
 
 ### Developer Journey Tracking
 
@@ -573,9 +573,9 @@ Test and optimize:
 
 ---
 
-**Last Updated:** January 2025  
+**Last Updated:** January 2026  
 **Owner:** DevRel Lead  
-**Next Review:** End of Q1 2025
+**Next Review:** End of Q1 2026
 
 ---
 

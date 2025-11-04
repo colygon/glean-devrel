@@ -16,56 +16,56 @@ Join us every week for hands-on technical workshops covering Warp features, MCP 
 ### Registration
 👉 [Register for upcoming workshops](https://workshops.warp.dev)
 
-## Upcoming Workshops (Q1 2025)
+## Upcoming Workshops (Q1 2026)
 
-### January 2025
+### January 2026
 
 **Week 1: Building Your First MCP Server**
-- Date: January 8, 2025
+- Date: January 8, 2026
 - Level: Beginner
 - Topics: MCP basics, server setup, first integration
 - Prerequisites: Basic Python or TypeScript knowledge
 
 **Week 2: Warp AI Workflows Deep Dive**
-- Date: January 15, 2025
+- Date: January 15, 2026
 - Level: Intermediate
 - Topics: AI command generation, context optimization, custom prompts
 - Prerequisites: Familiarity with Warp
 
 **Week 3: Custom Extension Development**
-- Date: January 22, 2025
+- Date: January 22, 2026
 - Level: Advanced
 - Topics: Extension API, UI components, state management
 - Prerequisites: JavaScript/TypeScript experience
 
 **Week 4: Terminal Productivity Masterclass**
-- Date: January 29, 2025
+- Date: January 29, 2026
 - Level: All levels
 - Topics: Keyboard shortcuts, blocks, command search, multiplexing
 - Prerequisites: None
 
-### February 2025
+### February 2026
 
 **Week 1: MCP Security Best Practices**
-- Date: February 5, 2025
+- Date: February 5, 2026
 - Level: Intermediate
 - Topics: Authentication, encryption, secure data handling
 - Prerequisites: Basic security knowledge
 
 **Week 2: Building AI-Powered Developer Tools**
-- Date: February 12, 2025
+- Date: February 12, 2026
 - Level: Advanced
 - Topics: LLM integration, prompt engineering, context management
 - Prerequisites: API experience
 
 **Week 3: Integrating Warp with Your Stack**
-- Date: February 19, 2025
+- Date: February 19, 2026
 - Level: Intermediate
 - Topics: CI/CD integration, deployment automation, team workflows
 - Prerequisites: DevOps basics
 
 **Week 4: Community Showcase & Lightning Talks**
-- Date: February 26, 2025
+- Date: February 26, 2026
 - Level: All levels
 - Format: 5-minute demos from community members
 - How to participate: [Submit your demo](https://forms.warp.dev/showcase)

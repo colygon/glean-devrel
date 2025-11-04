@@ -11,14 +11,14 @@ Join our quarterly hackathons to build innovative tools, extensions, and integra
 - **Duration**: 48 hours (Friday 6pm PT - Sunday 6pm PT)
 - **Format**: Virtual + optional in-person (SF)
 
-### 2025 Schedule
+### 2026 Schedule
 
 | Quarter | Dates | Theme |
 |---------|-------|-------|
-| Q1 2025 | Feb 28 - Mar 2 | MCP Ecosystem Building |
-| Q2 2025 | May 30 - Jun 1 | AI & Automation |
-| Q3 2025 | Aug 29-31 | Developer Productivity |
-| Q4 2025 | Nov 21-23 | Year-End Innovation Showcase |
+| Q1 2026 | Feb 28 - Mar 2 | MCP Ecosystem Building |
+| Q2 2026 | May 30 - Jun 1 | AI & Automation |
+| Q3 2026 | Aug 29-31 | Developer Productivity |
+| Q4 2026 | Nov 21-23 | Year-End Innovation Showcase |
 
 ## How It Works
 
