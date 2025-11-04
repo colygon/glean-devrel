@@ -380,17 +380,81 @@
                     <span class="nav-item-icon">🎓</span>
                     Weekly Workshops
                 </a>
+                <a class="nav-item" data-doc="hackathons">
+                    <span class="nav-item-icon">🏆</span>
+                    Quarterly Hackathons
+                </a>
+                <a class="nav-item" data-doc="meetups">
+                    <span class="nav-item-icon">🎉</span>
+                    Monthly Meetups
+                </a>
+                <a class="nav-item" data-doc="co-working">
+                    <span class="nav-item-icon">💼</span>
+                    Co-working & Office Hours
+                </a>
+                <a class="nav-item" data-doc="mcp-marketplace">
+                    <span class="nav-item-icon">🛒</span>
+                    MCP Marketplace
+                </a>
             </div>
 
             <div class="nav-section">
                 <h3>Applications</h3>
-                <a class="nav-item" data-doc="hacker-house">
+                <a class="nav-item" data-doc="hacker-house-app">
                     <span class="nav-item-icon">🏠</span>
-                    Hacker House
+                    Hacker House Application
                 </a>
-                <a class="nav-item" data-doc="grant-program">
+                <a class="nav-item" data-doc="grant-application">
                     <span class="nav-item-icon">🎯</span>
-                    Grant Program
+                    Grant Application
+                </a>
+                <a class="nav-item" data-doc="bounty-submission">
+                    <span class="nav-item-icon">📝</span>
+                    Bounty Submission
+                </a>
+            </div>
+
+            <div class="nav-section">
+                <h3>Program Details</h3>
+                <a class="nav-item" data-doc="hacker-house-details">
+                    <span class="nav-item-icon">🏠</span>
+                    Hacker House Details
+                </a>
+                <a class="nav-item" data-doc="grant-details">
+                    <span class="nav-item-icon">💡</span>
+                    Grant Program Details
+                </a>
+            </div>
+
+            <div class="nav-section">
+                <h3>Tutorials</h3>
+                <a class="nav-item" data-doc="getting-started">
+                    <span class="nav-item-icon">🚀</span>
+                    Getting Started
+                </a>
+                <a class="nav-item" data-doc="mcp-quickstart">
+                    <span class="nav-item-icon">⚡</span>
+                    MCP Quick Start
+                </a>
+                <a class="nav-item" data-doc="advanced-workflows">
+                    <span class="nav-item-icon">🔧</span>
+                    Advanced Workflows
+                </a>
+            </div>
+
+            <div class="nav-section">
+                <h3>Strategy</h3>
+                <a class="nav-item" data-doc="30-60-90-plan">
+                    <span class="nav-item-icon">📅</span>
+                    30-60-90 Day Plan
+                </a>
+                <a class="nav-item" data-doc="devrel-kpis">
+                    <span class="nav-item-icon">📊</span>
+                    DevRel KPIs
+                </a>
+                <a class="nav-item" data-doc="founder-lessons">
+                    <span class="nav-item-icon">💡</span>
+                    Founder Lessons
                 </a>
             </div>
 
@@ -424,6 +488,7 @@
     <script>
         // Document mapping
         const documents = {
+            // Programs
             'bounty-system': {
                 title: 'Warp Bounty System',
                 path: 'docs/bounty-system.md'
@@ -432,13 +497,73 @@
                 title: 'Warp Weekly Workshops',
                 path: 'docs/workshops.md'
             },
-            'hacker-house': {
-                title: 'Warp Hacker House Application',
+            'hackathons': {
+                title: 'Quarterly Hackathons',
+                path: 'docs/hackathons.md'
+            },
+            'meetups': {
+                title: 'Monthly Meetups',
+                path: 'docs/meetups.md'
+            },
+            'co-working': {
+                title: 'Co-working & Office Hours',
+                path: 'docs/co-working-space.md'
+            },
+            'mcp-marketplace': {
+                title: 'MCP Marketplace',
+                path: 'docs/mcp-marketplace.md'
+            },
+            // Applications
+            'hacker-house-app': {
+                title: 'Hacker House Application',
                 path: 'programs/hacker-house-application.md'
             },
-            'grant-program': {
-                title: 'Warp Grant Program Application',
+            'grant-application': {
+                title: 'Grant Application',
                 path: 'programs/grant-application-template.md'
+            },
+            'bounty-submission': {
+                title: 'Bounty Submission Template',
+                path: 'programs/bounty-submission-template.md'
+            },
+            // Program Details
+            'hacker-house-details': {
+                title: 'Hacker House Program Details',
+                path: 'docs/hacker-house.md'
+            },
+            'grant-details': {
+                title: 'Grant Program Details',
+                path: 'docs/grant-program.md'
+            },
+            // Tutorials
+            'getting-started': {
+                title: 'Getting Started with Warp',
+                path: 'tutorials/getting-started.md'
+            },
+            'mcp-quickstart': {
+                title: 'MCP Quick Start Guide',
+                path: 'tutorials/mcp-quickstart.md'
+            },
+            'advanced-workflows': {
+                title: 'Advanced Workflows',
+                path: 'tutorials/advanced-workflows.md'
+            },
+            // Strategy
+            '30-60-90-plan': {
+                title: '30-60-90 Day Implementation Plan',
+                path: 'docs/30-60-90-plan.md'
+            },
+            'devrel-kpis': {
+                title: 'DevRel KPIs',
+                path: 'docs/devrel-kpis.md'
+            },
+            'founder-lessons': {
+                title: 'Founder Lessons & Strategic Realignment',
+                path: 'docs/founder-lessons.md'
+            },
+            'warp-academy': {
+                title: 'Warp Academy',
+                path: 'docs/warp-academy.md'
             }
         };
 
