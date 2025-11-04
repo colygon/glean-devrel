@@ -1,0 +1,21 @@
+{
+  "name": "warp-devrel-strategy",
+  "version": "1.0.0",
+  "description": "Warp Developer Relations Strategy website with Warplet deployment system",
+  "main": "index.html",
+  "scripts": {
+    "dev": "vercel dev",
+    "deploy": "vercel --prod"
+  },
+  "keywords": [
+    "warp",
+    "devrel",
+    "warplets",
+    "deployment"
+  ],
+  "author": "Colin Lowenberg",
+  "license": "MIT",
+  "dependencies": {
+    "@octokit/rest": "^20.0.2"
+  }
+}

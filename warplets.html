@@ -267,6 +267,21 @@
             50% { opacity: 0.7; }
         }
 
+        @keyframes fadeOut {
+            from {
+                opacity: 1;
+                transform: translateY(0);
+            }
+            to {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+        }
+
+        .deployment-status.fade-out {
+            animation: fadeOut 0.5s ease-out forwards;
+        }
+
         .status-step h3 {
             font-size: 1rem;
             margin-bottom: 0.5rem;
@@ -603,8 +618,15 @@
             const sshUser = 'dev';
             const sshCommand = `warp ssh ${sshUser}@${sshHost}`;
 
-            document.getElementById('statusContent').innerHTML += `
-                <div class="connection-info">
+            // Fade out and hide the build steps
+            const deploymentStatus = document.querySelector('.deployment-status');
+            if (deploymentStatus) {
+                deploymentStatus.classList.add('fade-out');
+                
+                // After animation completes, remove the build steps and show success
+                setTimeout(() => {
+                    document.getElementById('statusContent').innerHTML = `
+                        <div class="connection-info">
                     <h3>🎉 Warplet Deployed Successfully!</h3>
                     
                     <div class="connection-command">
@@ -650,7 +672,9 @@
                         4. Start coding with AI agents!
                     </div>
                 </div>
-            `;
+                    `;
+                }, 500); // Match animation duration
+            }
         }
 
         function generateId() {
