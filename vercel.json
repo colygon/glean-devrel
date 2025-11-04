@@ -1,0 +1,26 @@
+{
+  "version": 2,
+  "name": "warp-devrel-strategy",
+  "builds": [
+    {
+      "src": "**/*.html",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "**/*.css",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "**/*.md",
+      "use": "@vercel/static"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/$1"
+    }
+  ],
+  "cleanUrls": true,
+  "trailingSlash": false
+}
