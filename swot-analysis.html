@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Warp SWOT Analysis - Competitive Intelligence</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --primary: #00D4AA;
+            --dark-bg: #0A0E27;
+            --card-bg: #1A1F3A;
+            --text: #E8EAED;
+            --text-dim: #9AA0A6;
+            --border: rgba(255, 255, 255, 0.1);
+            --strengths: #00D4AA;
+            --weaknesses: #FF6B6B;
+            --opportunities: #4ECDC4;
+            --threats: #FF8C42;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: var(--dark-bg);
+            color: var(--text);
+            line-height: 1.6;
+            padding: 2rem 1rem;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 3rem;
+            padding-bottom: 2rem;
+            border-bottom: 2px solid var(--border);
+        }
+
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 0.5rem;
+            background: linear-gradient(135deg, var(--primary), #4ECDC4);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        h2 {
+            font-size: 2rem;
+            margin: 2rem 0 1rem;
+            color: var(--primary);
+        }
+
+        h3 {
+            font-size: 1.5rem;
+            margin: 1.5rem 0 0.75rem;
+        }
+
+        .subtitle {
+            font-size: 1.25rem;
+            color: var(--text-dim);
+            margin-bottom: 1rem;
+        }
+
+        .meta {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            font-size: 0.9rem;
+            color: var(--text-dim);
+            margin-top: 1rem;
+        }
+
+        .executive-summary {
+            background: linear-gradient(135deg, rgba(0, 212, 170, 0.1), rgba(78, 205, 196, 0.1));
+            padding: 2rem;
+            border-radius: 12px;
+            margin-bottom: 3rem;
+            border-left: 4px solid var(--primary);
+        }
+
+        .key-finding {
+            background: var(--card-bg);
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin-top: 1rem;
+            border-left: 4px solid #4ECDC4;
+        }
+
+        .swot-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2rem;
+            margin: 2rem 0 3rem;
+        }
+
+        .swot-card {
+            background: var(--card-bg);
+            padding: 1.5rem;
+            border-radius: 12px;
+            border-top: 4px solid;
+        }
+
+        .swot-card.strengths {
+            border-color: var(--strengths);
+        }
+
+        .swot-card.weaknesses {
+            border-color: var(--weaknesses);
+        }
+
+        .swot-card.opportunities {
+            border-color: var(--opportunities);
+        }
+
+        .swot-card.threats {
+            border-color: var(--threats);
+        }
+
+        .swot-card h3 {
+            margin-top: 0;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .swot-card ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .swot-card li {
+            padding: 0.5rem 0;
+            padding-left: 1.5rem;
+            position: relative;
+        }
+
+        .swot-card li::before {
+            content: "▸";
+            position: absolute;
+            left: 0;
+        }
+
+        .competitive-matrix {
+            overflow-x: auto;
+            margin: 2rem 0;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background: var(--card-bg);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        th {
+            background: rgba(0, 212, 170, 0.1);
+            padding: 1rem;
+            text-align: left;
+            border-bottom: 2px solid var(--border);
+        }
+
+        td {
+            padding: 0.75rem 1rem;
+            border-bottom: 1px solid var(--border);
+        }
+
+        tr:last-child td {
+            border-bottom: none;
+        }
+
+        .threat-badge {
+            display: inline-block;
+            padding: 0.25rem 0.75rem;
+            border-radius: 12px;
+            font-size: 0.85rem;
+            font-weight: 600;
+        }
+
+        .threat-critical {
+            background: rgba(255, 107, 107, 0.2);
+            color: #FF6B6B;
+        }
+
+        .threat-high {
+            background: rgba(255, 140, 66, 0.2);
+            color: #FF8C42;
+        }
+
+        .threat-medium {
+            background: rgba(78, 205, 196, 0.2);
+            color: #4ECDC4;
+        }
+
+        .recommendations {
+            background: var(--card-bg);
+            padding: 2rem;
+            border-radius: 12px;
+            margin: 2rem 0;
+        }
+
+        .timeline {
+            display: grid;
+            gap: 1.5rem;
+            margin-top: 1rem;
+        }
+
+        .timeline-item {
+            padding: 1.5rem;
+            background: rgba(0, 212, 170, 0.05);
+            border-radius: 8px;
+            border-left: 4px solid var(--primary);
+        }
+
+        .timeline-item h4 {
+            color: var(--primary);
+            margin-bottom: 0.5rem;
+        }
+
+        .timeline-item ol {
+            margin-left: 1.5rem;
+            margin-top: 0.5rem;
+        }
+
+        .conclusion {
+            background: linear-gradient(135deg, rgba(0, 212, 170, 0.1), rgba(78, 205, 196, 0.1));
+            padding: 2rem;
+            border-radius: 12px;
+            margin: 3rem 0 2rem;
+            border: 2px solid var(--primary);
+        }
+
+        .critical-factors {
+            display: grid;
+            gap: 0.75rem;
+            margin: 1rem 0;
+        }
+
+        .factor {
+            padding: 0.75rem 1rem;
+            background: var(--card-bg);
+            border-radius: 6px;
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+        }
+
+        .nav {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            display: flex;
+            gap: 1rem;
+        }
+
+        .nav a {
+            padding: 0.75rem 1.5rem;
+            background: var(--card-bg);
+            color: var(--primary);
+            text-decoration: none;
+            border-radius: 8px;
+            border: 1px solid var(--primary);
+            transition: all 0.3s;
+        }
+
+        .nav a:hover {
+            background: var(--primary);
+            color: var(--dark-bg);
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2rem;
+            }
+
+            .meta {
+                flex-direction: column;
+                gap: 0.5rem;
+            }
+
+            .swot-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .nav {
+                position: static;
+                justify-content: center;
+                margin-bottom: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <a href="index.html">← Home</a>
+        <a href="docs/swot-analysis.md" target="_blank">Full Report</a>
+    </div>
+
+    <div class="container">
+        <header>
+            <h1>Warp.dev SWOT Analysis</h1>
+            <p class="subtitle">Competitive Intelligence Report</p>
+            <div class="meta">
+                <span>📅 January 4, 2025</span>
+                <span>👤 DevRel Strategy Team</span>
+                <span>📊 Version 1.0</span>
+            </div>
+        </header>
+
+        <section class="executive-summary">
+            <h2>Executive Summary</h2>
+            <p>Warp has positioned itself as the <strong>#1 Agentic Development Environment (ADE)</strong>, claiming superior performance over Claude Code and Cursor. With 500,000+ users at leading companies, Warp's unique terminal-first approach, mixed-model AI strategy, and full software lifecycle coverage create a defensible moat in the increasingly crowded AI coding assistant market. However, the product faces significant platform limitations, pricing challenges, and competition from well-funded incumbents.</p>
+            
+            <div class="key-finding">
+                <strong>🎯 Key Finding:</strong> Warp's greatest strength is its terminal-native architecture enabling full lifecycle development. Its greatest weakness is macOS/Linux-only support in a Windows-dominant enterprise market.
+            </div>
+        </section>
+
+        <h2>SWOT Analysis Overview</h2>
+        <div class="swot-grid">
+            <div class="swot-card strengths">
+                <h3>💪 Strengths</h3>
+                <ul>
+                    <li><strong>Terminal-Native Architecture</strong> - Only AI tool built at terminal level with full lifecycle access</li>
+                    <li><strong>Mixed-Model AI</strong> - OpenAI, Anthropic, Google integration provides best-in-class results</li>
+                    <li><strong>Best UX</strong> - Modern blocks, workflows, and Rust performance save developers "1 hour/day"</li>
+                    <li><strong>Growing Ecosystem</strong> - 300+ MCP servers, largest terminal integration ecosystem</li>
+                    <li><strong>Strong Team</strong> - Well-funded (Series B), ex-Google founder, rapid iteration</li>
+                    <li><strong>Enterprise-Ready</strong> - SSO/SCIM, SOC 2, team management built-in</li>
+                </ul>
+            </div>
+
+            <div class="swot-card weaknesses">
+                <h3>⚠️ Weaknesses</h3>
+                <ul>
+                    <li><strong>No Windows Support</strong> - Excludes 70%+ of enterprise developers (critical blocker)</li>
+                    <li><strong>Terminal-Only Friction</strong> - Context switching from IDE breaks developer flow</li>
+                    <li><strong>Pricing Complexity</strong> - AI credit model confusing vs flat $10-20/mo competitors</li>
+                    <li><strong>Unvalidated Claims</strong> - "#1 Coding Agent" lacks third-party benchmarking</li>
+                    <li><strong>Limited IDE Features</strong> - Basic editor, no debugger or refactoring tools</li>
+                    <li><strong>Awareness Gap</strong> - 500K users vs millions using GitHub Copilot</li>
+                </ul>
+            </div>
+
+            <div class="swot-card opportunities">
+                <h3>🚀 Opportunities</h3>
+                <ul>
+                    <li><strong>Windows Support</strong> - 3-5x TAM increase, unlock Fortune 500</li>
+                    <li><strong>Enterprise Growth</strong> - Warp Academy + custom training = $50K-500K ACV</li>
+                    <li><strong>Warplets</strong> - Cloud dev environments + terminal = new category</li>
+                    <li><strong>Agent Orchestration</strong> - Multi-agent systems leverage terminal advantage</li>
+                    <li><strong>Education Market</strong> - Certifications, bootcamp partnerships, content</li>
+                    <li><strong>MCP Marketplace</strong> - Revenue share model (10-30%) on paid servers</li>
+                    <li><strong>IDE Integrations</strong> - VS Code/JetBrains plugins reduce friction</li>
+                </ul>
+            </div>
+
+            <div class="swot-card threats">
+                <h3>⚡ Threats</h3>
+                <ul>
+                    <li><strong>GitHub Copilot</strong> - Microsoft distribution + $10/mo pricing (🔴 Critical)</li>
+                    <li><strong>Cursor IDE</strong> - $400M valuation, IDE-native, no context switch (🔴 Critical)</li>
+                    <li><strong>Claude Code</strong> - Best model, generous free tier (🟡 High)</li>
+                    <li><strong>Open Source</strong> - Continue.dev, Aider free alternatives (🟡 High)</li>
+                    <li><strong>JetBrains AI</strong> - Built into IDEs millions already use (🟡 High)</li>
+                    <li><strong>Commoditization</strong> - AI coding features becoming table stakes</li>
+                </ul>
+            </div>
+        </div>
+
+        <h2>Competitive Landscape</h2>
+        <div class="competitive-matrix">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Competitor</th>
+                        <th>Strengths vs Warp</th>
+                        <th>Weaknesses vs Warp</th>
+                        <th>Threat Level</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>GitHub Copilot</strong></td>
+                        <td>Distribution, pricing, Microsoft brand</td>
+                        <td>Terminal features, full lifecycle</td>
+                        <td><span class="threat-badge threat-critical">🔴 Critical</span></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Cursor</strong></td>
+                        <td>IDE-native, no context switch, funding</td>
+                        <td>Terminal access, deployment</td>
+                        <td><span class="threat-badge threat-critical">🔴 Critical</span></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Claude Code</strong></td>
+                        <td>Model quality, brand, free tier</td>
+                        <td>Distribution, no terminal</td>
+                        <td><span class="threat-badge threat-high">🟡 High</span></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Continue.dev</strong></td>
+                        <td>Free, open-source, multi-IDE</td>
+                        <td>UX polish, support, features</td>
+                        <td><span class="threat-badge threat-high">🟡 High</span></td>
+                    </tr>
+                    <tr>
+                        <td><strong>JetBrains AI</strong></td>
+                        <td>Distribution, enterprise, IDE features</td>
+                        <td>Terminal, innovation speed</td>
+                        <td><span class="threat-badge threat-high">🟡 High</span></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <section class="recommendations">
+            <h2>Strategic Recommendations</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <h4>Immediate (0-3 months)</h4>
+                    <ol>
+                        <li><strong>Accelerate Windows Support</strong> - Make #1 engineering priority (Beta Q1, GA Q2 2025)</li>
+                        <li><strong>Simplify Pricing</strong> - Flat $20/month tier to match Cursor</li>
+                        <li><strong>Independent Benchmarking</strong> - Partner with Stanford/MIT for validation</li>
+                        <li><strong>IDE Integration POC</strong> - VS Code extension with Warp terminal</li>
+                    </ol>
+                </div>
+                <div class="timeline-item">
+                    <h4>Short-Term (3-6 months)</h4>
+                    <ol>
+                        <li><strong>Warp Academy Launch</strong> - Free certifications + enterprise training packages</li>
+                        <li><strong>Warplets Beta</strong> - 100 users, AWS-only, validate PMF</li>
+                        <li><strong>MCP Marketplace Monetization</strong> - 70/30 revenue share model</li>
+                        <li><strong>Developer Relations 2.0</strong> - Hackathons, bounties, influencer partnerships</li>
+                    </ol>
+                </div>
+                <div class="timeline-item">
+                    <h4>Medium-Term (6-12 months)</h4>
+                    <ol>
+                        <li><strong>Enterprise Go-to-Market</strong> - Dedicated sales, Fortune 500 case studies</li>
+                        <li><strong>Platform Ecosystem</strong> - Open API, Plugin SDK, developer marketplace</li>
+                        <li><strong>AI Differentiation</strong> - Multi-agent orchestration, specialized agents</li>
+                        <li><strong>Strategic Partnerships</strong> - Cloud providers, CI/CD, observability tools</li>
+                    </ol>
+                </div>
+            </div>
+        </section>
+
+        <section class="conclusion">
+            <h2>Conclusion</h2>
+            <p>Warp occupies a unique and defensible position as the <strong>terminal-first AI coding assistant</strong>. Its strengths—terminal-native architecture, mixed-model AI, and full lifecycle coverage—create genuine differentiation in a crowded market. However, Windows platform limitation and fierce competition from Microsoft (GitHub Copilot) and Cursor pose existential threats.</p>
+            
+            <h3>Critical Success Factors (2025)</h3>
+            <div class="critical-factors">
+                <div class="factor">✅ <strong>Ship Windows support</strong> (non-negotiable)</div>
+                <div class="factor">✅ <strong>Simplify pricing</strong> (reduce friction)</div>
+                <div class="factor">✅ <strong>Validate performance claims</strong> (build trust)</div>
+                <div class="factor">✅ <strong>Launch Warplets</strong> (create new revenue stream)</div>
+                <div class="factor">✅ <strong>Grow enterprise</strong> (increase ACV, reduce churn)</div>
+            </div>
+
+            <p style="margin-top: 1.5rem;"><strong>Bottom Line:</strong> Warp can win if it executes flawlessly on Windows support and enterprise go-to-market. Failure to ship Windows in 2025 puts the company at severe risk of being marginalized by cross-platform competitors.</p>
+            
+            <p style="margin-top: 1rem; font-size: 1.25rem; color: var(--primary);"><strong>Recommended Strategy:</strong> "Terminal-First, Platform-Agnostic, Enterprise-Ready"</p>
+        </section>
+
+        <section style="margin-top: 3rem; text-align: center; padding: 2rem; background: var(--card-bg); border-radius: 12px;">
+            <h3>Market Opportunity</h3>
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 2rem; margin-top: 1.5rem;">
+                <div>
+                    <div style="font-size: 2.5rem; color: var(--primary); font-weight: bold;">$4B</div>
+                    <div style="color: var(--text-dim);">Total Addressable Market</div>
+                </div>
+                <div>
+                    <div style="font-size: 2.5rem; color: var(--primary); font-weight: bold;">16.8M</div>
+                    <div style="color: var(--text-dim);">Target Developers</div>
+                </div>
+                <div>
+                    <div style="font-size: 2.5rem; color: var(--primary); font-weight: bold;">$200M</div>
+                    <div style="color: var(--text-dim);">ARR Target (3 years)</div>
+                </div>
+            </div>
+        </section>
+
+        <footer style="margin-top: 3rem; text-align: center; color: var(--text-dim); padding: 2rem;">
+            <p>For the complete analysis including market sizing, risk mitigation, and competitive feature matrix, see the <a href="docs/swot-analysis.md" style="color: var(--primary);">full report</a>.</p>
+        </footer>
+    </div>
+</body>
+</html>

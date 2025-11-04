@@ -1,32 +1,24 @@
-# Warp Monthly Hackathons
+# Warp Quarterly Hackathons
 
 ## Overview
 
-Join our monthly hackathons to build innovative tools, extensions, and integrations for Warp. Compete for prizes, get mentorship, and showcase your projects to the community.
+Join our quarterly hackathons to build innovative tools, extensions, and integrations for Warp. Compete for larger prizes, get intensive mentorship, and showcase your projects to the community.
 
 ## Hackathon Schedule
 
 ### Frequency
-- **Monthly**: First weekend of every month
+- **Quarterly**: Once per quarter (4 per year)
 - **Duration**: 48 hours (Friday 6pm PT - Sunday 6pm PT)
 - **Format**: Virtual + optional in-person (SF)
 
 ### 2025 Schedule
 
-| Month | Dates | Theme |
-|-------|-------|-------|
-| January | Jan 3-5 | MCP Madness |
-| February | Feb 7-9 | AI Workflows |
-| March | Mar 7-9 | Productivity Tools |
-| April | Apr 4-6 | Cloud Integrations |
-| May | May 2-4 | Open Source Contributions |
-| June | Jun 6-8 | Developer Experience |
-| July | Jul 4-6 | Security & Privacy |
-| August | Aug 1-3 | Data & Analytics |
-| September | Sep 5-7 | Mobile & Cross-platform |
-| October | Oct 3-5 | Enterprise Tools |
-| November | Nov 7-9 | Education & Learning |
-| December | Dec 5-7 | Year-End Showcase |
+| Quarter | Dates | Theme |
+|---------|-------|-------|
+| Q1 2025 | Feb 28 - Mar 2 | MCP Ecosystem Building |
+| Q2 2025 | May 30 - Jun 1 | AI & Automation |
+| Q3 2025 | Aug 29-31 | Developer Productivity |
+| Q4 2025 | Nov 21-23 | Year-End Innovation Showcase |
 
 ## How It Works
 
@@ -224,7 +216,7 @@ Get help from Warp team and community experts:
 ## Prizes & Recognition
 
 ### Monetary Prizes
-Total prize pool: $25,000+ per hackathon
+Total prize pool: $50,000+ per hackathon (increased for quarterly format)
 
 ### Additional Perks
 - **Feature Spotlight**: Winner featured on Warp blog
