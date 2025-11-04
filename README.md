@@ -8,7 +8,7 @@ This repository contains the complete strategy, documentation, and resources for
 
 ## 🚀 Core Programs
 
-### 1. **Hacker House Residency** (San Francisco)
+### 1. **Residency Program** (San Francisco)
 A physical space where developers can live and build together while contributing to the Warp ecosystem.
 - Duration: 3-6 month residencies
 - Location: San Francisco, CA
@@ -99,7 +99,7 @@ warp-devrel-strategy/
 
 ## 🤝 How to Get Involved
 
-1. **Join the Hacker House**: Apply at [programs/hacker-house-application.md](programs/hacker-house-application.md)
+1. **Join the Residency**: Apply at [programs/hacker-house-application.md](programs/hacker-house-application.md)
 2. **Attend Office Hours**: Check schedule in [docs/co-working-space.md](docs/co-working-space.md)
 3. **Participate in Workshops**: Register at [workshops schedule](docs/workshops.md)
 4. **Submit a Bounty**: See available bounties in [docs/bounty-system.md](docs/bounty-system.md)
