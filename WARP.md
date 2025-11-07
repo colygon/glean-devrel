@@ -70,7 +70,7 @@ This is a **pure static site** with no build system, package.json, or dependenci
 
 The repository documents these programs:
 
-1. **Residency Program** - 3-6 month SF residencies for developers building in the Warp ecosystem
+1. **Startup Program** - 3-6 month SF residencies for developers building in the Warp ecosystem
 2. **Co-working Space & Office Hours** - Weekly hybrid sessions with Warp team for guidance and collaboration
 3. **Workshops Series** - Weekly technical workshops on MCP development, Warp features, and productivity (52/year)
 4. **Monthly Hackathons** - Community hackathons with prizes, swag, and feature spotlights (12/year)

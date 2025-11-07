@@ -8,7 +8,7 @@ This repository contains the complete strategy, documentation, and resources for
 
 ## DevRel Playbook
 
-### 1. **Residency Program** (San Francisco)
+### 1. **Startup Program** (San Francisco)
 A physical space where developers can live and build together while contributing to the Warp ecosystem.
 - Duration: 3-6 month residencies
 - Location: San Francisco, CA

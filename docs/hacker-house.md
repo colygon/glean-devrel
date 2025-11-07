@@ -1,4 +1,4 @@
-# Warp Hacker House Residency Program
+# Warp Hacker House Startup Program
 
 ## Overview
 

@@ -1,6 +1,6 @@
 # Warp Hacker House Application
 
-Thank you for your interest in the Warp Hacker House Residency Program! This application helps us understand your background, goals, and how you'll contribute to the Warp ecosystem.
+Thank you for your interest in the Warp Hacker House Startup Program! This application helps us understand your background, goals, and how you'll contribute to the Warp ecosystem.
 
 ## Application Information
 
