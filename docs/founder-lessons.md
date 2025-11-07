@@ -339,7 +339,7 @@ Based on Lesson #8 (depth over breadth):
 
 ### Messaging Framework
 
-**Old Positioning:** "Glean - The Modern Terminal"
+**Old Positioning:** "Glean - The Work AI Platform"
 **New Positioning:** "Glean - The Agentic Development Environment"
 
 **Taglines:**

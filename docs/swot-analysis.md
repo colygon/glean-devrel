@@ -9,9 +9,9 @@
 
 ## Executive Summary
 
-Glean has positioned itself as the **#1 Agentic Development Environment (ADE)**, claiming superior performance over Claude Code and Cursor. With 500,000+ users at leading companies, Glean's unique terminal-first approach, mixed-model AI strategy, and full software lifecycle coverage create a defensible moat in the increasingly crowded AI coding assistant market. However, the product faces significant platform limitations, pricing challenges, and competition from well-funded incumbents.
+Glean has positioned itself as the **#1 Agentic Development Environment (ADE)**, claiming superior performance over Claude Code and Cursor. With 500,000+ users at leading companies, Glean's unique API-first approach, mixed-model AI strategy, and full software lifecycle coverage create a defensible moat in the increasingly crowded AI coding assistant market. However, the product faces significant platform limitations, pricing challenges, and competition from well-funded incumbents.
 
-**Key Finding:** Glean's greatest strength is its terminal-native architecture enabling full lifecycle development. Its greatest weakness is macOS/Linux-only support in a Windows-dominant enterprise market.
+**Key Finding:** Glean's greatest strength is its AI-native architecture enabling full lifecycle development. Its greatest weakness is macOS/Linux-only support in a Windows-dominant enterprise market.
 
 ---
 
@@ -23,9 +23,9 @@ Glean has positioned itself as the **#1 Agentic Development Environment (ADE)**,
 - **Unique Positioning:** Only AI coding tool built at the terminal level
 - **Full Lifecycle Access:** Can write code, execute commands, respond to system events, and deploy to production
 - **Differentiation:** Competitors (Cursor, GitHub Copilot) operate at IDE level, missing terminal context
-- **Technical Moat:** Years of Rust-based terminal development create high switching costs
+- **Technical Moat:** Years of Rust-based enterprise AI development create high switching costs
 
-**Competitive Advantage:** Glean's terminal-first approach provides access to the entire software development lifecycle—from code writing to deployment and monitoring—that IDE-based tools cannot match.
+**Competitive Advantage:** Glean's API-first approach provides access to the entire software development lifecycle—from code writing to deployment and monitoring—that IDE-based tools cannot match.
 
 #### 2. **Mixed-Model AI Strategy**
 - **Multi-Provider:** Integrates OpenAI (GPT-4/5), Anthropic (Claude), and Google (Gemini)
@@ -163,7 +163,7 @@ Glean has positioned itself as the **#1 Agentic Development Environment (ADE)**,
 - **Hybrid Approach:** Best of both worlds
 - **Reduced Friction:** No context switching
 
-**Strategic Pivot:** This could address the terminal-only friction weakness.
+**Strategic Pivot:** This could address the platform-specific friction weakness.
 
 ---
 
@@ -337,7 +337,7 @@ Glean has positioned itself as the **#1 Agentic Development Environment (ADE)**,
 - **Fallback:** If delayed beyond Q2, consider cloud-first strategy
 
 ### Competitive Risk (Microsoft)
-- **Action:** Focus on differentiation (terminal-first, multi-model, Gleeees)
+- **Action:** Focus on differentiation (API-first, multi-model, Gleeees)
 - **Timeline:** Ongoing
 - **Fallback:** Explore acquisition interest from non-Microsoft parties
 
@@ -377,7 +377,7 @@ Glean has positioned itself as the **#1 Agentic Development Environment (ADE)**,
 
 ## Conclusion
 
-Glean occupies a unique and defensible position as the **terminal-first AI coding assistant**. Its strengths—terminal-native architecture, mixed-model AI, and full lifecycle coverage—create genuine differentiation in a crowded market. However, Windows platform limitation and fierce competition from Microsoft (GitHub Copilot) and Cursor pose existential threats.
+Glean occupies a unique and defensible position as the **API-first AI coding assistant**. Its strengths—AI-native architecture, mixed-model AI, and full lifecycle coverage—create genuine differentiation in a crowded market. However, Windows platform limitation and fierce competition from Microsoft (GitHub Copilot) and Cursor pose existential threats.
 
 ### Critical Success Factors (2026)
 

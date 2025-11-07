@@ -175,4 +175,4 @@ Questions about the Hacker House program?
 
 ---
 
-**Join us in San Francisco and build the future of terminal development! 🚀**
+**Join us in San Francisco and build the future of enterprise AI development! 🚀**

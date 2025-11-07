@@ -1,6 +1,6 @@
 # Getting Started with Glean
 
-Welcome to Glean - the modern, AI-powered terminal! This guide will help you get up and running quickly.
+Welcome to Glean - the Work AI Platform for enterprise knowledge! This guide will help you get up and running quickly.
 
 ## What is Glean?
 

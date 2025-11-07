@@ -1,6 +1,6 @@
 # Glean Developer Relations Strategy
 
-A comprehensive developer relations program for [Glean.dev](https://glean.dev) - the modern, AI-powered terminal.
+A comprehensive developer relations program for [Glean.dev](https://glean.dev) - the Work AI Platform for enterprise knowledge.
 
 ## 🎯 Overview
 
