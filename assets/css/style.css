@@ -378,6 +378,11 @@ nav {
     color: var(--text-light);
 }
 
+.cta-section .lead {
+    color: var(--text-light);
+    opacity: 0.95;
+}
+
 .cta-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
