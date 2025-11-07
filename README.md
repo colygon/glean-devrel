@@ -1,51 +1,51 @@
-# Warp Developer Relations Strategy
+# Glean Developer Relations Strategy
 
-A comprehensive developer relations program for [Warp.dev](https://warp.dev) - the modern, AI-powered terminal.
+A comprehensive developer relations program for [Glean.dev](https://glean.dev) - the modern, AI-powered terminal.
 
 ## 🎯 Overview
 
-This repository contains the complete strategy, documentation, and resources for Warp's developer relations initiatives designed to build, engage, and empower the Warp developer community.
+This repository contains the complete strategy, documentation, and resources for Glean's developer relations initiatives designed to build, engage, and empower the Glean developer community.
 
 ## Developer Programs
 
 ### 1. **Startup Program** (San Francisco)
-A physical space where developers can live and build together while contributing to the Warp ecosystem.
+A physical space where developers can live and build together while contributing to the Glean ecosystem.
 - Duration: 3-6 month residencies
 - Location: San Francisco, CA
 - Focus: Open-source contributions, MCP development, community tools
 
 ### 2. **Co-working Space & Open Office Hours**
-Weekly co-working sessions with Warp team members available for guidance and collaboration.
+Weekly co-working sessions with Glean team members available for guidance and collaboration.
 - **Schedule**: Every week
 - **Format**: Hybrid (in-person SF + virtual)
 - **Topics**: Architecture discussions, debugging, feature development
 
 ### 3. **Workshops Series**
-Weekly hands-on technical workshops covering Warp features, MCP development, and terminal productivity.
+Weekly hands-on technical workshops covering Glean features, MCP development, and terminal productivity.
 - **Frequency**: Weekly
-- **Topics**: MCP server creation, Warp AI features, workflow automation, custom extensions
+- **Topics**: MCP server creation, Glean AI features, workflow automation, custom extensions
 - **Format**: Live coding sessions with Q&A
 
 ### 4. **Monthly Hackathons**
-Community-driven hackathons focused on building innovative tools and extensions for Warp.
+Community-driven hackathons focused on building innovative tools and extensions for Glean.
 - **Frequency**: Monthly
 - **Prizes**: Credits, swag, feature spotlights
 - **Themes**: MCP servers, productivity tools, integrations, AI workflows
 
 ### 5. **Bounty System**
-Reward developers for creating valuable open-source projects that enhance the Warp ecosystem.
+Reward developers for creating valuable open-source projects that enhance the Glean ecosystem.
 - **Categories**: MCP servers, plugins, integrations, tutorials, documentation
 - **Rewards**: Monetary bounties based on impact and complexity
 - **Verification**: Community voting + team review
 
 ### 6. **Grant Program**
-Fund innovative ideas that push Warp's capabilities forward.
+Fund innovative ideas that push Glean's capabilities forward.
 - **Application Process**: Rolling submissions with quarterly reviews
 - **Funding Range**: $5K - $50K per project
 - **Focus Areas**: Developer tools, AI integrations, accessibility, educational content
 
 ### 7. **MCP Marketplace**
-A curated marketplace of verified, secure MCP servers and Warp extensions.
+A curated marketplace of verified, secure MCP servers and Glean extensions.
 - **Verification**: Security audits, code review, testing
 - **Categories**: Development tools, AI assistants, cloud integrations, data sources
 - **Features**: Ratings, reviews, installation metrics, compatibility badges
@@ -53,7 +53,7 @@ A curated marketplace of verified, secure MCP servers and Warp extensions.
 ## 📁 Repository Structure
 
 ```
-warp-devrel-strategy/
+glean-devrel-strategy/
 ├── README.md
 ├── index.html                  # Main website
 ├── presentation.html           # Strategy presentation
@@ -71,7 +71,7 @@ warp-devrel-strategy/
 │   └── bounty-submission-template.md
 ├── workshops/                  # Workshop materials
 │   ├── mcp-basics/
-│   ├── warp-ai-workflows/
+│   ├── glean-ai-workflows/
 │   └── extension-development/
 ├── tutorials/                  # User tutorials
 │   ├── getting-started.md
@@ -86,16 +86,16 @@ warp-devrel-strategy/
 
 ### Workshop Topics
 - Building Your First MCP Server
-- Warp AI: Advanced Workflows
+- Glean AI: Advanced Workflows
 - Custom Extension Development
 - Terminal Productivity Masterclass
 - Security Best Practices for MCP
 
 ### Tutorial Series
-- Getting Started with Warp
+- Getting Started with Glean
 - MCP Quick Start Guide
-- Integrating Warp into Your Workflow
-- Advanced Warp Features Deep Dive
+- Integrating Glean into Your Workflow
+- Advanced Glean Features Deep Dive
 
 ## 🤝 How to Get Involved
 
@@ -117,10 +117,10 @@ warp-devrel-strategy/
 
 ## 🔗 Links
 
-- **Website**: [warp.dev](https://warp.dev)
-- **Documentation**: [docs.warp.dev](https://docs.warp.dev)
+- **Website**: [glean.dev](https://glean.dev)
+- **Documentation**: [docs.glean.dev](https://docs.glean.dev)
 - **Community Discord**: Join our community
-- **GitHub**: [github.com/warpdotdev](https://github.com/warpdotdev)
+- **GitHub**: [github.com/gleandotdev](https://github.com/gleandotdev)
 
 ## 📝 License
 
@@ -128,4 +128,4 @@ This project is licensed under MIT License - see LICENSE file for details.
 
 ---
 
-**Built with ❤️ by the Warp Community**
+**Built with ❤️ by the Glean Community**

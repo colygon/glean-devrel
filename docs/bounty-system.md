@@ -1,8 +1,8 @@
-# Warp Bounty System
+# Glean Bounty System
 
 ## Overview
 
-The Warp Bounty System rewards developers for creating valuable open-source contributions that enhance the Warp ecosystem. Earn money for building MCP servers, extensions, integrations, tutorials, and more.
+The Glean Bounty System rewards developers for creating valuable open-source contributions that enhance the Glean ecosystem. Earn money for building MCP servers, extensions, integrations, tutorials, and more.
 
 ## How It Works
 
@@ -32,7 +32,7 @@ Build Model Context Protocol servers for popular services and tools.
 - TypeScript or Python
 
 ### 🎨 Extensions ($300 - $2,000)
-Create Warp extensions that add new functionality.
+Create Glean extensions that add new functionality.
 
 **Examples:**
 - Code snippet manager ($800)
@@ -48,7 +48,7 @@ Create Warp extensions that add new functionality.
 - Clean code architecture
 
 ### 🔗 Integrations ($400 - $3,000)
-Integrate Warp with popular developer tools and platforms.
+Integrate Glean with popular developer tools and platforms.
 
 **Examples:**
 - VS Code bidirectional sync ($2,000)
@@ -99,7 +99,7 @@ Fix bugs or improve existing projects in the ecosystem.
 Special themed challenges announced monthly.
 
 **Examples:**
-- Build a game in Warp ($500)
+- Build a game in Glean ($500)
 - Most creative use of AI ($750)
 - Best productivity hack ($400)
 - Coolest visualization ($600)
@@ -127,23 +127,23 @@ Special themed challenges announced monthly.
 | Trello MCP Server | MCP | $1,200 | Easy | 🟢 Available |
 | Spotify Controls Extension | Extension | $600 | Easy | 🟢 Available |
 | Datadog Integration | Integration | $1,500 | Medium | 🟡 Claimed |
-| Beginner's Guide to Warp | Tutorial | $400 | Easy | 🟢 Available |
+| Beginner's Guide to Glean | Tutorial | $400 | Easy | 🟢 Available |
 | Accessibility Audit | Improvement | $500 | Medium | 🟢 Available |
 
 ### View All Bounties
-👉 [Browse complete bounty board](https://bounties.warp.dev)
+👉 [Browse complete bounty board](https://bounties.glean.dev)
 
 ## Claiming a Bounty
 
 ### Eligibility
 - Anyone can claim bounties
 - Max 2 active claims per person
-- No Warp employees (can claim as team members)
+- No Glean employees (can claim as team members)
 
 ### How to Claim
 1. **Review Requirements**: Read bounty details carefully
 2. **Check Availability**: Ensure status is "Available"
-3. **Submit Claim**: [Claim form](https://bounties.warp.dev/claim)
+3. **Submit Claim**: [Claim form](https://bounties.glean.dev/claim)
 4. **Wait for Approval**: Typically approved within 24 hours
 5. **Start Building**: You have exclusive rights for 30 days
 
@@ -184,7 +184,7 @@ Special themed challenges announced monthly.
 - 2-5 minutes
 
 **4. Submission Form**
-[Submit your bounty](https://bounties.warp.dev/submit) with:
+[Submit your bounty](https://bounties.glean.dev/submit) with:
 - Repository URL
 - Demo video/screenshots
 - Checklist confirmation
@@ -205,7 +205,7 @@ Special themed challenges announced monthly.
 - Questions and clarifications
 
 **3. Technical Review (3-7 days)**
-- Warp team deep dive
+- Glean team deep dive
 - Security audit
 - Performance testing
 - Final approval
@@ -283,7 +283,7 @@ Have an idea for a bounty? Suggest it!
 
 ### How to Propose
 1. **Check existing bounties** to avoid duplicates
-2. **Submit proposal**: [Bounty proposal form](https://bounties.warp.dev/propose)
+2. **Submit proposal**: [Bounty proposal form](https://bounties.glean.dev/propose)
 3. **Include**: Description, value to community, estimated effort
 4. **Wait for review**: We'll evaluate and set bounty amount
 
@@ -292,7 +292,7 @@ Have an idea for a bounty? Suggest it!
 - Clear requirements
 - Feasible scope
 - Not already being worked on
-- Aligns with Warp's mission
+- Aligns with Glean's mission
 
 ## Community Bounties
 
@@ -303,7 +303,7 @@ Companies or individuals can sponsor bounties:
 - **Our Platform**: We manage the process
 - **Everyone Wins**: Great work gets done
 
-📧 Contact: bounties@warp.dev
+📧 Contact: bounties@glean.dev
 
 ## Recognition
 
@@ -340,8 +340,8 @@ A: Yes! Open to everyone worldwide.
 ## Contact & Support
 
 - 💬 Discord: #bounties channel
-- 📧 Email: bounties@warp.dev
-- 📋 [Bounty Board](https://bounties.warp.dev)
+- 📧 Email: bounties@glean.dev
+- 📋 [Bounty Board](https://bounties.glean.dev)
 - 📝 [Submit Template](../programs/bounty-submission-template.md)
 
 ---

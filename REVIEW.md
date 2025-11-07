@@ -1,4 +1,4 @@
-# Warp DevRel Strategy - Comprehensive Review
+# Glean DevRel Strategy - Comprehensive Review
 
 **Review Date:** January 7, 2025  
 **Reviewer:** AI Assistant  
@@ -12,7 +12,7 @@
 ✅ **Comprehensive 9-program strategy** covering all aspects of DevRel  
 ✅ **Well-documented** with detailed markdown files for each program  
 ✅ **Beautiful UI** with consistent branding and navigation  
-✅ **Interactive prototypes** (Warplets, Metrics Dashboard)  
+✅ **Interactive prototypes** (Gleeees, Metrics Dashboard)  
 ✅ **Clear KPIs and metrics** with realistic targets  
 ✅ **30-60-90 day implementation plan** ready for execution
 
@@ -34,7 +34,7 @@
 | `portal.html` | Developer portal hub | ✅ Complete | Good navigation structure |
 | `presentation.html` | 24-slide strategy deck | ✅ Complete | Excellent for stakeholders |
 | `viewer.html` | Unified markdown viewer | ✅ Complete | 16 docs integrated |
-| `warplets.html` | Interactive deployment UI | ✅ Complete | Great UX, needs backend |
+| `gleeees.html` | Interactive deployment UI | ✅ Complete | Great UX, needs backend |
 | `ecosystem.html` | Integrations showcase | ✅ Complete | Many placeholder links |
 | `metrics-dashboard.html` | KPI tracking | ✅ Complete | Static data, needs API |
 | `swot-analysis.html` | Strategic analysis | ✅ Complete | Well researched |
@@ -73,11 +73,11 @@ portal.html:
 - Various feature documentation links
 ```
 
-**Recommendation:** Create placeholder pages or link to actual Warp resources:
-- Discord → Link to actual Warp Discord
-- Twitter → @warpdotdev
+**Recommendation:** Create placeholder pages or link to actual Glean resources:
+- Discord → Link to actual Glean Discord
+- Twitter → @gleandotdev
 - Community Forum → GitHub Discussions or real forum
-- Documentation → docs.warp.dev
+- Documentation → docs.glean.dev
 
 ### 2. Program Naming Consistency
 
@@ -100,7 +100,7 @@ portal.html:
 ```
 workshops/
 ├── mcp-basics/ (empty)
-├── warp-ai-workflows/ (empty)
+├── glean-ai-workflows/ (empty)
 └── extension-development/ (empty)
 ```
 
@@ -142,7 +142,7 @@ workshops/
 - Budget: $50K/year for sponsorships
 
 **Open Source Maintainer Program** (Consider)
-- Support maintainers of popular CLIs to integrate Warp
+- Support maintainers of popular CLIs to integrate Glean
 - Provide technical support, promotion, potential bounties
 - Examples: oh-my-zsh, starship, neovim plugin authors
 
@@ -155,15 +155,15 @@ workshops/
 1. **Fix Placeholder Links** (2 hours)
    - Replace all `href="#"` with real destinations
    - Add actual social media handles
-   - Link to real Warp documentation
+   - Link to real Glean documentation
 
 2. **Update README.md** (30 minutes)
    - Correct hackathon frequency to Quarterly
-   - Note 9 programs (add Warplets)
+   - Note 9 programs (add Gleeees)
    - Update success metrics section
 
 3. **Add Contact Information** (1 hour)
-   - Create devrel@warp.dev email
+   - Create devrel@glean.dev email
    - Set up Discord invite links
    - Add team member contacts
 
@@ -186,7 +186,7 @@ workshops/
 
 ### Priority 3: Backend Integration (Week 3-4)
 
-7. **Warplets Backend**
+7. **Gleeees Backend**
    - Build actual deployment API
    - Integrate with cloud providers (AWS/Vercel)
    - Implement SSH key management
@@ -213,7 +213,7 @@ workshops/
     - Set up welcome flow
 
 11. **Social Media Presence**
-    - Create @WarpDevRel Twitter account
+    - Create @GleanDevRel Twitter account
     - Set up LinkedIn company page
     - Launch YouTube channel
     - Create content calendar
@@ -278,7 +278,7 @@ workshops/
    *Mitigation:* Competitive compensation, unique value props, strong relationships
 
 ### Low Risk
-✓ **Technical Issues** - Warplets deployment fails  
+✓ **Technical Issues** - Gleeees deployment fails  
 ✓ **Marketing Miss** - Programs don't get visibility  
 ✓ **Venue Problems** - SF meetup location issues
 
@@ -309,10 +309,10 @@ workshops/
 - User showcase features
 - **Learning:** Make it stupidly easy to get started
 
-**Warp Should Adopt:**
+**Glean Should Adopt:**
 1. **Launch Weeks** - Quarterly concentrated feature releases with community involvement
-2. **Template Library** - Like Warplets but for common workflows (not just environments)
-3. **Showcase Features** - "Built with Warp" gallery on homepage
+2. **Template Library** - Like Gleeees but for common workflows (not just environments)
+3. **Showcase Features** - "Built with Glean" gallery on homepage
 4. **Partnership Program** - Integrate with popular tools (Linear, Notion, Vercel)
 
 ---
@@ -321,7 +321,7 @@ workshops/
 
 ### Standout Elements:
 
-1. **Warplets UI** - Beautiful, functional, could be a real product
+1. **Gleeees UI** - Beautiful, functional, could be a real product
 2. **Viewer Integration** - Unified documentation experience is smooth
 3. **Metrics Dashboard** - Visually appealing and comprehensive
 4. **30-60-90 Plan** - Actionable, realistic, well-phased
@@ -331,7 +331,7 @@ workshops/
 ### Unique Differentiators:
 
 - **Startup Program in SF** - Physical space is rare, high-value
-- **Warplets** - No other terminal has cloud deployment integration
+- **Gleeees** - No other terminal has cloud deployment integration
 - **Quarterly Hackathons** - Bigger prizes than typical monthly events
 - **MCP Marketplace** - First-mover advantage in MCP ecosystem
 
@@ -345,7 +345,7 @@ workshops/
 - [ ] At least 5 active bounties posted
 - [ ] First workshop scheduled with registration
 - [ ] Application forms functional
-- [ ] devrel@warp.dev email active
+- [ ] devrel@glean.dev email active
 - [ ] Social media accounts created
 - [ ] Analytics installed
 
@@ -359,7 +359,7 @@ workshops/
 - [ ] Blog post published
 
 ### Nice to Have (Month 1):
-- [ ] Warplets backend functional
+- [ ] Gleeees backend functional
 - [ ] Metrics dashboard live data
 - [ ] Community dashboard operational
 - [ ] Partnership agreements signed
@@ -469,4 +469,4 @@ This DevRel strategy is **production-ready** with minor fixes needed. The compre
 - Technical Implementation: B+ (needs backend work)
 - Community Infrastructure: B (needs setup)
 
-This is an exceptional foundation for building a world-class DevRel program. With the recommended improvements, Warp can become a leader in terminal developer relations within 6-12 months.
+This is an exceptional foundation for building a world-class DevRel program. With the recommended improvements, Glean can become a leader in terminal developer relations within 6-12 months.

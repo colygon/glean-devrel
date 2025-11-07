@@ -2,12 +2,12 @@
 
 ## Overview
 
-Join the Warp team every week for co-working sessions and open office hours. Get direct help from engineers, collaborate with community members, and build together.
+Join the Glean team every week for co-working sessions and open office hours. Get direct help from engineers, collaborate with community members, and build together.
 
 ## Weekly Schedule
 
 ### In-Person (San Francisco)
-**Location**: Warp HQ, San Francisco  
+**Location**: Glean HQ, San Francisco  
 **When**: Every Tuesday, 2:00 PM - 6:00 PM PT  
 **Capacity**: 20 people
 
@@ -40,16 +40,16 @@ Join the Warp team every week for co-working sessions and open office hours. Get
 
 ## Who Should Attend
 
-- **Developers** building with Warp
+- **Developers** building with Glean
 - **MCP creators** working on servers or clients
-- **Contributors** to Warp open source
+- **Contributors** to Glean open source
 - **Grant/bounty applicants** seeking guidance
-- **Anyone** curious about Warp internals
+- **Anyone** curious about Glean internals
 
 ## Topics We Can Help With
 
 ### Technical Support
-- ✅ Debugging Warp issues
+- ✅ Debugging Glean issues
 - ✅ MCP server development
 - ✅ Extension architecture
 - ✅ API integration patterns
@@ -71,7 +71,7 @@ Join the Warp team every week for co-working sessions and open office hours. Get
 
 ## Team Members You'll Meet
 
-- **Engineering Team**: Core Warp developers
+- **Engineering Team**: Core Glean developers
 - **DevRel Team**: Developer advocates and community managers
 - **Product Team**: Product managers and designers
 - **Rotating Guests**: Community experts and contributors
@@ -80,7 +80,7 @@ Join the Warp team every week for co-working sessions and open office hours. Get
 
 ### In-Person (SF)
 1. **RSVP** on our community calendar
-2. **Check in** at reception (mention Warp office hours)
+2. **Check in** at reception (mention Glean office hours)
 3. **Bring your laptop** and questions
 4. **Optional**: Prepare a 2-min demo of what you're building
 
@@ -95,7 +95,7 @@ Join the Warp team every week for co-working sessions and open office hours. Get
 ### Monthly Deep Dives
 **Last Tuesday of each month**: Extended 3-hour session focused on a specific topic
 - Advanced MCP patterns
-- Warp internals architecture
+- Glean internals architecture
 - AI workflow optimization
 - Testing strategies
 
@@ -128,7 +128,7 @@ To get the most out of office hours:
 ## Resources Available
 
 During office hours, you'll have access to:
-- Warp engineering team expertise
+- Glean engineering team expertise
 - Internal documentation and guides
 - Beta features and early previews
 - Testing environments
@@ -138,11 +138,11 @@ During office hours, you'll have access to:
 
 _[This section will feature testimonials from developers who got help during office hours]_
 
-> "I was stuck on an MCP authentication issue for days. During office hours, a Warp engineer helped me spot the problem in 10 minutes. Game changer!" - Sarah K., MCP Developer
+> "I was stuck on an MCP authentication issue for days. During office hours, a Glean engineer helped me spot the problem in 10 minutes. Game changer!" - Sarah K., MCP Developer
 
 ## Calendar & RSVP
 
-📅 [Add to Calendar](https://calendar.example.com/warp-office-hours)
+📅 [Add to Calendar](https://calendar.example.com/glean-office-hours)
 
 **In-Person**: [RSVP for SF Sessions](https://forms.example.com/sf-office-hours)  
 **Virtual**: No RSVP needed, just join!
@@ -151,9 +151,9 @@ _[This section will feature testimonials from developers who got help during off
 
 Questions about office hours?
 - Discord: #office-hours
-- Email: officehours@warp.dev
+- Email: officehours@glean.dev
 - Community calendar: [View schedule](https://calendar.example.com)
 
 ---
 
-**We're here to help you build amazing things with Warp! 🚀**
+**We're here to help you build amazing things with Glean! 🚀**

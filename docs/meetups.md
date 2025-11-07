@@ -1,8 +1,8 @@
-# Warp Monthly Meetups
+# Glean Monthly Meetups
 
 ## Overview
 
-Join us for monthly community meetups to connect with other Warp users, learn new techniques, share workflows, and hear about the latest features. Whether you're a beginner or power user, everyone is welcome!
+Join us for monthly community meetups to connect with other Glean users, learn new techniques, share workflows, and hear about the latest features. Whether you're a beginner or power user, everyone is welcome!
 
 ## Meetup Schedule
 
@@ -15,13 +15,13 @@ Join us for monthly community meetups to connect with other Warp users, learn ne
 
 | Month | Date | Topic | Location |
 |-------|------|-------|----------|
-| January | Jan 21 | Getting Started with Warp | SF + Virtual |
+| January | Jan 21 | Getting Started with Glean | SF + Virtual |
 | February | Feb 18 | Power User Workflows | SF + Virtual |
 | March | Mar 18 | MCP 101: Your First Server | SF + Virtual |
 | April | Apr 15 | AI Features Deep Dive | SF + Virtual |
 | May | May 20 | Community Showcase | SF + Virtual |
 | June | Jun 17 | Extension Development | SF + Virtual |
-| July | Jul 15 | Warp Drive & Knowledge Management | SF + Virtual |
+| July | Jul 15 | Glean Drive & Knowledge Management | SF + Virtual |
 | August | Aug 19 | Terminal Productivity Tips | SF + Virtual |
 | September | Sep 16 | Building Custom Integrations | SF + Virtual |
 | October | Oct 21 | Advanced MCP Patterns | SF + Virtual |
@@ -31,7 +31,7 @@ Join us for monthly community meetups to connect with other Warp users, learn ne
 ## Locations
 
 ### San Francisco (Primary)
-- **Venue**: Warp HQ or partnered co-working space
+- **Venue**: Glean HQ or partnered co-working space
 - **Address**: [Location TBD]
 - **Capacity**: 50-75 people
 - **Food & Drinks**: Pizza, snacks, beverages provided
@@ -58,7 +58,7 @@ We're planning to expand to additional cities in 2026-2026:
 - Community introductions
 
 ### 6:15 PM - 6:45 PM: Main Presentation
-- Topic expert or Warp team member
+- Topic expert or Glean team member
 - Live demos and walkthroughs
 - Interactive Q&A
 
@@ -80,7 +80,7 @@ We're planning to expand to additional cities in 2026-2026:
 ## Topics We Cover
 
 ### For Beginners
-- Installing and setting up Warp
+- Installing and setting up Glean
 - Basic terminal navigation
 - Understanding blocks and workflows
 - Using AI features
@@ -91,17 +91,17 @@ We're planning to expand to additional cities in 2026-2026:
 - Setting up MCP servers
 - Command palette power user tips
 - Team collaboration features
-- Warp Drive organization
+- Glean Drive organization
 
 ### For Advanced Users
 - Building MCP servers
 - Extension development
 - Advanced scripting
 - Integration patterns
-- Contributing to Warp ecosystem
+- Contributing to Glean ecosystem
 
 ### Special Topics
-- Guest speakers from companies using Warp
+- Guest speakers from companies using Glean
 - New feature previews
 - Community project showcases
 - Career development for terminal users
@@ -110,7 +110,7 @@ We're planning to expand to additional cities in 2026-2026:
 ## How to Attend
 
 ### In-Person (San Francisco)
-1. **Register**: [meetups.warp.dev/register](https://meetups.warp.dev/register)
+1. **Register**: [meetups.glean.dev/register](https://meetups.glean.dev/register)
 2. **RSVP**: Limited spots, first-come first-served
 3. **Check-In**: Arrive 5-10 minutes early
 4. **Bring**: Laptop (optional but recommended for workshops)
@@ -132,7 +132,7 @@ We're planning to expand to additional cities in 2026-2026:
 Want to share something with the community?
 - **Length**: 5 minutes
 - **Topics**: Workflows, tips, projects, integrations
-- **Submit**: [Request to speak form](https://meetups.warp.dev/speak)
+- **Submit**: [Request to speak form](https://meetups.glean.dev/speak)
 - **Deadline**: 1 week before meetup
 
 ### Lead a Workshop
@@ -140,11 +140,11 @@ Have expertise to share in hands-on format?
 - **Length**: 30-45 minutes
 - **Format**: Interactive, with exercises
 - **Support**: We'll help with prep and materials
-- **Apply**: Email devrel@warp.dev
+- **Apply**: Email devrel@glean.dev
 
 ### Suggest a Topic
 What do you want to learn about?
-- **Submit Ideas**: [Topic suggestion form](https://meetups.warp.dev/topics)
+- **Submit Ideas**: [Topic suggestion form](https://meetups.glean.dev/topics)
 - **Vote**: Community votes on upcoming topics
 - **Influence**: Top voted topics get scheduled
 
@@ -180,14 +180,14 @@ What do you want to learn about?
 ### For Speakers
 - **Recognition**: Featured on community page
 - **Swag Bundle**: Special speaker gift
-- **Priority Access**: To future Warp events
+- **Priority Access**: To future Glean events
 - **Portfolio**: Recording to showcase your expertise
 
 ### For Regular Attendees
 - **Loyalty Perks**: Special access after 3+ meetups
 - **Early Access**: Try new features first
 - **Community Leader**: Opportunity to co-organize
-- **Discounts**: On Warp Academy certifications
+- **Discounts**: On Glean Academy certifications
 
 ## Sponsors & Partners
 
@@ -197,21 +197,21 @@ We partner with local companies and communities:
 - Developer communities for cross-promotion
 - Local meetup groups for collaboration
 
-**Interested in sponsoring?** Email partnerships@warp.dev
+**Interested in sponsoring?** Email partnerships@glean.dev
 
 ## Meetup Organizers
 
 ### SF Chapter
 - **Lead**: [Name TBD]
 - **Co-organizers**: Community volunteers
-- **Support**: Warp DevRel team
+- **Support**: Glean DevRel team
 
 ### Start a Chapter
-Want to bring Warp Meetups to your city?
+Want to bring Glean Meetups to your city?
 - **Requirements**: 20+ interested members
 - **Support**: We provide materials, swag, stipend
 - **Autonomy**: Run meetups your way
-- **Apply**: [Chapter application](https://meetups.warp.dev/start-chapter)
+- **Apply**: [Chapter application](https://meetups.glean.dev/start-chapter)
 
 ## Past Meetup Highlights
 
@@ -221,14 +221,14 @@ _[This section will showcase highlights from previous meetups]_
 - **Attendance**: 62 people (42 in-person, 20 virtual)
 - **Highlights**: Product roadmap preview, community awards
 - **Lightning Talks**: 5 amazing community projects
-- **Photos**: [View gallery](https://photos.warp.dev/meetups/2024-11)
+- **Photos**: [View gallery](https://photos.glean.dev/meetups/2024-11)
 
 ## Resources
 
 ### Before the Meetup
 - Review the monthly topic
 - Prepare questions
-- Install latest Warp version
+- Install latest Glean version
 - Join Discord community
 
 ### At the Meetup
@@ -252,13 +252,13 @@ _[This section will showcase highlights from previous meetups]_
 - **#meetup-general**: Cross-city chat
 
 ### Email List
-- **Subscribe**: [meetups.warp.dev/newsletter](https://meetups.warp.dev/newsletter)
+- **Subscribe**: [meetups.glean.dev/newsletter](https://meetups.glean.dev/newsletter)
 - **Frequency**: One email per week (meetup reminder + recap)
 
 ### Social Media
-- **Twitter/X**: Follow [@WarpDevRel](https://twitter.com/warpdevrel) #WarpMeetup
-- **LinkedIn**: [Warp Community](https://linkedin.com/company/warpdotdev)
-- **YouTube**: [Subscribe for recordings](https://youtube.com/@warpdotdev)
+- **Twitter/X**: Follow [@GleanDevRel](https://twitter.com/gleandevrel) #GleanMeetup
+- **LinkedIn**: [Glean Community](https://linkedin.com/company/gleandotdev)
+- **YouTube**: [Subscribe for recordings](https://youtube.com/@gleandotdev)
 
 ## FAQ
 
@@ -274,7 +274,7 @@ A: No, all meetups are free.
 **Q: What if I can't attend in person?**
 A: Join virtually! We have full virtual participation options.
 
-**Q: Can I attend if I don't use Warp yet?**
+**Q: Can I attend if I don't use Glean yet?**
 A: Absolutely! It's a great way to learn about it.
 
 **Q: Are recordings available?**
@@ -287,20 +287,20 @@ A: Yes! Sharing your learning journey is valuable too.
 A: Yes, during the networking and open discussion periods.
 
 **Q: Can my company sponsor a meetup?**
-A: Yes! Email partnerships@warp.dev for details.
+A: Yes! Email partnerships@glean.dev for details.
 
 **Q: How do I suggest a future topic?**
-A: Use the [topic suggestion form](https://meetups.warp.dev/topics) or message in Discord.
+A: Use the [topic suggestion form](https://meetups.glean.dev/topics) or message in Discord.
 
 ## Register Now
 
-👉 [Register for the next meetup](https://meetups.warp.dev/register)
+👉 [Register for the next meetup](https://meetups.glean.dev/register)
 
-📅 [Add to calendar](https://calendar.warp.dev/meetups.ics)
+📅 [Add to calendar](https://calendar.glean.dev/meetups.ics)
 
-💬 [Join Discord](https://discord.gg/warp)
+💬 [Join Discord](https://discord.gg/glean)
 
-🎥 [Watch past recordings](https://youtube.com/@warpdotdev/meetups)
+🎥 [Watch past recordings](https://youtube.com/@gleandotdev/meetups)
 
 ---
 

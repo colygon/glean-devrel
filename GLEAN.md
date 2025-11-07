@@ -1,10 +1,10 @@
-# WARP.md
+# GLEAN.md
 
-This file provides guidance to WARP (warp.dev) when working with code in this repository.
+This file provides guidance to GLEAN (glean.dev) when working with code in this repository.
 
 ## Repository Overview
 
-This is a **static website and documentation repository** for Warp's Developer Relations strategy. It contains HTML landing pages, CSS styling, and comprehensive markdown documentation for 7 core DevRel programs.
+This is a **static website and documentation repository** for Glean's Developer Relations strategy. It contains HTML landing pages, CSS styling, and comprehensive markdown documentation for 7 core DevRel programs.
 
 ## Working with This Repository
 
@@ -29,7 +29,7 @@ Content is organized in these directories:
 - **`docs/`** - Program documentation (7 markdown files covering all DevRel programs)
 - **`programs/`** - Application templates (hacker house, grants, bounty submissions)
 - **`tutorials/`** - User guides (getting-started.md, mcp-quickstart.md, advanced-workflows.md)
-- **`workshops/`** - Workshop materials in subdirectories (mcp-basics/, warp-ai-workflows/, extension-development/)
+- **`workshops/`** - Workshop materials in subdirectories (mcp-basics/, glean-ai-workflows/, extension-development/)
 - **`index.html`** - Main landing page
 - **`presentation.html`** - Strategy presentation deck
 - **`assets/css/`** - Styling (style.css for index.html, presentation.css for presentation.html)
@@ -56,7 +56,7 @@ This is a **pure static site** with no build system, package.json, or dependenci
 3. **Documentation Hierarchy:**
    - **Program Documentation** (`docs/`) - Detailed pages for each of the 7 programs
    - **Application Templates** (`programs/`) - Forms developers fill out to apply or submit
-   - **Tutorials** (`tutorials/`) - Step-by-step guides for Warp users
+   - **Tutorials** (`tutorials/`) - Step-by-step guides for Glean users
    - **Workshops** (`workshops/`) - Course materials organized by topic
 
 ### How It Works
@@ -70,13 +70,13 @@ This is a **pure static site** with no build system, package.json, or dependenci
 
 The repository documents these programs:
 
-1. **Startup Program** - 3-6 month SF residencies for developers building in the Warp ecosystem
-2. **Co-working Space & Office Hours** - Weekly hybrid sessions with Warp team for guidance and collaboration
-3. **Workshops Series** - Weekly technical workshops on MCP development, Warp features, and productivity (52/year)
+1. **Startup Program** - 3-6 month SF residencies for developers building in the Glean ecosystem
+2. **Co-working Space & Office Hours** - Weekly hybrid sessions with Glean team for guidance and collaboration
+3. **Workshops Series** - Weekly technical workshops on MCP development, Glean features, and productivity (52/year)
 4. **Monthly Hackathons** - Community hackathons with prizes, swag, and feature spotlights (12/year)
 5. **Bounty System** - Monetary rewards for open-source contributions (MCP servers, integrations, tutorials)
 6. **Grant Program** - $5K-$50K funding for innovative projects with quarterly reviews
-7. **MCP Marketplace** - Curated marketplace of verified, secure MCP servers and Warp extensions
+7. **MCP Marketplace** - Curated marketplace of verified, secure MCP servers and Glean extensions
 
 ## Key Documentation Files
 
@@ -95,18 +95,18 @@ The repository documents these programs:
 - `programs/bounty-submission-template.md` - Bounty submission format
 
 ### User Tutorials
-- `tutorials/getting-started.md` - Warp installation, first launch, basic navigation, AI features
+- `tutorials/getting-started.md` - Glean installation, first launch, basic navigation, AI features
 - `tutorials/mcp-quickstart.md` - Model Context Protocol setup and first integration
-- `tutorials/advanced-workflows.md` - Advanced Warp productivity features
+- `tutorials/advanced-workflows.md` - Advanced Glean productivity features
 
 ## Links and Resources
 
 External references in documentation:
-- **Warp Website**: warp.dev
-- **Warp Docs**: docs.warp.dev
-- **GitHub**: github.com/warpdotdev
+- **Glean Website**: glean.dev
+- **Glean Docs**: docs.glean.dev
+- **GitHub**: github.com/gleandotdev
 - **Community Discord**: Referenced throughout (join links in docs)
-- **Workshop Registration**: workshops.warp.dev (referenced in workshops.md)
+- **Workshop Registration**: workshops.glean.dev (referenced in workshops.md)
 
 ## Content Maintenance
 

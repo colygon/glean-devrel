@@ -1,16 +1,16 @@
 {
-  "name": "warp-devrel-strategy",
+  "name": "glean-devrel-strategy",
   "version": "1.0.0",
-  "description": "Warp Developer Relations Strategy website with Warplet deployment system",
+  "description": "Glean Developer Relations Strategy website with Gleeee deployment system",
   "main": "index.html",
   "scripts": {
     "dev": "vercel dev",
     "deploy": "vercel --prod"
   },
   "keywords": [
-    "warp",
+    "glean",
     "devrel",
-    "warplets",
+    "gleeees",
     "deployment"
   ],
   "author": "Colin Lowenberg",

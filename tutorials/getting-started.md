@@ -1,10 +1,10 @@
-# Getting Started with Warp
+# Getting Started with Glean
 
-Welcome to Warp - the modern, AI-powered terminal! This guide will help you get up and running quickly.
+Welcome to Glean - the modern, AI-powered terminal! This guide will help you get up and running quickly.
 
-## What is Warp?
+## What is Glean?
 
-Warp is a terminal reimagined from the ground up to work like a modern app. It's built in Rust, fast, and comes with AI-powered features to supercharge your productivity.
+Glean is a terminal reimagined from the ground up to work like a modern app. It's built in Rust, fast, and comes with AI-powered features to supercharge your productivity.
 
 ### Key Features
 
@@ -19,39 +19,39 @@ Warp is a terminal reimagined from the ground up to work like a modern app. It's
 ### macOS
 
 **Download from website:**
-1. Visit [warp.dev](https://warp.dev)
+1. Visit [glean.dev](https://glean.dev)
 2. Click "Download for Mac"
-3. Open the `.dmg` file and drag Warp to Applications
-4. Launch Warp from Applications
+3. Open the `.dmg` file and drag Glean to Applications
+4. Launch Glean from Applications
 
 **Using Homebrew:**
 ```bash
-brew install --cask warp
+brew install --cask glean
 ```
 
 ### Linux
 
 **Download from website:**
-1. Visit [warp.dev](https://warp.dev)
+1. Visit [glean.dev](https://glean.dev)
 2. Select your Linux distribution
 3. Follow distribution-specific instructions
 
 **Ubuntu/Debian:**
 ```bash
 # Download the .deb package
-wget https://releases.warp.dev/stable/latest/warp-terminal_*.deb
+wget https://releases.glean.dev/stable/latest/glean-terminal_*.deb
 
 # Install
-sudo dpkg -i warp-terminal_*.deb
+sudo dpkg -i glean-terminal_*.deb
 ```
 
 ### Windows
 
-Coming soon! Join the waitlist at [warp.dev](https://warp.dev)
+Coming soon! Join the waitlist at [glean.dev](https://glean.dev)
 
 ## First Launch
 
-When you first open Warp:
+When you first open Glean:
 
 1. **Sign in or continue as guest**
    - Signing in enables cloud features like syncing settings
@@ -62,7 +62,7 @@ When you first open Warp:
    - Customizable later in settings
 
 3. **Import existing shell configuration**
-   - Warp can import your `.zshrc`, `.bashrc`, etc.
+   - Glean can import your `.zshrc`, `.bashrc`, etc.
    - Your aliases and functions will work immediately
 
 ## Basic Navigation
@@ -96,7 +96,7 @@ Press `Ctrl + `` to open AI command search:
 - "find processes using port 3000"
 - "compress this directory to tar.gz"
 
-Warp will suggest the appropriate command. Press Enter to execute.
+Glean will suggest the appropriate command. Press Enter to execute.
 
 ### AI Command Explanations
 
@@ -178,7 +178,7 @@ Create your own theme:
 3. Customize colors
 4. Save and apply
 
-Share themes with the community on [warp-themes GitHub](https://github.com/warpdotdev/themes).
+Share themes with the community on [glean-themes GitHub](https://github.com/gleandotdev/themes).
 
 ## Advanced Features
 
@@ -193,9 +193,9 @@ Collaborate in real-time with teammates:
 
 Perfect for pair programming and debugging together!
 
-### Warp Drive (Cloud Features)
+### Glean Drive (Cloud Features)
 
-When signed in, Warp syncs:
+When signed in, Glean syncs:
 - Settings and preferences
 - Workflows
 - Command history
@@ -216,7 +216,7 @@ Press `↑` to cycle through history, or `Ctrl + R` for fuzzy search.
 
 ### 3. Auto-suggestions
 
-Warp suggests commands based on:
+Glean suggests commands based on:
 - Your history
 - Current directory
 - Common patterns
@@ -268,15 +268,15 @@ docker exec -it container_name bash
 
 ### SSH Connections
 
-Warp remembers SSH connections:
+Glean remembers SSH connections:
 
 1. Connect once: `ssh user@host`
 2. Next time, use Command Palette → "Connect to..." → Select host
-3. Warp auto-completes credentials
+3. Glean auto-completes credentials
 
 ## Troubleshooting
 
-### Warp is slow
+### Glean is slow
 
 - Check Settings → Performance → Hardware Acceleration
 - Reduce scrollback buffer size
@@ -298,9 +298,9 @@ Warp remembers SSH connections:
 
 ### Resources
 
-- **Documentation**: [docs.warp.dev](https://docs.warp.dev)
+- **Documentation**: [docs.glean.dev](https://docs.glean.dev)
 - **Community Discord**: Join for support and discussion
-- **GitHub Issues**: [github.com/warpdotdev/warp](https://github.com/warpdotdev/warp)
+- **GitHub Issues**: [github.com/gleandotdev/glean](https://github.com/gleandotdev/glean)
 - **Office Hours**: Weekly community sessions
 
 ### Keyboard Shortcuts Cheat Sheet
@@ -313,7 +313,7 @@ Now that you're familiar with the basics:
 
 1. ✅ [MCP Quick Start](mcp-quickstart.md) - Set up Model Context Protocol
 2. ✅ [Advanced Workflows](advanced-workflows.md) - Master productivity features
-3. ✅ [Join the Community](https://discord.gg/warp) - Connect with other Warp users
+3. ✅ [Join the Community](https://discord.gg/glean) - Connect with other Glean users
 
 ## Feedback
 
@@ -321,8 +321,8 @@ We'd love to hear from you!
 
 - In-app: Click feedback button (bottom right)
 - Discord: #feedback channel
-- Email: feedback@warp.dev
+- Email: feedback@glean.dev
 
 ---
 
-**Welcome to the Warp community! 🚀**
+**Welcome to the Glean community! 🚀**

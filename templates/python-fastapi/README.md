@@ -1,6 +1,6 @@
-# Python FastAPI Warplet
+# Python FastAPI Gleeee
 
-A production-ready FastAPI application deployed via Warplets.
+A production-ready FastAPI application deployed via Gleeees.
 
 ## Features
 
@@ -39,8 +39,8 @@ REDIS_URL=redis://localhost:6379
 
 ## Deployment
 
-This Warplet is automatically deployed to Vercel. Every push to `main` triggers a new deployment.
+This Gleeee is automatically deployed to Vercel. Every push to `main` triggers a new deployment.
 
-## Built with Warp
+## Built with Glean
 
-Created using [Warplets](https://warplit.com) - the fastest way to deploy cloud development environments.
+Created using [Gleeees](https://gleanlit.com) - the fastest way to deploy cloud development environments.

@@ -1,8 +1,8 @@
-# Warp Founder Lessons: Strategic Implications for DevRel
+# Glean Founder Lessons: Strategic Implications for DevRel
 
 ## Executive Summary
 
-This document captures key lessons from Warp's founder and translates them into actionable DevRel strategies. These insights fundamentally shape how we approach community building, content, and developer education.
+This document captures key lessons from Glean's founder and translates them into actionable DevRel strategies. These insights fundamentally shape how we approach community building, content, and developer education.
 
 ---
 
@@ -20,7 +20,7 @@ This document captures key lessons from Warp's founder and translates them into 
 **Action Items:**
 - Audit all docs/content to ensure problem-first framing
 - Create "Developer Workflow" content series (not "Terminal Tips")
-- Position workshops around: "Ship code faster with AI agents" not "Learn Warp features"
+- Position workshops around: "Ship code faster with AI agents" not "Learn Glean features"
 
 ---
 
@@ -53,24 +53,24 @@ This document captures key lessons from Warp's founder and translates them into 
 **Action Items:**
 - Build "Error-Driven Tutorial System" - docs that appear when users hit issues
 - Office hours format: Live debugging > presentations
-- Create "Warp Saved Me" content series - real error recovery stories
+- Create "Glean Saved Me" content series - real error recovery stories
 - Bounty: "Most Helpful Error Recovery MCP Server"
 
 ---
 
 ### 4. Dogfood relentlessly
-**Founder Insight:** "We have a 'coding mandate' requiring all engineers to start every task with a prompt. The feedback loops from our own team using Warp to build Warp have been invaluable."
+**Founder Insight:** "We have a 'coding mandate' requiring all engineers to start every task with a prompt. The feedback loops from our own team using Glean to build Glean have been invaluable."
 
 **DevRel Implications:**
-- **Hacker House Mandate:** Residents must use Warp exclusively for all projects
+- **Hacker House Mandate:** Residents must use Glean exclusively for all projects
 - **Community Challenge:** "30-Day Prompt-First Development Challenge"
-- **Content Creation:** All tutorials must be created *using* Warp agents
+- **Content Creation:** All tutorials must be created *using* Glean agents
 - **Feedback Loop:** Require community leaders to dogfood and report issues
 
 **Action Items:**
-- Hacker house rule: All code starts with a prompt to Warp AI
+- Hacker house rule: All code starts with a prompt to Glean AI
 - Monthly challenge: "Build X using only natural language prompts"
-- Grant requirement: Projects must be built with Warp agents
+- Grant requirement: Projects must be built with Glean agents
 - Create #dogfooding channel in Discord for shared experiences
 
 ---
@@ -97,12 +97,12 @@ This document captures key lessons from Warp's founder and translates them into 
 
 **DevRel Implications:**
 - **Credibility Building:** Showcase SWE-bench results prominently
-- **Technical Content:** Create deep-dives on how Warp achieves top performance
+- **Technical Content:** Create deep-dives on how Glean achieves top performance
 - **Community Validation:** Run community-driven benchmarks and challenges
 - **Grant Program:** Fund projects that advance agent evaluation methodologies
 
 **Action Items:**
-- Blog series: "Inside Warp's SWE-bench Performance"
+- Blog series: "Inside Glean's SWE-bench Performance"
 - Workshop: "Evaluating AI Agents: Best Practices"
 - Hackathon challenge: "Build Better Agent Benchmarks"
 - Grant category: "Agent Evaluation & Testing Tools"
@@ -122,7 +122,7 @@ This document captures key lessons from Warp's founder and translates them into 
 **Action Items:**
 - Content: "The Economics of AI Agents: Why Pricing is Hard"
 - Survey community on pricing preferences and pain points
-- Case studies: "How X company saves 10 hours/week with Warp agents"
+- Case studies: "How X company saves 10 hours/week with Glean agents"
 - Transparent communication about pricing changes and rationale
 
 ---
@@ -167,7 +167,7 @@ This document captures key lessons from Warp's founder and translates them into 
 **Founder Insight:** "Most people don't know what AI agents are yet, but within a year the majority of development tasks will start with a prompt - that's how fundamental this shift will be."
 
 **DevRel Implications:**
-- **Evangelism Mission:** We're not just supporting Warp users - we're teaching a new way to code
+- **Evangelism Mission:** We're not just supporting Glean users - we're teaching a new way to code
 - **Education Priority:** Heavy investment in introductory content and onboarding
 - **Community Building:** Create safe spaces for developers to learn and experiment
 - **Long-term Thinking:** Build foundations for massive adoption wave coming in 2026-2026
@@ -196,7 +196,7 @@ This document captures key lessons from Warp's founder and translates them into 
    - Create advanced content for power users
 
 3. **Dogfooding as Core Culture**
-   - Mandate Warp usage for all community programs
+   - Mandate Glean usage for all community programs
    - Share dogfooding experiences publicly
    - Use community feedback to improve agent workflows
 
@@ -225,7 +225,7 @@ This document captures key lessons from Warp's founder and translates them into 
    - Partner with educational institutions
 
 8. **Intelligence-as-Infrastructure Thought Leadership**
-   - Position Warp as architectural innovation, not tool
+   - Position Glean as architectural innovation, not tool
    - Teach design patterns for agent-native apps
    - Create frameworks for thinking about intelligence
 
@@ -249,7 +249,7 @@ This document captures key lessons from Warp's founder and translates them into 
 **New:** "Build agent-native applications using prompt-first development"
 
 **New Requirements:**
-- All code must start with a prompt to Warp AI
+- All code must start with a prompt to Glean AI
 - Weekly showcase: "How agents helped me ship faster"
 - Final project must demonstrate agent workflow innovation
 - Document prompt strategies and agent collaboration patterns
@@ -331,7 +331,7 @@ Based on Lesson #8 (depth over breadth):
 **12 Months:**
 - Community consensus: "Prompt-first is how we code now"
 - 500+ agent-native projects in ecosystem
-- Warp positioned as leader in agentic development education
+- Glean positioned as leader in agentic development education
 
 ---
 
@@ -339,8 +339,8 @@ Based on Lesson #8 (depth over breadth):
 
 ### Messaging Framework
 
-**Old Positioning:** "Warp - The Modern Terminal"
-**New Positioning:** "Warp - The Agentic Development Environment"
+**Old Positioning:** "Glean - The Modern Terminal"
+**New Positioning:** "Glean - The Agentic Development Environment"
 
 **Taglines:**
 - "Code in English, Ship in Minutes"
@@ -390,7 +390,7 @@ These founder lessons aren't just insights - they're strategic directives that f
 - From: Tool adoption → To: Paradigm shift
 
 **The Mission:**
-Help developers make the transition from command-driven to prompt-driven development, positioning Warp not as a tool but as the foundation for agent-native software development.
+Help developers make the transition from command-driven to prompt-driven development, positioning Glean not as a tool but as the foundation for agent-native software development.
 
 ---
 
@@ -400,4 +400,4 @@ Help developers make the transition from command-driven to prompt-driven develop
 3. Communicate strategic shift to community
 4. Begin implementing immediate priorities
 
-**Questions or feedback?** Contact devrel@warp.dev
+**Questions or feedback?** Contact devrel@glean.dev

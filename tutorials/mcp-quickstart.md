@@ -1,10 +1,10 @@
 # MCP Quick Start Guide
 
-Learn how to set up and use Model Context Protocol (MCP) with Warp in under 10 minutes.
+Learn how to set up and use Model Context Protocol (MCP) with Glean in under 10 minutes.
 
 ## What is MCP?
 
-Model Context Protocol (MCP) is an open standard that enables AI assistants to securely connect to external data sources and tools. With MCP, Warp's AI can:
+Model Context Protocol (MCP) is an open standard that enables AI assistants to securely connect to external data sources and tools. With MCP, Glean's AI can:
 
 - Query your databases
 - Access your APIs
@@ -14,7 +14,7 @@ Model Context Protocol (MCP) is an open standard that enables AI assistants to s
 
 ## Prerequisites
 
-- Warp terminal installed
+- Glean terminal installed
 - Basic familiarity with command line
 - Node.js 16+ or Python 3.8+ (depending on MCP server)
 
@@ -22,9 +22,9 @@ Model Context Protocol (MCP) is an open standard that enables AI assistants to s
 
 Let's install a simple MCP server to get started.
 
-### Option 1: Using Warp Marketplace (Easiest)
+### Option 1: Using Glean Marketplace (Easiest)
 
-1. Open Warp
+1. Open Glean
 2. Press `Cmd/Ctrl + P` to open Command Palette
 3. Type "MCP Marketplace"
 4. Browse available servers
@@ -51,17 +51,17 @@ cp .env.example .env
 npm start
 ```
 
-**Register with Warp:**
+**Register with Glean:**
 
 ```bash
-warp mcp add github-mcp ./github-mcp-server
+glean mcp add github-mcp ./github-mcp-server
 ```
 
 ## Configuring MCP
 
 ### Configuration File
 
-Warp stores MCP configuration in `~/.warp/mcp-config.json`:
+Glean stores MCP configuration in `~/.glean/mcp-config.json`:
 
 ```json
 {
@@ -93,18 +93,18 @@ Reload your shell:
 source ~/.zshrc
 ```
 
-## Using MCP with Warp AI
+## Using MCP with Glean AI
 
-Once configured, MCP servers enhance Warp's AI capabilities.
+Once configured, MCP servers enhance Glean's AI capabilities.
 
 ### Example: Querying GitHub
 
-**Ask Warp AI:**
+**Ask Glean AI:**
 ```
 "Show me my recent pull requests"
 ```
 
-Warp will:
+Glean will:
 1. Use the GitHub MCP server
 2. Fetch your PRs
 3. Display results in a clean format
@@ -113,12 +113,12 @@ Warp will:
 
 With a PostgreSQL MCP server:
 
-**Ask Warp AI:**
+**Ask Glean AI:**
 ```
 "Show users who signed up in the last 7 days"
 ```
 
-Warp generates and executes the SQL query safely.
+Glean generates and executes the SQL query safely.
 
 ## Available MCP Servers
 
@@ -144,44 +144,44 @@ Warp generates and executes the SQL query safely.
 - `slack-mcp` - Slack messaging
 - `jira-mcp` - Issue tracking
 
-Browse all servers: [marketplace.warp.dev](https://marketplace.warp.dev)
+Browse all servers: [marketplace.glean.dev](https://marketplace.glean.dev)
 
 ## Managing MCP Servers
 
 ### List Installed Servers
 
 ```bash
-warp mcp list
+glean mcp list
 ```
 
 ### Start a Server
 
 ```bash
-warp mcp start github-mcp
+glean mcp start github-mcp
 ```
 
 ### Stop a Server
 
 ```bash
-warp mcp stop github-mcp
+glean mcp stop github-mcp
 ```
 
 ### Update a Server
 
 ```bash
-warp mcp update github-mcp
+glean mcp update github-mcp
 ```
 
 ### Remove a Server
 
 ```bash
-warp mcp remove github-mcp
+glean mcp remove github-mcp
 ```
 
 ### View Logs
 
 ```bash
-warp mcp logs github-mcp
+glean mcp logs github-mcp
 ```
 
 ## Building Your First MCP Server
@@ -231,16 +231,16 @@ server.tool('get_system_info', {
 server.start();
 ```
 
-### Step 3: Add to Warp
+### Step 3: Add to Glean
 
 ```bash
-warp mcp add my-system ~/.../my-system-mcp/index.js
-warp mcp start my-system
+glean mcp add my-system ~/.../my-system-mcp/index.js
+glean mcp start my-system
 ```
 
 ### Step 4: Test
 
-Ask Warp AI: "What's my system information?"
+Ask Glean AI: "What's my system information?"
 
 ## Security Best Practices
 
@@ -291,7 +291,7 @@ Log all MCP operations:
 
 ```bash
 # Enable MCP logging
-export WARP_MCP_LOG_LEVEL=debug
+export GLEAN_MCP_LOG_LEVEL=debug
 ```
 
 ## Troubleshooting
@@ -300,12 +300,12 @@ export WARP_MCP_LOG_LEVEL=debug
 
 **Check configuration:**
 ```bash
-warp mcp config validate
+glean mcp config validate
 ```
 
 **View logs:**
 ```bash
-warp mcp logs server-name
+glean mcp logs server-name
 ```
 
 **Common issues:**
@@ -317,7 +317,7 @@ warp mcp logs server-name
 
 **Restart the server:**
 ```bash
-warp mcp restart server-name
+glean mcp restart server-name
 ```
 
 **Check process:**
@@ -329,11 +329,11 @@ ps aux | grep mcp
 
 **Review permissions in config:**
 ```bash
-cat ~/.warp/mcp-config.json
+cat ~/.glean/mcp-config.json
 ```
 
 **Update permissions:**
-Edit the config file and restart Warp.
+Edit the config file and restart Glean.
 
 ## Advanced Topics
 
@@ -393,14 +393,14 @@ server.tool('risky_operation', {
 ### Learn More
 
 - 📖 [MCP Specification](https://spec.modelcontextprotocol.io)
-- 🛠️ [Server Development Guide](https://docs.warp.dev/mcp/development)
-- 🔒 [Security Best Practices](https://docs.warp.dev/mcp/security)
-- 🌟 [Example Servers](https://github.com/warpdotdev/mcp-examples)
+- 🛠️ [Server Development Guide](https://docs.glean.dev/mcp/development)
+- 🔒 [Security Best Practices](https://docs.glean.dev/mcp/security)
+- 🌟 [Example Servers](https://github.com/gleandotdev/mcp-examples)
 
 ### Build Something
 
 - Create an MCP server for your favorite API
-- Submit it to the Warp Marketplace
+- Submit it to the Glean Marketplace
 - Apply for a bounty or grant
 
 ### Join the Community
@@ -411,11 +411,11 @@ server.tool('risky_operation', {
 
 ## Resources
 
-- **Marketplace**: [marketplace.warp.dev](https://marketplace.warp.dev)
-- **Documentation**: [docs.warp.dev/mcp](https://docs.warp.dev/mcp)
-- **GitHub**: [github.com/warpdotdev/mcp](https://github.com/warpdotdev/mcp)
-- **Examples**: [github.com/warpdotdev/mcp-examples](https://github.com/warpdotdev/mcp-examples)
+- **Marketplace**: [marketplace.glean.dev](https://marketplace.glean.dev)
+- **Documentation**: [docs.glean.dev/mcp](https://docs.glean.dev/mcp)
+- **GitHub**: [github.com/gleandotdev/mcp](https://github.com/gleandotdev/mcp)
+- **Examples**: [github.com/gleandotdev/mcp-examples](https://github.com/gleandotdev/mcp-examples)
 
 ---
 
-**Ready to supercharge Warp with MCP! 🚀**
+**Ready to supercharge Glean with MCP! 🚀**

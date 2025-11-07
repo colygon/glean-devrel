@@ -1,8 +1,8 @@
-# Warp Grant Program
+# Glean Grant Program
 
 ## Overview
 
-The Warp Grant Program provides funding for innovative projects that push Warp's capabilities forward. We support developers, researchers, and creators building ambitious projects that benefit the entire community.
+The Glean Grant Program provides funding for innovative projects that push Glean's capabilities forward. We support developers, researchers, and creators building ambitious projects that benefit the entire community.
 
 **Funding Range**: $5,000 - $50,000 per project
 
@@ -20,7 +20,7 @@ Advanced research into terminal technologies, developer workflows, or AI-assiste
 **Typical Grant**: $10,000 - $30,000
 
 ### 🛠️ Developer Tools
-Ambitious developer tools that integrate with or enhance Warp.
+Ambitious developer tools that integrate with or enhance Glean.
 
 **Examples:**
 - Advanced debugging and profiling tools
@@ -31,7 +31,7 @@ Ambitious developer tools that integrate with or enhance Warp.
 **Typical Grant**: $15,000 - $40,000
 
 ### 🎓 Educational Projects
-Comprehensive educational initiatives that teach developers to use Warp effectively.
+Comprehensive educational initiatives that teach developers to use Glean effectively.
 
 **Examples:**
 - Interactive learning platform
@@ -42,7 +42,7 @@ Comprehensive educational initiatives that teach developers to use Warp effectiv
 **Typical Grant**: $5,000 - $25,000
 
 ### 🌍 Accessibility & Inclusion
-Projects that make Warp more accessible to diverse global audiences.
+Projects that make Glean more accessible to diverse global audiences.
 
 **Examples:**
 - Screen reader optimization
@@ -53,7 +53,7 @@ Projects that make Warp more accessible to diverse global audiences.
 **Typical Grant**: $10,000 - $30,000
 
 ### 🏢 Enterprise Features
-Features that enable Warp adoption in enterprise environments.
+Features that enable Glean adoption in enterprise environments.
 
 **Examples:**
 - Advanced security and compliance tools
@@ -64,7 +64,7 @@ Features that enable Warp adoption in enterprise environments.
 **Typical Grant**: $20,000 - $50,000
 
 ### 🌐 Community Infrastructure
-Infrastructure that benefits the entire Warp community.
+Infrastructure that benefits the entire Glean community.
 
 **Examples:**
 - MCP registry and package manager
@@ -88,7 +88,7 @@ Infrastructure that benefits the entire Warp community.
 ### Requirements
 
 - **Open Source**: Project must be open source (MIT, Apache 2.0, or similar)
-- **Community Benefit**: Clear value to Warp ecosystem
+- **Community Benefit**: Clear value to Glean ecosystem
 - **Feasibility**: Realistic plan and timeline
 - **Expertise**: Demonstrated ability to execute
 - **Commitment**: Full or significant part-time dedication
@@ -96,10 +96,10 @@ Infrastructure that benefits the entire Warp community.
 
 ### Ineligible
 
-❌ Warp employees (can participate as advisors)  
+❌ Glean employees (can participate as advisors)  
 ❌ Projects primarily benefiting single company  
 ❌ Closed-source or proprietary solutions  
-❌ Projects without clear Warp connection  
+❌ Projects without clear Glean connection  
 ❌ Maintenance of existing projects (see bounties instead)
 
 ## Application Process
@@ -124,7 +124,7 @@ Infrastructure that benefits the entire Warp community.
 - Proposed solution
 - Technical approach
 - Innovation and uniqueness
-- How it benefits Warp community
+- How it benefits Glean community
 
 **Prior Art**
 - Existing solutions
@@ -235,7 +235,7 @@ Each milestone should include:
 
 ### Submission
 
-📝 [Grant Application Portal](https://grants.warp.dev)
+📝 [Grant Application Portal](https://grants.glean.dev)
 
 Or use our [Grant Application Template](../programs/grant-application-template.md)
 
@@ -249,7 +249,7 @@ Or use our [Grant Application Template](../programs/grant-application-template.m
 **Outcome**: Proceed to full review or request more information
 
 ### Stage 2: Technical Review (Week 3-4)
-- Deep technical evaluation by Warp engineers
+- Deep technical evaluation by Glean engineers
 - Architecture assessment
 - Feasibility analysis
 - Risk evaluation
@@ -271,7 +271,7 @@ Or use our [Grant Application Template](../programs/grant-application-template.m
 - Final recommendations
 
 **Review Panel**:
-- Warp engineering leads
+- Glean engineering leads
 - DevRel team
 - Community representatives
 - External advisors (for specialized domains)
@@ -341,7 +341,7 @@ Grants paid in tranches upon milestone completion:
 ### Support During Grant Period
 
 **Technical Support**
-- Office hours with Warp engineers
+- Office hours with Glean engineers
 - Architecture reviews
 - Code reviews
 - Infrastructure access
@@ -376,8 +376,8 @@ Grants paid in tranches upon milestone completion:
 
 ### Recognition
 
-- 🏆 Featured on Warp blog and socials
-- 🎤 Speaking opportunities at Warp events
+- 🏆 Featured on Glean blog and socials
+- 🎤 Speaking opportunities at Glean events
 - 📰 Case study publication
 - 💼 Continued partnership opportunities
 - 🎓 Alumni network access
@@ -451,7 +451,7 @@ _[This section will feature past successful grants]_
 
 ### Past Recipients
 
-**"Warp MCP Registry" - $35,000**
+**"Glean MCP Registry" - $35,000**
 - Built centralized registry for MCP servers
 - 500+ servers now catalogued
 - 10,000+ downloads in first month
@@ -459,7 +459,7 @@ _[This section will feature past successful grants]_
 **"Accessibility Framework" - $25,000**
 - Comprehensive screen reader support
 - WCAG 2.1 AAA compliance
-- Opened Warp to visually impaired developers
+- Opened Glean to visually impaired developers
 
 **"Terminal ML Toolkit" - $40,000**
 - ML model training visualization in terminal
@@ -498,16 +498,16 @@ A: $50,000 for most projects, but exceptional cases may receive more.
 2. **💬 Discuss**: Share your idea in Discord #grants
 3. **✍️ Draft**: Use our [application template](../programs/grant-application-template.md)
 4. **👀 Review**: Get feedback from community
-5. **📝 Submit**: [Apply here](https://grants.warp.dev)
+5. **📝 Submit**: [Apply here](https://grants.glean.dev)
 
 ## Contact
 
 Questions about the grant program?
 
 - 💬 Discord: #grants channel
-- 📧 Email: grants@warp.dev
+- 📧 Email: grants@glean.dev
 - 📅 Office Hours: First Tuesday of each month, 2-4pm PT
-- 📋 [Grant Portal](https://grants.warp.dev)
+- 📋 [Grant Portal](https://grants.glean.dev)
 
 ---
 

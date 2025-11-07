@@ -1,4 +1,4 @@
-# Warp.dev SWOT Analysis
+# Glean.dev SWOT Analysis
 ## Competitive Intelligence Report
 
 **Prepared:** January 4, 2026  
@@ -9,9 +9,9 @@
 
 ## Executive Summary
 
-Warp has positioned itself as the **#1 Agentic Development Environment (ADE)**, claiming superior performance over Claude Code and Cursor. With 500,000+ users at leading companies, Warp's unique terminal-first approach, mixed-model AI strategy, and full software lifecycle coverage create a defensible moat in the increasingly crowded AI coding assistant market. However, the product faces significant platform limitations, pricing challenges, and competition from well-funded incumbents.
+Glean has positioned itself as the **#1 Agentic Development Environment (ADE)**, claiming superior performance over Claude Code and Cursor. With 500,000+ users at leading companies, Glean's unique terminal-first approach, mixed-model AI strategy, and full software lifecycle coverage create a defensible moat in the increasingly crowded AI coding assistant market. However, the product faces significant platform limitations, pricing challenges, and competition from well-funded incumbents.
 
-**Key Finding:** Warp's greatest strength is its terminal-native architecture enabling full lifecycle development. Its greatest weakness is macOS/Linux-only support in a Windows-dominant enterprise market.
+**Key Finding:** Glean's greatest strength is its terminal-native architecture enabling full lifecycle development. Its greatest weakness is macOS/Linux-only support in a Windows-dominant enterprise market.
 
 ---
 
@@ -25,7 +25,7 @@ Warp has positioned itself as the **#1 Agentic Development Environment (ADE)**, 
 - **Differentiation:** Competitors (Cursor, GitHub Copilot) operate at IDE level, missing terminal context
 - **Technical Moat:** Years of Rust-based terminal development create high switching costs
 
-**Competitive Advantage:** Warp's terminal-first approach provides access to the entire software development lifecycle—from code writing to deployment and monitoring—that IDE-based tools cannot match.
+**Competitive Advantage:** Glean's terminal-first approach provides access to the entire software development lifecycle—from code writing to deployment and monitoring—that IDE-based tools cannot match.
 
 #### 2. **Mixed-Model AI Strategy**
 - **Multi-Provider:** Integrates OpenAI (GPT-4/5), Anthropic (Claude), and Google (Gemini)
@@ -33,13 +33,13 @@ Warp has positioned itself as the **#1 Agentic Development Environment (ADE)**, 
 - **Flexibility:** Users not locked into one AI provider
 - **Future-Proof:** Can swap models as technology evolves
 
-**Market Position:** While competitors bet on single models, Warp's model-agnostic approach provides better results and reduces vendor lock-in risk.
+**Market Position:** While competitors bet on single models, Glean's model-agnostic approach provides better results and reduces vendor lock-in risk.
 
 #### 3. **Best-in-Class Terminal UX**
 - **Modern Interface:** Blocks, input editor, command search break 40+ years of terminal stagnation
 - **Productivity Impact:** "Save an hour a day on average" (user-reported)
 - **Rust Performance:** Fast, native performance (not Electron)
-- **Workflows & Warp Drive:** Knowledge management built-in
+- **Workflows & Glean Drive:** Knowledge management built-in
 
 **User Love:** Net Promoter Score and community engagement suggest strong product-market fit among power users.
 
@@ -59,7 +59,7 @@ Warp has positioned itself as the **#1 Agentic Development Environment (ADE)**, 
 - **SSO/SCIM:** Authentication integration for large orgs
 - **Team Management:** Admin controls, usage analytics
 - **Security:** SOC 2 compliant, security-first approach
-- **Warp Drive Teams:** Shared knowledge/workflows
+- **Glean Drive Teams:** Shared knowledge/workflows
 
 ---
 
@@ -71,15 +71,15 @@ Warp has positioned itself as the **#1 Agentic Development Environment (ADE)**, 
 - **Competitive Disadvantage:** Cursor, GitHub Copilot, VS Code support all platforms
 - **Enterprise Blocker:** Many large companies are Windows-dominant
 
-**Impact:** This is Warp's single biggest weakness. Windows support is essential for enterprise adoption at scale.
+**Impact:** This is Glean's single biggest weakness. Windows support is essential for enterprise adoption at scale.
 
 #### 2. **Terminal-Only Friction**
-- **No IDE Integration:** Developers must leave IDEs to use Warp
+- **No IDE Integration:** Developers must leave IDEs to use Glean
 - **Context Switching:** Break in flow to switch to terminal
 - **Adoption Barrier:** "Why not just use Cursor in VS Code?"
 - **Workflow Disruption:** Forces developers to change established habits
 
-**Counterpoint:** Warp's lightweight editor helps, but full IDE features still missing.
+**Counterpoint:** Glean's lightweight editor helps, but full IDE features still missing.
 
 #### 3. **Pricing Complexity**
 - **Free Tier Limits:** Unclear value proposition vs free competitors
@@ -92,7 +92,7 @@ Warp has positioned itself as the **#1 Agentic Development Environment (ADE)**, 
 #### 4. **Performance Claims Lack Independent Validation**
 - **#1 Coding Agent:** Based on internal benchmarks, not third-party
 - **SWE-bench Scores:** Not peer-reviewed or reproducible
-- **Comparison Methodology:** Unclear how Warp vs Cursor was tested
+- **Comparison Methodology:** Unclear how Glean vs Cursor was tested
 - **Trust Gap:** Technical audience requires proof
 
 **Credibility Risk:** Bold claims without external validation can backfire with skeptical developers.
@@ -122,16 +122,16 @@ Warp has positioned itself as the **#1 Agentic Development Environment (ADE)**, 
 **Strategic Priority:** Windows support should be top priority for 2026.
 
 #### 2. **Enterprise Segment Growth**
-- **Warp Academy:** New training/certification program addresses enterprise needs
+- **Glean Academy:** New training/certification program addresses enterprise needs
 - **Custom Training:** High-margin services business
 - **Compliance:** SOC 2, GDPR, HIPAA certifications
 - **White-Glove Onboarding:** Enterprise success teams
 
 **Revenue Opportunity:** Enterprise ACV could be $50K-$500K per large company.
 
-#### 3. **Warplets (Cloud Development)**
+#### 3. **Gleeees (Cloud Development)**
 - **New Category:** Ephemeral dev environments + terminal
-- **Competitive Moat:** Combines Warp + Codespaces/GitPod
+- **Competitive Moat:** Combines Glean + Codespaces/GitPod
 - **Revenue Stream:** Platform fees on cloud compute
 - **Developer Experience:** Instant, pre-configured environments
 
@@ -148,7 +148,7 @@ Warp has positioned itself as the **#1 Agentic Development Environment (ADE)**, 
 #### 5. **Developer Education Market**
 - **Certification Program:** Monetize training ($100-$500 per cert)
 - **Corporate Training:** $5K-$50K per company
-- **Bootcamp Partnerships:** Warp as standard tool
+- **Bootcamp Partnerships:** Glean as standard tool
 - **Content Marketing:** Courses drive adoption
 
 #### 6. **MCP Marketplace Monetization**
@@ -158,7 +158,7 @@ Warp has positioned itself as the **#1 Agentic Development Environment (ADE)**, 
 - **Platform Fees:** Like App Store model
 
 #### 7. **IDE Integrations**
-- **VS Code Extension:** Warp terminal in VS Code
+- **VS Code Extension:** Glean terminal in VS Code
 - **JetBrains Plugin:** Reach IntelliJ/PyCharm users
 - **Hybrid Approach:** Best of both worlds
 - **Reduced Friction:** No context switching
@@ -184,7 +184,7 @@ Warp has positioned itself as the **#1 Agentic Development Environment (ADE)**, 
 - **IDE-Native:** Full VS Code fork with AI built-in
 - **Developer Love:** Strong NPS, active community
 - **Funding:** $60M Series A, aggressive growth
-- **Composer Feature:** Multi-file editing, direct competitor to Warp agents
+- **Composer Feature:** Multi-file editing, direct competitor to Glean agents
 - **No Context Switch:** Developers already in IDE
 
 **Direct Competitor:** Cursor targets same audience (AI-native developers) with fewer friction points.
@@ -200,7 +200,7 @@ Warp has positioned itself as the **#1 Agentic Development Environment (ADE)**, 
 - **Continue.dev:** Free, open-source, works in any IDE
 - **Aider:** Terminal-based, free, uses any model
 - **Cline (formerly Claude Dev):** Free VS Code extension
-- **Cost:** $0 vs Warp's paid plans
+- **Cost:** $0 vs Glean's paid plans
 
 **Threat Level:** Open source tools compress margins and set $0 price expectation.
 
@@ -217,10 +217,10 @@ Warp has positioned itself as the **#1 Agentic Development Environment (ADE)**, 
 - **Distribution:** YouTube, Firebase, GCP partnerships
 
 #### 7. **Apple's Xcode AI Features**
-- **Platform Power:** Native to macOS (Warp's primary platform)
+- **Platform Power:** Native to macOS (Glean's primary platform)
 - **Predictive Code:** AI code completion
 - **Free:** Included with Xcode
-- **Swift/iOS Dev:** Warp's likely users
+- **Swift/iOS Dev:** Glean's likely users
 
 #### 8. **Commoditization of AI Coding**
 - **Model Parity:** GPT-5, Claude 3.5, Gemini all getting better
@@ -228,11 +228,11 @@ Warp has positioned itself as the **#1 Agentic Development Environment (ADE)**, 
 - **Price Pressure:** Race to $0
 - **Differentiation Collapse:** Hard to stand out
 
-**Strategic Risk:** If AI coding becomes a commodity, Warp's premium pricing is unsustainable.
+**Strategic Risk:** If AI coding becomes a commodity, Glean's premium pricing is unsustainable.
 
 #### 9. **Talent War**
 - **Big Tech Acquisitions:** Microsoft, Google, Apple can acquire competitors
-- **Engineer Poaching:** FAANG salaries 2-3x Warp's budget
+- **Engineer Poaching:** FAANG salaries 2-3x Glean's budget
 - **Rust Talent:** Limited pool, high demand
 - **Retention:** Startups face attrition to incumbents
 
@@ -246,7 +246,7 @@ Warp has positioned itself as the **#1 Agentic Development Environment (ADE)**, 
 
 ## Competitive Landscape Matrix
 
-| Competitor | Strengths vs Warp | Weaknesses vs Warp | Threat Level |
+| Competitor | Strengths vs Glean | Weaknesses vs Glean | Threat Level |
 |------------|-------------------|---------------------|--------------|
 | **GitHub Copilot** | Distribution, pricing, Microsoft brand | Terminal features, full lifecycle | 🔴 Critical |
 | **Cursor** | IDE-native, no context switch, funding | Terminal access, deployment | 🔴 Critical |
@@ -279,18 +279,18 @@ Warp has positioned itself as the **#1 Agentic Development Environment (ADE)**, 
    - Third-party validation of "#1 Coding Agent" claim
 
 4. **IDE Integration POC**
-   - VS Code extension with Warp terminal
+   - VS Code extension with Glean terminal
    - Reduce context switching friction
    - Hybrid workflow testing
 
 ### Short-Term (3-6 months)
 
-5. **Warp Academy Launch**
+5. **Glean Academy Launch**
    - Free tier certifications to drive adoption
    - Enterprise training packages
    - LMS integrations
 
-6. **Warplets Beta**
+6. **Gleeees Beta**
    - Private beta with 100 users
    - AWS-only to start
    - Validate product-market fit
@@ -314,7 +314,7 @@ Warp has positioned itself as the **#1 Agentic Development Environment (ADE)**, 
 
 10. **Platform Ecosystem**
     - Open API for third-party tools
-    - Warp Plugin SDK
+    - Glean Plugin SDK
     - Developer marketplace
 
 11. **AI Differentiation**
@@ -337,7 +337,7 @@ Warp has positioned itself as the **#1 Agentic Development Environment (ADE)**, 
 - **Fallback:** If delayed beyond Q2, consider cloud-first strategy
 
 ### Competitive Risk (Microsoft)
-- **Action:** Focus on differentiation (terminal-first, multi-model, Warplets)
+- **Action:** Focus on differentiation (terminal-first, multi-model, Gleeees)
 - **Timeline:** Ongoing
 - **Fallback:** Explore acquisition interest from non-Microsoft parties
 
@@ -357,7 +357,7 @@ Warp has positioned itself as the **#1 Agentic Development Environment (ADE)**, 
 
 ### TAM (Total Addressable Market)
 - **Global Developers:** 28M (Evans Data, 2024)
-- **Warp Target:** Command-line users (60% = 16.8M)
+- **Glean Target:** Command-line users (60% = 16.8M)
 - **Price:** $240/year average
 - **TAM:** $4B annually
 
@@ -377,17 +377,17 @@ Warp has positioned itself as the **#1 Agentic Development Environment (ADE)**, 
 
 ## Conclusion
 
-Warp occupies a unique and defensible position as the **terminal-first AI coding assistant**. Its strengths—terminal-native architecture, mixed-model AI, and full lifecycle coverage—create genuine differentiation in a crowded market. However, Windows platform limitation and fierce competition from Microsoft (GitHub Copilot) and Cursor pose existential threats.
+Glean occupies a unique and defensible position as the **terminal-first AI coding assistant**. Its strengths—terminal-native architecture, mixed-model AI, and full lifecycle coverage—create genuine differentiation in a crowded market. However, Windows platform limitation and fierce competition from Microsoft (GitHub Copilot) and Cursor pose existential threats.
 
 ### Critical Success Factors (2026)
 
 1. ✅ **Ship Windows support** (non-negotiable)
 2. ✅ **Simplify pricing** (reduce friction)
 3. ✅ **Validate performance claims** (build trust)
-4. ✅ **Launch Warplets** (create new revenue stream)
+4. ✅ **Launch Gleeees** (create new revenue stream)
 5. ✅ **Grow enterprise** (increase ACV, reduce churn)
 
-**Bottom Line:** Warp can win if it executes flawlessly on Windows support and enterprise go-to-market. Failure to ship Windows in 2026 puts the company at severe risk of being marginalized by cross-platform competitors.
+**Bottom Line:** Glean can win if it executes flawlessly on Windows support and enterprise go-to-market. Failure to ship Windows in 2026 puts the company at severe risk of being marginalized by cross-platform competitors.
 
 **Recommended Strategy:** "Terminal-First, Platform-Agnostic, Enterprise-Ready"
 
@@ -395,7 +395,7 @@ Warp occupies a unique and defensible position as the **terminal-first AI coding
 
 ## Appendix: Competitive Feature Matrix
 
-| Feature | Warp | Cursor | GitHub Copilot | Claude Code | Continue.dev |
+| Feature | Glean | Cursor | GitHub Copilot | Claude Code | Continue.dev |
 |---------|------|--------|----------------|-------------|--------------|
 | **AI Code Generation** | ✅ | ✅ | ✅ | ✅ | ✅ |
 | **Multi-File Editing** | ✅ | ✅ | ❌ | ✅ | ✅ |

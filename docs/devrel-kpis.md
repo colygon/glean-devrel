@@ -1,8 +1,8 @@
-# Warp DevRel KPIs & Success Metrics
+# Glean DevRel KPIs & Success Metrics
 
 ## Executive Summary
 
-This document defines key performance indicators (KPIs) for Warp's Developer Relations program. Metrics are organized into three tiers: **North Star Metrics** (business impact), **Program Metrics** (initiative health), and **Activity Metrics** (operational execution).
+This document defines key performance indicators (KPIs) for Glean's Developer Relations program. Metrics are organized into three tiers: **North Star Metrics** (business impact), **Program Metrics** (initiative health), and **Activity Metrics** (operational execution).
 
 **Philosophy:** DevRel success is measured by community health, developer adoption, and ecosystem growth—ultimately driving product improvement and business outcomes.
 
@@ -21,7 +21,7 @@ These benchmarks inform our targets and demonstrate achievability.
 ## North Star Metrics
 
 ### 1. Active Community Members
-**Definition:** Developers who engage with Warp DevRel programs monthly
+**Definition:** Developers who engage with Glean DevRel programs monthly
 
 **Measurement:**
 - Discord active users (posted/reacted in last 30 days)
@@ -41,13 +41,13 @@ These benchmarks inform our targets and demonstrate achievability.
 ---
 
 ### 2. Developer Adoption Rate
-**Definition:** New Warp users attributed to DevRel efforts
+**Definition:** New Glean users attributed to DevRel efforts
 
 **Measurement:**
 - Sign-ups with DevRel referral codes
 - Workshop → Installation conversion
 - Community-driven installations (tracked via UTM)
-- MCP server installs → Warp downloads
+- MCP server installs → Glean downloads
 
 **Targets:**
 - Month 3: 500 new users
@@ -64,7 +64,7 @@ These benchmarks inform our targets and demonstrate achievability.
 
 **Measurement:**
 - MCP servers published (weighted by downloads)
-- GitHub contributions to Warp ecosystem
+- GitHub contributions to Glean ecosystem
 - Tutorials/content created (weighted by views)
 - Bounties completed ($)
 - Extensions published
@@ -75,7 +75,7 @@ These benchmarks inform our targets and demonstrate achievability.
 - Month 12: 1,000 contributions
 - Year 2: 5,000 contributions
 
-**Why It Matters:** Healthy ecosystem reduces Warp's engineering burden and increases product value
+**Why It Matters:** Healthy ecosystem reduces Glean's engineering burden and increases product value
 
 ---
 
@@ -84,7 +84,7 @@ These benchmarks inform our targets and demonstrate achievability.
 
 **Measurement:**
 - Track cohorts from DevRel sources
-- Monitor Warp usage (logins, commands run)
+- Monitor Glean usage (logins, commands run)
 - Survey at 30/60/90 day marks
 
 **Targets:**
@@ -97,7 +97,7 @@ These benchmarks inform our targets and demonstrate achievability.
 ---
 
 ### 5. Net Promoter Score (NPS)
-**Definition:** Community satisfaction and likelihood to recommend Warp
+**Definition:** Community satisfaction and likelihood to recommend Glean
 
 **Measurement:**
 - Quarterly NPS surveys
@@ -413,14 +413,14 @@ utm_content=[specific-initiative]
 
 **Acquisition → Activation → Retention → Referral**
 
-1. **Acquisition**: How did they find Warp?
+1. **Acquisition**: How did they find Glean?
    - DevRel event/content
    - Community referral
    - Organic search
    - Paid marketing
 
 2. **Activation**: First meaningful action
-   - Install Warp
+   - Install Glean
    - Complete first workflow
    - Join Discord
    - Attend workshop
@@ -579,4 +579,4 @@ Test and optimize:
 
 ---
 
-**Questions or feedback?** Contact devrel@warp.dev
+**Questions or feedback?** Contact devrel@glean.dev

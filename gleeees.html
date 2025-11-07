@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Warplets - Deploy Cloud Dev Environments</title>
+    <title>Gleeees - Deploy Cloud Dev Environments</title>
     <style>
         * {
             margin: 0;
@@ -439,14 +439,14 @@
     <div class="container">
         <header>
             <a href="index.html" class="back-link">← Back to Portal</a>
-        <h1>🚀 Warplets</h1>
+        <h1>🚀 Gleeees</h1>
         <p class="subtitle">Deploy instant cloud development environments with one command</p>
         </header>
 
         <div class="main-content">
             <!-- Deploy Panel -->
             <div class="deploy-panel">
-                <h2>Deploy a Warplet</h2>
+                <h2>Deploy a Gleeee</h2>
                 
                 <form id="deployForm">
                     <div class="form-group">
@@ -482,7 +482,7 @@
                     </div>
 
                     <button type="submit" class="deploy-button" id="deployBtn">
-                        🚀 Deploy Warplet
+                        🚀 Deploy Gleeee
                     </button>
                 </form>
             </div>
@@ -491,7 +491,7 @@
             <div class="status-panel">
                 <h2>Deployment Status</h2>
                 <div id="statusContent" class="status-empty">
-                    <p>👆 Enter a prompt and click Deploy to create your Warplet</p>
+                    <p>👆 Enter a prompt and click Deploy to create your Gleeee</p>
                 </div>
             </div>
         </div>
@@ -503,22 +503,22 @@
                 <div class="quick-template" data-prompt="Create a Python FastAPI environment with PostgreSQL, Redis, and async workers for building a production REST API">
                     <h3>🚀 Production API</h3>
                     <p>FastAPI + PostgreSQL + Redis + Workers</p>
-                    <code>$ warp deploy --template production-api</code>
+                    <code>$ glean deploy --template production-api</code>
                 </div>
                 <div class="quick-template" data-prompt="Set up a Next.js 14 app with TypeScript, Tailwind CSS, and Vercel deployment ready">
                     <h3>⚡ Next.js Full Stack</h3>
                     <p>Next.js 14 + TypeScript + Tailwind</p>
-                    <code>$ warp deploy --template nextjs-ts</code>
+                    <code>$ glean deploy --template nextjs-ts</code>
                 </div>
                 <div class="quick-template" data-prompt="Create a machine learning environment with Python, Jupyter, TensorFlow, PyTorch, and GPU support">
                     <h3>🤖 ML/AI Workspace</h3>
                     <p>Python + Jupyter + TF + PyTorch</p>
-                    <code>$ warp deploy --template ml-gpu</code>
+                    <code>$ glean deploy --template ml-gpu</code>
                 </div>
                 <div class="quick-template" data-prompt="Deploy a Go microservice with gRPC, PostgreSQL, and Docker compose for local development">
                     <h3>🐹 Go Microservice</h3>
                     <p>Go + gRPC + PostgreSQL + Docker</p>
-                    <code>$ warp deploy --template go-grpc</code>
+                    <code>$ glean deploy --template go-grpc</code>
                 </div>
             </div>
         </div>
@@ -579,7 +579,7 @@
                         <p>Configuring environment</p>
                     </div>
                     <div class="status-step" id="step4">
-                        <h3><span>⏳</span> Starting Warp Agent...</h3>
+                        <h3><span>⏳</span> Starting Glean Agent...</h3>
                         <p>Initializing remote SSH</p>
                     </div>
                 </div>
@@ -590,7 +590,7 @@
 
             // Re-enable button
             deployBtn.disabled = false;
-            deployBtn.textContent = '🚀 Deploy Warplet';
+            deployBtn.textContent = '🚀 Deploy Gleeee';
         });
 
         async function simulateDeployment(prompt) {
@@ -628,10 +628,10 @@
         }
 
         function showConnectionInfo() {
-            const warpletId = generateId();
-            const sshHost = `warplet-${warpletId}.warp.dev`;
+            const gleeeeId = generateId();
+            const sshHost = `gleeee-${gleeeeId}.glean.dev`;
             const sshUser = 'dev';
-            const sshCommand = `warp ssh ${sshUser}@${sshHost}`;
+            const sshCommand = `glean ssh ${sshUser}@${sshHost}`;
 
             // Fade out and hide the build steps
             const deploymentStatus = document.querySelector('.deployment-status');
@@ -642,10 +642,10 @@
                 setTimeout(() => {
                     document.getElementById('statusContent').innerHTML = `
                         <div class="connection-info">
-                    <h3>🎉 Warplet Deployed Successfully!</h3>
+                    <h3>🎉 Gleeee Deployed Successfully!</h3>
                     
                     <div class="connection-command">
-                        <div style="margin-bottom: 0.5rem; color: var(--text-dim); font-size: 0.85rem;">Connect via Warp:</div>
+                        <div style="margin-bottom: 0.5rem; color: var(--text-dim); font-size: 0.85rem;">Connect via Glean:</div>
                         <div style="color: var(--primary);">${sshCommand}</div>
                         <button class="copy-button" onclick="copyCommand('${sshCommand}')">Copy</button>
                     </div>
@@ -658,8 +658,8 @@
 
                     <div style="margin-top: 1rem;">
                         <div class="info-item">
-                            <span class="info-label">Warplet ID</span>
-                            <span class="info-value">${warpletId}</span>
+                            <span class="info-label">Gleeee ID</span>
+                            <span class="info-value">${gleeeeId}</span>
                         </div>
                         <div class="info-item">
                             <span class="info-label">Status</span>
@@ -682,7 +682,7 @@
                     <div style="margin-top: 1rem; padding: 1rem; background: rgba(255, 184, 0, 0.1); border-radius: 4px; font-size: 0.85rem;">
                         <strong>💡 Next Steps:</strong><br>
                         1. Copy the SSH command above<br>
-                        2. Open Warp terminal<br>
+                        2. Open Glean terminal<br>
                         3. Paste and run the command<br>
                         4. Start coding with AI agents!
                     </div>

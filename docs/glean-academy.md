@@ -1,14 +1,14 @@
-# Warp Academy - Enterprise Training & Certification
+# Glean Academy - Enterprise Training & Certification
 
 ## Overview
 
-Warp Academy is our comprehensive enterprise training program designed to help organizations maximize productivity and accelerate adoption of Warp across their engineering teams. From structured learning paths to custom training and professional certifications, we provide everything enterprises need to successfully deploy Warp at scale.
+Glean Academy is our comprehensive enterprise training program designed to help organizations maximize productivity and accelerate adoption of Glean across their engineering teams. From structured learning paths to custom training and professional certifications, we provide everything enterprises need to successfully deploy Glean at scale.
 
 ## Training Programs
 
 ### 1. Live Webinars
 
-Monthly live interactive sessions with Warp experts and Q&A.
+Monthly live interactive sessions with Glean experts and Q&A.
 
 **Schedule**: First Wednesday of every month, 2:00 PM PT  
 **Duration**: 90 minutes (60 min presentation + 30 min Q&A)  
@@ -17,7 +17,7 @@ Monthly live interactive sessions with Warp experts and Q&A.
 
 #### Upcoming Webinars (Q1 2026)
 
-**January 8, 2026 - Warp for Engineering Teams**
+**January 8, 2026 - Glean for Engineering Teams**
 - Onboarding best practices
 - Team workflows and collaboration
 - Admin controls and security
@@ -35,17 +35,17 @@ Monthly live interactive sessions with Warp experts and Q&A.
 - Integration with CI/CD pipelines
 - Metrics and adoption tracking
 
-[Register for Webinars](https://academy.warp.dev/webinars)
+[Register for Webinars](https://academy.glean.dev/webinars)
 
 ---
 
 ### 2. Certification Program
 
-Professional certifications to validate Warp expertise and demonstrate proficiency.
+Professional certifications to validate Glean expertise and demonstrate proficiency.
 
 #### Available Certifications
 
-**Warp Certified User**
+**Glean Certified User**
 - **Level**: Beginner
 - **Duration**: 2-3 hours
 - **Format**: Self-paced online learning + assessment
@@ -54,7 +54,7 @@ Professional certifications to validate Warp expertise and demonstrate proficien
 - **Cost**: Free
 - **Renewal**: None required
 
-**Warp Certified Power User**
+**Glean Certified Power User**
 - **Level**: Intermediate
 - **Duration**: 8-10 hours
 - **Format**: Structured learning path + hands-on labs + assessment
@@ -63,7 +63,7 @@ Professional certifications to validate Warp expertise and demonstrate proficien
 - **Cost**: $99 (Free for Enterprise customers)
 - **Renewal**: Every 2 years
 
-**Warp Certified Administrator**
+**Glean Certified Administrator**
 - **Level**: Advanced
 - **Duration**: 12-15 hours
 - **Format**: Advanced learning path + scenario-based labs + proctored exam
@@ -72,7 +72,7 @@ Professional certifications to validate Warp expertise and demonstrate proficien
 - **Cost**: $299 (Free for Enterprise customers)
 - **Renewal**: Annually
 
-**Warp Certified MCP Developer**
+**Glean Certified MCP Developer**
 - **Level**: Expert
 - **Duration**: 20+ hours
 - **Format**: Technical deep-dive + portfolio project + code review
@@ -90,7 +90,7 @@ Professional certifications to validate Warp expertise and demonstrate proficien
 ✅ Certificate suitable for framing  
 ✅ CPE credits (where applicable)
 
-[Explore Certifications](https://academy.warp.dev/certifications)
+[Explore Certifications](https://academy.glean.dev/certifications)
 
 ---
 
@@ -136,7 +136,7 @@ Curated curricula with guided progression from beginner to expert.
 - Debugging workflows
 - Getting help
 
-**Assessment**: Warp Certified User exam
+**Assessment**: Glean Certified User exam
 
 ---
 
@@ -178,7 +178,7 @@ Curated curricula with guided progression from beginner to expert.
 - Version management
 - Community support
 
-**Assessment**: Warp Certified MCP Developer portfolio project
+**Assessment**: Glean Certified MCP Developer portfolio project
 
 ---
 
@@ -188,7 +188,7 @@ Tailored training programs for your organization's specific needs.
 
 #### On-Site Training
 
-Bring Warp experts to your office for immersive, hands-on training.
+Bring Glean experts to your office for immersive, hands-on training.
 
 **Formats Available:**
 - Half-day workshops (4 hours)
@@ -234,8 +234,8 @@ Enable your internal champions to train other employees.
 - 2-day intensive facilitator training
 - Complete training materials and slide decks
 - Facilitator guide with teaching notes
-- Access to updated content as Warp evolves
-- Ongoing support from Warp Academy team
+- Access to updated content as Glean evolves
+- Ongoing support from Glean Academy team
 
 **Ideal For:**
 - Learning & Development teams
@@ -245,7 +245,7 @@ Enable your internal champions to train other employees.
 
 **Pricing:** $15,000 (includes up to 5 trainers)
 
-[Request Custom Training](https://academy.warp.dev/custom-training)
+[Request Custom Training](https://academy.glean.dev/custom-training)
 
 ---
 
@@ -257,13 +257,13 @@ Structured 30-day onboarding program for new enterprise customers.
 
 **Week 1: Foundation**
 - Kickoff call with Customer Success Manager
-- Access to Warp Academy platform
+- Access to Glean Academy platform
 - Admin setup and configuration
 - Initial team training session (2 hours)
 
 **Week 2: Adoption**
 - Self-paced learning assignments
-- Office hours with Warp experts (2 sessions)
+- Office hours with Glean experts (2 sessions)
 - Early adopter feedback collection
 
 **Week 3: Optimization**
@@ -313,7 +313,7 @@ Learners can track their own journey:
 
 ### Integration with LMS
 
-Warp Academy integrates with popular Learning Management Systems:
+Glean Academy integrates with popular Learning Management Systems:
 
 - **Supported**: Workday Learning, Cornerstone, SAP SuccessFactors, Docebo, TalentLMS
 - **Features**: SSO, grade passback, completion tracking, SCORM compliance
@@ -345,7 +345,7 @@ Warp Academy integrates with popular Learning Management Systems:
 
 **Quarterly sessions for leadership:**
 - Developer productivity trends
-- Warp adoption case studies
+- Glean adoption case studies
 - ROI measurement frameworks
 - Competitive landscape
 - Roadmap previews
@@ -356,12 +356,12 @@ Warp Academy integrates with popular Learning Management Systems:
 
 ### Individual (Self-Service)
 
-- **Warp University (videos)**: Free
+- **Glean University (videos)**: Free
 - **Webinar attendance**: Free
-- **Warp Certified User**: Free
-- **Warp Certified Power User**: $99
-- **Warp Certified Administrator**: $299
-- **Warp Certified MCP Developer**: $499
+- **Glean Certified User**: Free
+- **Glean Certified Power User**: $99
+- **Glean Certified Administrator**: $299
+- **Glean Certified MCP Developer**: $499
 
 ### Enterprise (Team Plans)
 
@@ -384,14 +384,14 @@ Warp Academy integrates with popular Learning Management Systems:
 
 ### For Individuals
 
-1. Create free account at [academy.warp.dev](https://academy.warp.dev)
+1. Create free account at [academy.glean.dev](https://academy.glean.dev)
 2. Browse learning paths
 3. Start with beginner courses
 4. Progress to certification
 
 ### For Enterprises
 
-1. Contact sales: [academy.warp.dev/enterprise](https://academy.warp.dev/enterprise)
+1. Contact sales: [academy.glean.dev/enterprise](https://academy.glean.dev/enterprise)
 2. Schedule needs assessment
 3. Receive custom training plan
 4. Launch onboarding program
@@ -402,7 +402,7 @@ Warp Academy integrates with popular Learning Management Systems:
 
 ### TechCorp (5,000 engineers)
 
-> "Warp Academy's train-the-trainer program enabled us to scale adoption across 50 engineering teams in just 6 weeks. Our productivity metrics show 25% faster command execution and significantly reduced context switching."
+> "Glean Academy's train-the-trainer program enabled us to scale adoption across 50 engineering teams in just 6 weeks. Our productivity metrics show 25% faster command execution and significantly reduced context switching."
 > 
 > — **Sarah Chen, VP Engineering**
 
@@ -414,7 +414,7 @@ Warp Academy integrates with popular Learning Management Systems:
 
 ### DataFlow Systems (300 engineers)
 
-> "The custom onboarding program was game-changing. Within 30 days, our entire engineering org was not just using Warp, but building custom MCP servers for our internal tools."
+> "The custom onboarding program was game-changing. Within 30 days, our entire engineering org was not just using Glean, but building custom MCP servers for our internal tools."
 > 
 > — **Marcus Johnson, CTO**
 
@@ -422,17 +422,17 @@ Warp Academy integrates with popular Learning Management Systems:
 - 100% adoption in 30 days
 - 12 internal MCP servers built
 - 8 certified MCP developers
-- Featured in Warp case studies
+- Featured in Glean case studies
 
 ---
 
 ## Support & Resources
 
-- **Email**: academy@warp.dev
-- **Slack**: #warp-academy channel
+- **Email**: academy@glean.dev
+- **Slack**: #glean-academy channel
 - **Office Hours**: Tuesdays 2-4pm PT
-- **Documentation**: [docs.warp.dev/academy](https://docs.warp.dev/academy)
-- **Status**: [status.academy.warp.dev](https://status.academy.warp.dev)
+- **Documentation**: [docs.glean.dev/academy](https://docs.glean.dev/academy)
+- **Status**: [status.academy.glean.dev](https://status.academy.glean.dev)
 
 ---
 
@@ -442,10 +442,10 @@ Warp Academy integrates with popular Learning Management Systems:
 A: Yes, all webinar recordings are available within 24 hours to registered attendees.
 
 **Q: How long are certifications valid?**  
-A: Warp Certified User never expires. Power User and Administrator certs expire after 2 years. MCP Developer expires after 2 years.
+A: Glean Certified User never expires. Power User and Administrator certs expire after 2 years. MCP Developer expires after 2 years.
 
 **Q: Can I get CPE credits for certifications?**  
-A: Yes, Warp certifications qualify for CPE credits. Details provided upon completion.
+A: Yes, Glean certifications qualify for CPE credits. Details provided upon completion.
 
 **Q: Do you offer group discounts for certifications?**  
 A: Yes! Contact sales for team pricing (10+ learners).
@@ -453,9 +453,9 @@ A: Yes! Contact sales for team pricing (10+ learners).
 **Q: Can we white-label the training for our internal university?**  
 A: Yes, this is available for Enterprise customers. Contact your CSM.
 
-**Q: How do I become a Warp Academy instructor?**  
-A: We're always looking for community experts! Email academy@warp.dev with your background and proposed topics.
+**Q: How do I become a Glean Academy instructor?**  
+A: We're always looking for community experts! Email academy@glean.dev with your background and proposed topics.
 
 ---
 
-**Transform your team into Warp experts. Start learning today.** 🎓
+**Transform your team into Glean experts. Start learning today.** 🎓

@@ -1,10 +1,10 @@
-# Warp MCP Marketplace
+# Glean MCP Marketplace
 
 ## Overview
 
-The Warp MCP Marketplace is a curated, secure platform for discovering and installing Model Context Protocol (MCP) servers and Warp extensions. Every listing is verified, audited, and tested to ensure quality and security.
+The Glean MCP Marketplace is a curated, secure platform for discovering and installing Model Context Protocol (MCP) servers and Glean extensions. Every listing is verified, audited, and tested to ensure quality and security.
 
-🛒 **[Browse the Marketplace](https://marketplace.warp.dev)**
+🛒 **[Browse the Marketplace](https://marketplace.glean.dev)**
 
 ## What is MCP?
 
@@ -28,7 +28,7 @@ Model Context Protocol (MCP) is an open standard that enables AI assistants to s
 - Sort by popularity/ratings
 
 **⚡ One-Click Install**
-- Install directly from Warp
+- Install directly from Glean
 - Automatic dependency management
 - Configuration wizard
 - Update notifications
@@ -181,7 +181,7 @@ Create `mcp-manifest.json`:
   "category": "Development Tools",
   "tags": ["git", "github", "version-control"],
   "compatibility": {
-    "warp": ">=0.2024.01.01",
+    "glean": ">=0.2024.01.01",
     "mcp": ">=1.0.0"
   },
   "permissions": [
@@ -193,7 +193,7 @@ Create `mcp-manifest.json`:
 
 #### Step 2: Submit for Review
 
-1. **Create Account** on marketplace.warp.dev
+1. **Create Account** on marketplace.glean.dev
 2. **Submit Listing** with:
    - Repository URL
    - Manifest file
@@ -414,7 +414,7 @@ Publishers notified 30 days before removal (except security issues).
 ### Appeals
 
 Disagree with a decision?
-- Email: marketplace-appeals@warp.dev
+- Email: marketplace-appeals@glean.dev
 - Include: Listing name, decision, reasoning
 - Response within 7 days
 
@@ -423,16 +423,16 @@ Disagree with a decision?
 ### Installation Methods
 
 **Method 1: One-Click Install (Easiest)**
-1. Browse marketplace in Warp
+1. Browse marketplace in Glean
 2. Click "Install" on any listing
 3. Follow configuration wizard
 4. Start using immediately
 
 **Method 2: CLI Install**
 ```bash
-warp mcp install <server-name>
-warp mcp configure <server-name>
-warp mcp start <server-name>
+glean mcp install <server-name>
+glean mcp configure <server-name>
+glean mcp start <server-name>
 ```
 
 **Method 3: Manual Install**
@@ -447,22 +447,22 @@ npm install
 
 **List Installed**
 ```bash
-warp mcp list
+glean mcp list
 ```
 
 **Update Server**
 ```bash
-warp mcp update <server-name>
+glean mcp update <server-name>
 ```
 
 **Uninstall**
 ```bash
-warp mcp uninstall <server-name>
+glean mcp uninstall <server-name>
 ```
 
 **View Logs**
 ```bash
-warp mcp logs <server-name>
+glean mcp logs <server-name>
 ```
 
 ### Permissions & Security
@@ -478,9 +478,9 @@ warp mcp logs <server-name>
 - Network requests monitored
 
 **Report Issues**
-- Security vulnerabilities: security@warp.dev
+- Security vulnerabilities: security@glean.dev
 - Bugs: File issue on server's repository
-- Policy violations: marketplace-abuse@warp.dev
+- Policy violations: marketplace-abuse@glean.dev
 
 ## Marketplace Stats & Trends
 
@@ -505,27 +505,27 @@ _[This section will show current trending servers]_
 
 ### For Publishers
 - 📖 [MCP Specification](https://mcp.io/spec)
-- 🛠️ [Server Template Repository](https://github.com/warpdotdev/mcp-server-template)
-- 📚 [Publishing Guide](https://docs.warp.dev/mcp/publishing)
+- 🛠️ [Server Template Repository](https://github.com/gleandotdev/mcp-server-template)
+- 📚 [Publishing Guide](https://docs.glean.dev/mcp/publishing)
 - 💬 Discord: #mcp-development
 
 ### For Users
 - 🎓 [MCP Quick Start](../tutorials/mcp-quickstart.md)
-- 📖 [User Guide](https://docs.warp.dev/mcp/user-guide)
-- 🐛 [Troubleshooting](https://docs.warp.dev/mcp/troubleshooting)
+- 📖 [User Guide](https://docs.glean.dev/mcp/user-guide)
+- 🐛 [Troubleshooting](https://docs.glean.dev/mcp/troubleshooting)
 - 💬 Discord: #mcp-support
 
 ## Contact & Support
 
 **Publishers**
-- Email: marketplace@warp.dev
+- Email: marketplace@glean.dev
 - Discord: #marketplace-publishers
 - Office Hours: Every Friday 2-4pm PT
 
 **Users**
-- Support: support@warp.dev
+- Support: support@glean.dev
 - Discord: #marketplace-help
-- FAQ: [marketplace.warp.dev/faq](https://marketplace.warp.dev/faq)
+- FAQ: [marketplace.glean.dev/faq](https://marketplace.glean.dev/faq)
 
 ---
 

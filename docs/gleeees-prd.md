@@ -1,8 +1,8 @@
-# Warplets - Product Requirements Document
+# Gleeees - Product Requirements Document
 
 ## Executive Summary
 
-**Warplets** are pre-configured, ephemeral cloud environments that bring the full Warp terminal experience to remote development. Developers can deploy a Warplet (a Docker container with the Warp agent) to any cloud provider and instantly connect via SSH, inheriting all Warp features including AI assistance, workflows, and Warp Drive integration.
+**Gleeees** are pre-configured, ephemeral cloud environments that bring the full Glean terminal experience to remote development. Developers can deploy a Gleeee (a Docker container with the Glean agent) to any cloud provider and instantly connect via SSH, inheriting all Glean features including AI assistance, workflows, and Glean Drive integration.
 
 **Status:** Concept  
 **Version:** 1.0  
@@ -16,9 +16,9 @@
 ### Current Pain Points
 
 1. **Remote Development Friction**
-   - Developers working on remote servers lose Warp's AI features, input editor, and modern UX
+   - Developers working on remote servers lose Glean's AI features, input editor, and modern UX
    - Setting up development environments on cloud instances is time-consuming
-   - SSH sessions require manual Warpify setup every time
+   - SSH sessions require manual Gleanify setup every time
 
 2. **Inconsistent Development Environments**
    - Different team members have different local setups
@@ -30,18 +30,18 @@
    - No standardized way to manage development containers
    - Difficulty sharing configured environments with teammates
 
-4. **Warpify Adoption Barriers**
-   - Users don't know about Warpify or how to use it
+4. **Gleanify Adoption Barriers**
+   - Users don't know about Gleanify or how to use it
    - Manual setup required for each SSH connection
    - Limited to existing remote machines (not ephemeral)
 
 ### User Stories
 
 **As a developer, I want to:**
-- Instantly spin up a cloud dev environment with Warp pre-configured
+- Instantly spin up a cloud dev environment with Glean pre-configured
 - Work in a containerized environment that mirrors production
-- Share my exact development setup with teammates via Warp Drive
-- Automatically connect to cloud environments with full Warp features
+- Share my exact development setup with teammates via Glean Drive
+- Automatically connect to cloud environments with full Glean features
 - Destroy environments when done without leaving orphaned resources
 
 **As a team lead, I want to:**
@@ -52,42 +52,42 @@
 
 **As a DevOps engineer, I want to:**
 - Provide developers with pre-configured, secure environments
-- Integrate Warplets into CI/CD pipelines for testing
-- Manage Warplet templates with infrastructure-as-code
+- Integrate Gleeees into CI/CD pipelines for testing
+- Manage Gleeee templates with infrastructure-as-code
 - Monitor and control cloud resource consumption
 
 ---
 
-## Solution: Warplets
+## Solution: Gleeees
 
-### What is a Warplet?
+### What is a Gleeee?
 
-A **Warplet** is a containerized, cloud-hosted development environment that:
-- Runs a Docker container with Warp agent pre-installed
-- Auto-Warpifies on SSH connection (no manual setup)
-- Syncs with Warp Drive for workflows, prompts, and environment variables
+A **Gleeee** is a containerized, cloud-hosted development environment that:
+- Runs a Docker container with Glean agent pre-installed
+- Auto-Gleanifies on SSH connection (no manual setup)
+- Syncs with Glean Drive for workflows, prompts, and environment variables
 - Can be deployed to any cloud provider (AWS, GCP, Azure, DigitalOcean, Fly.io, Railway)
 - Is ephemeral by default (auto-destroys after inactivity)
-- Supports custom configurations via Warplet templates
+- Supports custom configurations via Gleeee templates
 
 ### How It Works
 
 ```
 ┌─────────────────────┐
-│  Warp Desktop App   │
+│  Glean Desktop App   │
 │  (macOS/Linux)      │
 └──────────┬──────────┘
            │
            │ SSH Connection
-           │ (Auto-Warpified)
+           │ (Auto-Gleanified)
            ↓
 ┌─────────────────────┐
-│     Warplet         │
+│     Gleeee         │
 │  ┌───────────────┐  │
 │  │ Docker        │  │
 │  │ Container     │  │
 │  │               │  │
-│  │ - Warp Agent  │  │
+│  │ - Glean Agent  │  │
 │  │ - Dev Tools   │  │
 │  │ - Your Code   │  │
 │  └───────────────┘  │
@@ -96,7 +96,7 @@ A **Warplet** is a containerized, cloud-hosted development environment that:
 │  (AWS/GCP/Azure)    │
 └─────────────────────┘
            ↕
-    Warp Drive Sync
+    Glean Drive Sync
   (Workflows, Prompts,
    Env Vars, Notebooks)
 ```
@@ -105,28 +105,28 @@ A **Warplet** is a containerized, cloud-hosted development environment that:
 
 #### 1. One-Command Deployment
 ```bash
-# Deploy a Warplet
-warp deploy --provider aws --region us-west-2
+# Deploy a Gleeee
+glean deploy --provider aws --region us-west-2
 
 # Deploy with a template
-warp deploy --template python-ml --provider gcp
+glean deploy --template python-ml --provider gcp
 
 # Deploy with custom config
-warp deploy --config ./warplet.yaml
+glean deploy --config ./gleeee.yaml
 ```
 
-#### 2. Auto-Warpify on Connect
-- No manual Warpify prompt
-- Warp agent runs automatically in container
-- Full Warp features available immediately (AI, input editor, blocks, workflows)
+#### 2. Auto-Gleanify on Connect
+- No manual Gleanify prompt
+- Glean agent runs automatically in container
+- Full Glean features available immediately (AI, input editor, blocks, workflows)
 
-#### 3. Warp Drive Integration
+#### 3. Glean Drive Integration
 - Automatically syncs your personal workflows, prompts, and env vars
-- Team Warplets sync team-wide resources from Warp Drive
-- Changes made in Warplet persist to Warp Drive
+- Team Gleeees sync team-wide resources from Glean Drive
+- Changes made in Gleeee persist to Glean Drive
 
 #### 4. Template Marketplace
-Pre-built Warplet templates for common use cases:
+Pre-built Gleeee templates for common use cases:
 - **Languages**: Python, Node.js, Go, Rust, Java
 - **Frameworks**: React, Django, Rails, Next.js
 - **Data Science**: Jupyter, PyTorch, TensorFlow
@@ -135,25 +135,25 @@ Pre-built Warplet templates for common use cases:
 
 #### 5. Lifecycle Management
 ```bash
-# List active Warplets
-warp list
+# List active Gleeees
+glean list
 
-# SSH into a Warplet
-warp connect my-warplet
+# SSH into a Gleeee
+glean connect my-gleeee
 
-# Pause a Warplet (stop but don't destroy)
-warp pause my-warplet
+# Pause a Gleeee (stop but don't destroy)
+glean pause my-gleeee
 
-# Destroy a Warplet
-warp destroy my-warplet
+# Destroy a Gleeee
+glean destroy my-gleeee
 
 # Auto-destroy after 2 hours of inactivity
-warp deploy --auto-destroy 2h
+glean deploy --auto-destroy 2h
 ```
 
 #### 6. Team Collaboration
-- Share Warplet templates via Warp Drive
-- Team admins can create/manage shared Warplets
+- Share Gleeee templates via Glean Drive
+- Team admins can create/manage shared Gleeees
 - Pre-configure team standards (tools, env vars, workflows)
 - Onboard new developers in <5 minutes
 
@@ -163,49 +163,49 @@ warp deploy --auto-destroy 2h
 
 ### Components
 
-#### 1. Warp Desktop Client
-- **Warplet Manager**: UI for deploying/managing Warplets
-- **Auto-SSH**: Automatically establishes SSH connection to deployed Warplet
-- **Sync Engine**: Bidirectional sync with Warp Drive
+#### 1. Glean Desktop Client
+- **Gleeee Manager**: UI for deploying/managing Gleeees
+- **Auto-SSH**: Automatically establishes SSH connection to deployed Gleeee
+- **Sync Engine**: Bidirectional sync with Glean Drive
 
-#### 2. Warp Agent (Remote)
-- Lightweight binary running in Warplet container
-- Handles Warpify protocol over SSH
+#### 2. Glean Agent (Remote)
+- Lightweight binary running in Gleeee container
+- Handles Gleanify protocol over SSH
 - Manages tmux sessions for multiplexing
-- Syncs with Warp Drive for resources
+- Syncs with Glean Drive for resources
 
-#### 3. Warplet Orchestrator (Cloud Service)
-- Manages Warplet deployments across providers
+#### 3. Gleeee Orchestrator (Cloud Service)
+- Manages Gleeee deployments across providers
 - Handles lifecycle (create, pause, destroy, auto-destroy)
 - Tracks resource usage and costs
 - Provides REST API for CLI/UI
 
 #### 4. Container Registry
-- Stores base Warplet images
+- Stores base Gleeee images
 - Hosts community and official templates
 - Supports private registry for enterprise
 
 ### Deployment Flow
 
-1. **User runs `warp deploy`**
-   - CLI sends request to Warplet Orchestrator
+1. **User runs `glean deploy`**
+   - CLI sends request to Gleeee Orchestrator
    - User's cloud credentials used (AWS IAM, GCP Service Account, etc.)
 
 2. **Orchestrator provisions infrastructure**
    - Creates cloud compute instance (EC2, GCE, etc.)
-   - Pulls Warplet Docker image from registry
+   - Pulls Gleeee Docker image from registry
    - Injects user's SSH public key
    - Configures networking and security groups
 
-3. **Container starts with Warp Agent**
-   - Warp agent initializes and registers with Warp Drive
+3. **Container starts with Glean Agent**
+   - Glean agent initializes and registers with Glean Drive
    - Downloads user's workflows, prompts, and env vars
    - Starts SSH server
 
-4. **Warp Desktop auto-connects**
+4. **Glean Desktop auto-connects**
    - SSH connection established automatically
-   - Warpify protocol activates (no prompt needed)
-   - User has full Warp experience in cloud environment
+   - Gleanify protocol activates (no prompt needed)
+   - User has full Glean experience in cloud environment
 
 5. **Lifecycle management**
    - Idle timeout starts counting (default: 1 hour)
@@ -215,34 +215,34 @@ warp deploy --auto-destroy 2h
 ### Technology Stack
 
 **Backend:**
-- Warplet Orchestrator: Go/Rust
+- Gleeee Orchestrator: Go/Rust
 - Container runtime: Docker
 - Cloud SDKs: AWS SDK, GCP SDK, Azure SDK, Terraform provider
 
 **Agent:**
-- Warp Agent: Rust (same as Warpify)
+- Glean Agent: Rust (same as Gleanify)
 - SSH server: OpenSSH
 - Multiplexer: tmux
 
 **Infrastructure:**
 - Container images: Docker Hub / private registry
 - Networking: Cloud VPC, security groups
-- Storage: Ephemeral (destroyed with Warplet) or persistent volumes (optional)
+- Storage: Ephemeral (destroyed with Gleeee) or persistent volumes (optional)
 
 ---
 
-## Warplet Configuration
+## Gleeee Configuration
 
-### Warplet Manifest (`warplet.yaml`)
+### Gleeee Manifest (`gleeee.yaml`)
 
 ```yaml
-# Warplet Configuration
+# Gleeee Configuration
 version: 1
-name: my-python-warplet
+name: my-python-gleeee
 description: Python 3.11 development environment
 
 # Base image
-image: warp/python:3.11
+image: glean/python:3.11
 
 # Cloud provider configuration
 provider: aws
@@ -260,11 +260,11 @@ ports:
 
 # Environment
 environment:
-  - DATABASE_URL: ${WARP_DRIVE_SECRET:db_url}
-  - API_KEY: ${WARP_DRIVE_SECRET:api_key}
+  - DATABASE_URL: ${GLEAN_DRIVE_SECRET:db_url}
+  - API_KEY: ${GLEAN_DRIVE_SECRET:api_key}
 
-# Warp Drive sync
-warp_drive:
+# Glean Drive sync
+glean_drive:
   sync_workflows: true
   sync_prompts: true
   sync_env_vars: true
@@ -294,20 +294,20 @@ budget_alert_email: devops@company.com
 ### Template Structure
 
 ```
-warplet-templates/
+gleeee-templates/
 ├── python/
-│   ├── warplet.yaml
+│   ├── gleeee.yaml
 │   ├── Dockerfile
-│   └── .warprc
+│   └── .gleanrc
 ├── node/
-│   ├── warplet.yaml
+│   ├── gleeee.yaml
 │   ├── Dockerfile
-│   └── .warprc
+│   └── .gleanrc
 ├── ml/
-│   ├── warplet.yaml
+│   ├── gleeee.yaml
 │   ├── Dockerfile
 │   ├── requirements.txt
-│   └── .warprc
+│   └── .gleanrc
 └── custom/
     └── (user-defined)
 ```
@@ -320,14 +320,14 @@ warplet-templates/
 
 #### Step 1: Choose or Create Template
 ```
-$ warp deploy
+$ glean deploy
 
-? Select a Warplet template:
+? Select a Gleeee template:
   > Python 3.11 Development
     Node.js 20 + TypeScript
     Go 1.21
     ML/AI (PyTorch + Jupyter)
-    Custom (use warplet.yaml)
+    Custom (use gleeee.yaml)
 
 ? Select cloud provider:
   > AWS (us-west-2)
@@ -339,7 +339,7 @@ $ warp deploy
 
 #### Step 2: Configure Options
 ```
-? Warplet name: my-python-env
+? Gleeee name: my-python-env
 ? Instance size: t3.medium ($0.04/hour)
 ? Auto-destroy after: 2 hours
 ? Share with team? No
@@ -349,22 +349,22 @@ $ warp deploy
 
 #### Step 3: Deploy
 ```
-🚀 Deploying Warplet "my-python-env"...
+🚀 Deploying Gleeee "my-python-env"...
 
   ✓ Validating cloud credentials
   ✓ Provisioning EC2 instance (i-0abc123)
-  ✓ Pulling Docker image warp/python:3.11
+  ✓ Pulling Docker image glean/python:3.11
   ✓ Starting container
   ✓ Configuring SSH access
-  ✓ Syncing Warp Drive resources
+  ✓ Syncing Glean Drive resources
   
-✅ Warplet deployed successfully!
+✅ Gleeee deployed successfully!
 
   Name:       my-python-env
   Provider:   AWS (us-west-2)
   Instance:   t3.medium
   Cost:       ~$0.04/hour
-  SSH:        warp-my-python-env.warp.dev
+  SSH:        glean-my-python-env.glean.dev
   Auto-destroy: 2 hours from now
   
 🔗 Connecting automatically...
@@ -372,16 +372,16 @@ $ warp deploy
 
 #### Step 4: Auto-Connect
 ```
-Warp automatically opens new tab with SSH connection:
+Glean automatically opens new tab with SSH connection:
 
 ┌─────────────────────────────────────────────────┐
-│ ⚡ my-python-env (Warplet) | AWS us-west-2     │
+│ ⚡ my-python-env (Gleeee) | AWS us-west-2     │
 ├─────────────────────────────────────────────────┤
 │                                                 │
-│ ubuntu@warplet:~/workspace$ █                   │
+│ ubuntu@gleeee:~/workspace$ █                   │
 │                                                 │
-│ 🎉 Connected to Warplet!                        │
-│ All Warp features are active.                   │
+│ 🎉 Connected to Gleeee!                        │
+│ All Glean features are active.                   │
 │ Auto-destroy in 2 hours.                        │
 │                                                 │
 └─────────────────────────────────────────────────┘
@@ -389,12 +389,12 @@ Warp automatically opens new tab with SSH connection:
 
 ### Management UI
 
-**In Warp Desktop:**
+**In Glean Desktop:**
 ```
-Warp → Warplets (⌘K → "Warplets")
+Glean → Gleeees (⌘K → "Gleeees")
 
 ┌─────────────────────────────────────────────────┐
-│ Your Warplets                     [+ New]       │
+│ Your Gleeees                     [+ New]       │
 ├─────────────────────────────────────────────────┤
 │                                                 │
 │ my-python-env                    🟢 Running     │
@@ -421,17 +421,17 @@ Total cost this month: $24.80
 ### MVP (Phase 1)
 
 **Must Have:**
-- ✅ Deploy Warplet to AWS (EC2)
-- ✅ Auto-Warpify on SSH connection
+- ✅ Deploy Gleeee to AWS (EC2)
+- ✅ Auto-Gleanify on SSH connection
 - ✅ Basic lifecycle management (deploy, connect, destroy)
 - ✅ 5 official templates (Python, Node, Go, Rust, Generic Linux)
-- ✅ Warp Drive sync (workflows, prompts)
+- ✅ Glean Drive sync (workflows, prompts)
 - ✅ Auto-destroy after configurable timeout
 - ✅ Cost estimation and tracking
-- ✅ CLI interface (`warp deploy`, `warp list`, etc.)
+- ✅ CLI interface (`glean deploy`, `glean list`, etc.)
 
 **Should Have:**
-- 🔄 Warplet Manager UI in Warp Desktop
+- 🔄 Gleeee Manager UI in Glean Desktop
 - 🔄 Port forwarding configuration
 - 🔄 Environment variable injection
 - 🔄 Basic monitoring (CPU, memory, uptime)
@@ -451,8 +451,8 @@ Total cost this month: $24.80
 - Cloud-agnostic cost tracking
 
 **Team Collaboration:**
-- Share Warplet templates via Warp Drive
-- Team-owned Warplets with access control
+- Share Gleeee templates via Glean Drive
+- Team-owned Gleeees with access control
 - Centralized team template library
 - Shared persistent storage
 
@@ -460,7 +460,7 @@ Total cost this month: $24.80
 - Pause/resume (stop instance, keep disk)
 - Scheduled auto-start (weekdays 9am)
 - Snapshots and restore
-- Clone Warplet to new instance
+- Clone Gleeee to new instance
 
 **Developer Experience:**
 - VS Code integration (open remote workspace)
@@ -471,16 +471,16 @@ Total cost this month: $24.80
 ### Phase 3 (Advanced)
 
 **CI/CD Integration:**
-- Deploy Warplets for PR previews
-- Run tests in isolated Warplets
+- Deploy Gleeees for PR previews
+- Run tests in isolated Gleeees
 - GitHub Actions integration
 - GitLab CI integration
 
 **Advanced Networking:**
 - VPC peering for database access
-- Private Warplets (no public IP)
+- Private Gleeees (no public IP)
 - Custom DNS
-- Load balancing for shared Warplets
+- Load balancing for shared Gleeees
 
 **Security & Compliance:**
 - SSO integration (Okta, Azure AD)
@@ -501,9 +501,9 @@ Total cost this month: $24.80
 ### Pricing
 
 **Individual Developers:**
-- **Free Tier**: 20 hours/month of Warplet usage (AWS t3.micro equivalent)
-- **Pro Tier** ($19/month): Unlimited Warplets, all instance types, priority support
-- **Pay-as-you-go**: Cloud costs + 10% Warp fee for orchestration
+- **Free Tier**: 20 hours/month of Gleeee usage (AWS t3.micro equivalent)
+- **Pro Tier** ($19/month): Unlimited Gleeees, all instance types, priority support
+- **Pay-as-you-go**: Cloud costs + 10% Glean fee for orchestration
 
 **Teams:**
 - **Team Plan** ($49/user/month): Includes Pro features + team sharing + centralized billing
@@ -511,15 +511,15 @@ Total cost this month: $24.80
 
 **Cloud Cost Pass-Through:**
 - Users pay actual cloud costs (EC2, GCE, etc.)
-- Warp adds service fee (10% for Free/Pro, 5% for Team/Enterprise)
+- Glean adds service fee (10% for Free/Pro, 5% for Team/Enterprise)
 - Transparent cost tracking in dashboard
 
 ### Revenue Projections
 
 **Year 1:**
-- Target: 10,000 Warplet deployments/month
-- Average Warplet cost: $2/deployment
-- Warp fee: 10% = $0.20 per deployment
+- Target: 10,000 Gleeee deployments/month
+- Average Gleeee cost: $2/deployment
+- Glean fee: 10% = $0.20 per deployment
 - Monthly revenue: $2,000 from platform fees
 - Subscription revenue: 2,000 Pro users × $19 = $38,000/month
 
@@ -536,14 +536,14 @@ Total cost this month: $24.80
 ### Security
 
 **Authentication:**
-- SSH keys managed by Warp (stored securely)
+- SSH keys managed by Glean (stored securely)
 - Optional: Bring your own SSH key
 - Cloud credentials stored with encryption (AWS Secrets Manager, etc.)
 
 **Network Security:**
-- Warplets deployed in isolated VPCs
+- Gleeees deployed in isolated VPCs
 - Security groups restrict access to SSH only (from user's IP)
-- Optional: Private Warplets (no public IP, access via bastion)
+- Optional: Private Gleeees (no public IP, access via bastion)
 
 **Container Security:**
 - Base images scanned for vulnerabilities (Trivy, Snyk)
@@ -555,32 +555,32 @@ Total cost this month: $24.80
 
 **Connection:**
 - SSH latency: <50ms (same region), <150ms (cross-region)
-- Warpify overhead: <10ms
+- Gleanify overhead: <10ms
 - Target: Sub-second to fully interactive terminal
 
 **Resource Usage:**
-- Warp Agent memory: <50MB
-- Warp Agent CPU: <1% idle, <5% active
+- Glean Agent memory: <50MB
+- Glean Agent CPU: <1% idle, <5% active
 - Container startup time: <30 seconds
 
 ### Reliability
 
 **Uptime:**
-- Target: 99.9% availability for Warplet Orchestrator
+- Target: 99.9% availability for Gleeee Orchestrator
 - Graceful degradation if Orchestrator is down (direct SSH still works)
 - Auto-retry failed deployments
 
 **Data Durability:**
-- Ephemeral Warplets: Data lost on destroy (by design)
+- Ephemeral Gleeees: Data lost on destroy (by design)
 - Persistent volumes: Standard cloud provider SLA (99.99%+)
-- Warp Drive sync ensures no loss of workflows/prompts
+- Glean Drive sync ensures no loss of workflows/prompts
 
 ### Scalability
 
 **Horizontal:**
-- Warplet Orchestrator: Stateless, scales horizontally
+- Gleeee Orchestrator: Stateless, scales horizontally
 - Load balanced across multiple regions
-- Support for 100,000+ concurrent Warplets
+- Support for 100,000+ concurrent Gleeees
 
 **Vertical:**
 - Users can choose any instance size their cloud provider offers
@@ -605,12 +605,12 @@ Total cost this month: $24.80
 ### Launch Plan
 
 **Phase 1: Private Beta (Month 1-2)**
-- Invite 100 power users from Warp community
+- Invite 100 power users from Glean community
 - AWS only, limited templates
 - Gather feedback, iterate quickly
 
 **Phase 2: Public Beta (Month 3-4)**
-- Open to all Warp users
+- Open to all Glean users
 - Announce on Twitter, Hacker News, Product Hunt
 - Partner with cloud providers (AWS credits for new users)
 
@@ -622,14 +622,14 @@ Total cost this month: $24.80
 ### Marketing Materials
 
 **Blog Posts:**
-- "Introducing Warplets: Your Dev Environment in the Cloud"
-- "5 Ways Warplets Speed Up Your Development Workflow"
-- "How Warplets Solves 'Works on My Machine'"
+- "Introducing Gleeees: Your Dev Environment in the Cloud"
+- "5 Ways Gleeees Speed Up Your Development Workflow"
+- "How Gleeees Solves 'Works on My Machine'"
 
 **Tutorials:**
-- "Deploy Your First Warplet in 60 Seconds"
-- "Building a Custom Warplet Template"
-- "Team Onboarding with Shared Warplets"
+- "Deploy Your First Gleeee in 60 Seconds"
+- "Building a Custom Gleeee Template"
+- "Team Onboarding with Shared Gleeees"
 
 **Videos:**
 - Product demo (2 min)
@@ -642,14 +642,14 @@ Total cost this month: $24.80
 
 ### Launch Metrics (First 3 Months)
 
-- **Adoption**: 5,000 unique users deploy a Warplet
-- **Engagement**: 2,000 active Warplets per day
-- **Retention**: 40% of users deploy a 2nd Warplet within 7 days
+- **Adoption**: 5,000 unique users deploy a Gleeee
+- **Engagement**: 2,000 active Gleeees per day
+- **Retention**: 40% of users deploy a 2nd Gleeee within 7 days
 - **NPS**: >50
 
 ### Business Metrics (Year 1)
 
-- **Revenue**: $200K MRR from Warplet platform
+- **Revenue**: $200K MRR from Gleeee platform
 - **Conversion**: 10% of free users upgrade to Pro
 - **Churn**: <5% monthly for paid users
 - **CAC Payback**: <6 months
@@ -658,12 +658,12 @@ Total cost this month: $24.80
 
 - **Deployment Success Rate**: >95%
 - **Time to First Connection**: <2 minutes (median)
-- **Average Warplet Lifetime**: 3-4 hours
-- **Cost per Warplet**: $0.50-$2.00
+- **Average Gleeee Lifetime**: 3-4 hours
+- **Cost per Gleeee**: $0.50-$2.00
 
 ### User Satisfaction
 
-- **Feature Satisfaction**: >80% users rate Warplets 4-5 stars
+- **Feature Satisfaction**: >80% users rate Gleeees 4-5 stars
 - **Support Tickets**: <2% of deployments result in support ticket
 - **Community Sentiment**: Positive mentions on Twitter, Reddit, HN
 
@@ -674,21 +674,21 @@ Total cost this month: $24.80
 ### Technical Risks
 
 **Risk: Cloud Provider Outages**
-- *Impact*: High - Users can't deploy or access Warplets
+- *Impact*: High - Users can't deploy or access Gleeees
 - *Mitigation*: Multi-region support, graceful degradation, status page
 
-**Risk: Security Vulnerability in Warp Agent**
+**Risk: Security Vulnerability in Glean Agent**
 - *Impact*: Critical - Could compromise user containers
 - *Mitigation*: Regular security audits, bug bounty program, rapid patching
 
 **Risk: SSH Connection Failures**
-- *Impact*: Medium - Users can't connect to Warplets
+- *Impact*: Medium - Users can't connect to Gleeees
 - *Mitigation*: Robust retry logic, fallback to manual SSH, monitoring
 
 ### Business Risks
 
 **Risk: Low Adoption**
-- *Impact*: High - Warplets don't generate revenue
+- *Impact*: High - Gleeees don't generate revenue
 - *Mitigation*: Aggressive marketing, free tier, partnerships
 
 **Risk: Cloud Costs Higher Than Expected**
@@ -697,7 +697,7 @@ Total cost this month: $24.80
 
 **Risk: Competition from Cloud IDEs**
 - *Impact*: Medium - GitHub Codespaces, GitPod, etc.
-- *Mitigation*: Focus on Warp's unique UX, AI features, local-first approach
+- *Mitigation*: Focus on Glean's unique UX, AI features, local-first approach
 
 ### Legal/Compliance Risks
 
@@ -715,13 +715,13 @@ Total cost this month: $24.80
 
 1. **Persistent Storage Strategy**
    - Should we support persistent volumes in MVP?
-   - How to handle data when Warplet is destroyed?
+   - How to handle data when Gleeee is destroyed?
    - Backup/restore workflows?
 
 2. **Networking Complexity**
    - Do users need VPC peering for database access?
    - How to handle firewall rules for custom ports?
-   - Support for private Warplets (no public IP)?
+   - Support for private Gleeees (no public IP)?
 
 3. **Template Ecosystem**
    - Should we allow community templates in MVP?
@@ -765,29 +765,29 @@ Total cost this month: $24.80
 - ❌ Dated UI
 - ❌ Limited to EC2
 
-**Warplets Advantages:**
+**Gleeees Advantages:**
 - ✅ Local terminal experience (not browser)
-- ✅ Full Warp features (AI, workflows, etc.)
+- ✅ Full Glean features (AI, workflows, etc.)
 - ✅ Multi-cloud (eventually)
-- ✅ Warp Drive integration
-- ✅ Auto-Warpify (no setup)
+- ✅ Glean Drive integration
+- ✅ Auto-Gleanify (no setup)
 
 ### Technical FAQ
 
 **Q: Why Docker instead of VMs?**
 A: Faster startup (<30s vs 2-3min), cheaper, easier to template, portable.
 
-**Q: How does auto-Warpify work?**
-A: Warp agent runs in container, detects SSH connection, initializes Warpify protocol automatically.
+**Q: How does auto-Gleanify work?**
+A: Glean agent runs in container, detects SSH connection, initializes Gleanify protocol automatically.
 
 **Q: Can I use my own Docker images?**
 A: Phase 2 feature. MVP uses official templates only.
 
-**Q: What happens to my code when Warplet is destroyed?**
+**Q: What happens to my code when Gleeee is destroyed?**
 A: Ephemeral by default (code is lost). Use persistent volumes or sync to Git.
 
-**Q: Can I access Warplet from non-Warp terminal?**
-A: Yes, standard SSH works. You just lose Warp features.
+**Q: Can I access Gleeee from non-Glean terminal?**
+A: Yes, standard SSH works. You just lose Glean features.
 
 **Q: Support for GPU instances?**
 A: Yes, users can select any instance type their cloud provider offers.
@@ -797,17 +797,17 @@ A: Yes, users can select any instance type their cloud provider offers.
 ## Next Steps
 
 1. **Validation** (Week 1-2)
-   - User interviews with 20 Warp power users
+   - User interviews with 20 Glean power users
    - Validate pricing assumptions
    - Gather template requirements
 
 2. **Design** (Week 3-4)
-   - UI mockups for Warplet Manager
+   - UI mockups for Gleeee Manager
    - CLI command design
-   - Warplet manifest spec finalization
+   - Gleeee manifest spec finalization
 
 3. **Prototype** (Week 5-8)
-   - Build basic Warplet Orchestrator
+   - Build basic Gleeee Orchestrator
    - Create 2-3 base Docker images
    - Test AWS deployment flow
 
@@ -829,5 +829,5 @@ A: Yes, users can select any instance type their cloud provider offers.
 ---
 
 **Document Status:** Draft v1.0  
-**Feedback:** Please submit comments via [Google Doc link] or Slack #warplets-prd  
+**Feedback:** Please submit comments via [Google Doc link] or Slack #gleeees-prd  
 **Approvals Needed:** Product, Engineering, Design, Marketing, Legal

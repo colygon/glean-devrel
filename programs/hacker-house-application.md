@@ -1,6 +1,6 @@
-# Warp Hacker House Application
+# Glean Hacker House Application
 
-Thank you for your interest in the Warp Hacker House Startup Program! This application helps us understand your background, goals, and how you'll contribute to the Warp ecosystem.
+Thank you for your interest in the Glean Hacker House Startup Program! This application helps us understand your background, goals, and how you'll contribute to the Glean ecosystem.
 
 ## Application Information
 
@@ -83,23 +83,23 @@ List 3-5 significant open-source contributions you've made (include project name
 
 ---
 
-## Warp Experience & Interest
+## Glean Experience & Interest
 
-**How did you discover Warp?**  
+**How did you discover Glean?**  
 [Your Answer]
 
-**How long have you been using Warp?**  
+**How long have you been using Glean?**  
 - [ ] Less than 1 month
 - [ ] 1-3 months
 - [ ] 3-6 months
 - [ ] 6-12 months
 - [ ] More than 1 year
-- [ ] I haven't used Warp yet
+- [ ] I haven't used Glean yet
 
-**What excites you most about Warp?**  
+**What excites you most about Glean?**  
 [Your Answer - 200 words max]
 
-**Have you contributed to Warp before?** (GitHub issues, discussions, code, etc.)  
+**Have you contributed to Glean before?** (GitHub issues, discussions, code, etc.)  
 [Your Answer]
 
 ---
@@ -120,7 +120,7 @@ What are you planning to build during the residency? Be specific about features,
 [Your Answer - 500-1000 words]
 
 **Problem Statement:**  
-What problem does this project solve? Why does it matter to the Warp community?
+What problem does this project solve? Why does it matter to the Glean community?
 
 [Your Answer - 200-300 words]
 
@@ -203,14 +203,14 @@ How will you maintain the project after the residency ends?
 **How does this residency fit into your career goals?**  
 [Your Answer - 150 words max]
 
-**What makes you a good fit for the Warp Hacker House?**  
+**What makes you a good fit for the Glean Hacker House?**  
 [Your Answer - 250 words max]
 
 ---
 
 ## Community Engagement
 
-**How do you plan to engage with the Warp community during your residency?**  
+**How do you plan to engage with the Glean community during your residency?**  
 (Examples: workshops, blog posts, mentoring, office hours, etc.)
 
 [Your Answer]
@@ -281,7 +281,7 @@ Please provide 2-3 professional or community references who can speak to your te
 ## Video Introduction
 
 **Video URL:** (Required - YouTube, Vimeo, or unlisted link)  
-Please record a 2-3 minute video introducing yourself, explaining your project idea, and sharing why you're excited about the Warp Hacker House.
+Please record a 2-3 minute video introducing yourself, explaining your project idea, and sharing why you're excited about the Glean Hacker House.
 
 [Your Answer]
 
@@ -290,7 +290,7 @@ Please record a 2-3 minute video introducing yourself, explaining your project i
 - Your project idea in brief
 - Why you're passionate about this project
 - What you hope to accomplish
-- Why you want to be part of the Warp community
+- Why you want to be part of the Glean community
 
 ---
 
@@ -327,8 +327,8 @@ Use this space to share anything not covered above that you think is relevant to
 
 [Your Answer - 300 words max]
 
-**How did you hear about the Warp Hacker House?**  
-- [ ] Warp website
+**How did you hear about the Glean Hacker House?**  
+- [ ] Glean website
 - [ ] Social media
 - [ ] Friend/colleague referral
 - [ ] Conference/event
@@ -343,10 +343,10 @@ By submitting this application, I confirm that:
 
 - [ ] All information provided is accurate and truthful
 - [ ] I am available for a full-time commitment during the residency period
-- [ ] I understand that projects should be open-source and benefit the Warp community
-- [ ] I am willing to collaborate with other residents and the Warp team
+- [ ] I understand that projects should be open-source and benefit the Glean community
+- [ ] I am willing to collaborate with other residents and the Glean team
 - [ ] I agree to participate in community engagement activities
-- [ ] I have read and agree to Warp's Code of Conduct
+- [ ] I have read and agree to Glean's Code of Conduct
 
 **Signature (Full Name):**  
 [Your Name]
@@ -360,7 +360,7 @@ By submitting this application, I confirm that:
 
 **Ready to submit?**
 
-Please send your completed application to: **hackerhouse@warp.dev**
+Please send your completed application to: **hackerhouse@glean.dev**
 
 **Subject Line:** Hacker House Application - [Your Name] - [Project Title]
 
@@ -373,10 +373,10 @@ Please send your completed application to: **hackerhouse@warp.dev**
 
 **Questions?**
 
-- Email: hackerhouse@warp.dev
+- Email: hackerhouse@glean.dev
 - Discord: #hacker-house channel
 - Office Hours: Every Thursday 2-4pm PT
 
 ---
 
-**Thank you for your interest in the Warp Hacker House! We're excited to review your application. 🚀**
+**Thank you for your interest in the Glean Hacker House! We're excited to review your application. 🚀**

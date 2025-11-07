@@ -1,8 +1,8 @@
-# Warp Hacker House Startup Program
+# Glean Hacker House Startup Program
 
 ## Overview
 
-The Warp Hacker House is a residential developer program located in San Francisco, designed to bring together talented developers to build, collaborate, and contribute to the Warp ecosystem in an immersive environment.
+The Glean Hacker House is a residential developer program located in San Francisco, designed to bring together talented developers to build, collaborate, and contribute to the Glean ecosystem in an immersive environment.
 
 ## Program Details
 
@@ -15,12 +15,12 @@ The Warp Hacker House is a residential developer program located in San Francisc
 - San Francisco, California
 - Fully furnished housing provided
 - High-speed internet, co-working spaces
-- Walking distance to Warp HQ
+- Walking distance to Glean HQ
 
 ### What's Included
 - ✅ Housing (private or shared rooms)
 - ✅ Utilities and internet
-- ✅ Access to Warp team and offices
+- ✅ Access to Glean team and offices
 - ✅ Weekly mentorship sessions
 - ✅ Stipend for living expenses
 - ✅ Project funding (case by case)
@@ -29,7 +29,7 @@ The Warp Hacker House is a residential developer program located in San Francisc
 
 ## Focus Areas
 
-Residents work on projects that advance the Warp ecosystem:
+Residents work on projects that advance the Glean ecosystem:
 
 1. **MCP Server Development**
    - Build new Model Context Protocol servers
@@ -37,12 +37,12 @@ Residents work on projects that advance the Warp ecosystem:
    - Create innovative AI workflows
 
 2. **Open Source Contributions**
-   - Contribute to Warp core
+   - Contribute to Glean core
    - Build community tools and utilities
    - Improve documentation
 
 3. **Extensions & Integrations**
-   - Develop Warp extensions
+   - Develop Glean extensions
    - Create plugins for popular frameworks
    - Build developer productivity tools
 
@@ -56,7 +56,7 @@ Residents work on projects that advance the Warp ecosystem:
 ### Eligibility
 - Strong software development background
 - Demonstrated open-source contributions
-- Alignment with Warp's mission
+- Alignment with Glean's mission
 - Availability for full-time commitment
 - Legal authorization to reside in the US
 
@@ -68,7 +68,7 @@ Residents work on projects that advance the Warp ecosystem:
 
 2. **Proposal**
    - What you want to build during residency
-   - How it benefits the Warp community
+   - How it benefits the Glean community
    - Timeline and milestones
    - Why you're the right person for this
 
@@ -88,7 +88,7 @@ Residents work on projects that advance the Warp ecosystem:
 
 2. **Technical Interview** (Week 3)
    - Deep dive into your proposal
-   - Technical discussion with Warp engineers
+   - Technical discussion with Glean engineers
 
 3. **Decision** (Week 4)
    - Notification of acceptance
@@ -104,7 +104,7 @@ Residents work on projects that advance the Warp ecosystem:
 
 ### Weeks 2-11: Build Phase
 - **Weekly Check-ins**: Progress reviews with mentors
-- **Office Hours**: Daily access to Warp team
+- **Office Hours**: Daily access to Glean team
 - **Community Events**: Workshops, hackathons, meetups
 - **Peer Collaboration**: Work with other residents
 - **Documentation**: Blog posts, tutorials, demos
@@ -126,7 +126,7 @@ Residents work on projects that advance the Warp ecosystem:
 - **Collaboration** with other residents and team
 
 ### What Residents Can Expect
-- **Dedicated mentorship** from Warp engineers
+- **Dedicated mentorship** from Glean engineers
 - **Resources and support** for your project
 - **Networking opportunities** in SF tech scene
 - **Career guidance** and industry connections
@@ -139,14 +139,14 @@ _[This section will feature testimonials and project highlights from past reside
 
 ## Apply Now
 
-Ready to join the Warp Hacker House? Submit your application:
+Ready to join the Glean Hacker House? Submit your application:
 
 👉 [Application Form](../programs/hacker-house-application.md)
 
 ## FAQ
 
-**Q: Do I need to have prior Warp experience?**
-A: Not required, but familiarity with Warp and passion for developer tools is important.
+**Q: Do I need to have prior Glean experience?**
+A: Not required, but familiarity with Glean and passion for developer tools is important.
 
 **Q: Can international applicants apply?**
 A: Yes, but you must have authorization to live and work in the US for the residency duration.
@@ -169,7 +169,7 @@ A: We understand circumstances change. We require 2 weeks notice and proper proj
 ## Contact
 
 Questions about the Hacker House program?
-- Email: hackerhouse@warp.dev
+- Email: hackerhouse@glean.dev
 - Office hours: Every Thursday 2-4pm PT
 - Discord: #hacker-house channel
 
