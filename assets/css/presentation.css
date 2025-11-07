@@ -22,6 +22,29 @@ body {
     overflow: hidden;
 }
 
+.home-button {
+    position: fixed;
+    top: 2rem;
+    right: 2rem;
+    padding: 0.75rem 1.5rem;
+    background-color: rgba(0, 212, 170, 0.1);
+    border: 2px solid var(--primary-color);
+    border-radius: 8px;
+    color: var(--primary-color);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+    z-index: 1000;
+}
+
+.home-button:hover {
+    background-color: var(--primary-color);
+    color: var(--darker-bg);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 212, 170, 0.3);
+}
+
 .presentation {
     width: 100vw;
     height: 100vh;
