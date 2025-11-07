@@ -72,9 +72,13 @@
 
         .main-content {
             display: grid;
-            grid-template-columns: 1fr 1fr;
+            grid-template-columns: 1fr;
             gap: 2rem;
             margin-bottom: 3rem;
+        }
+
+        .main-content.deploying {
+            grid-template-columns: 1fr 1fr;
         }
 
         .deploy-panel {
@@ -208,11 +212,16 @@
         }
 
         .status-panel {
+            display: none;
             background: var(--card-bg);
             padding: 2rem;
             border-radius: 12px;
             border: 2px solid var(--border);
-            min-height: 400px;
+        }
+
+        .status-panel.visible {
+            display: block;
+        }
             display: flex;
             flex-direction: column;
         }
@@ -543,6 +552,12 @@
             const prompt = document.getElementById('prompt').value;
             const deployBtn = document.getElementById('deployBtn');
             const statusContent = document.getElementById('statusContent');
+            const statusPanel = document.querySelector('.status-panel');
+            const mainContent = document.querySelector('.main-content');
+
+            // Show status panel and adjust layout
+            statusPanel.classList.add('visible');
+            mainContent.classList.add('deploying');
 
             // Disable button
             deployBtn.disabled = true;
