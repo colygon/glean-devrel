@@ -6,7 +6,7 @@ A comprehensive developer relations program for [Warp.dev](https://warp.dev) - t
 
 This repository contains the complete strategy, documentation, and resources for Warp's developer relations initiatives designed to build, engage, and empower the Warp developer community.
 
-## 🚀 Core Programs
+## DevRel Playbook
 
 ### 1. **Residency Program** (San Francisco)
 A physical space where developers can live and build together while contributing to the Warp ecosystem.
