@@ -1,461 +1,409 @@
-# Glean Academy - Enterprise Training & Certification
+# Glean Academy - API & Integration Training
 
 ## Overview
 
-Glean Academy is our comprehensive enterprise training program designed to help organizations maximize productivity and accelerate adoption of Glean across their engineering teams. From structured learning paths to custom training and professional certifications, we provide everything enterprises need to successfully deploy Glean at scale.
+Glean Academy provides comprehensive training on building AI agents, apps, and integrations using Glean's Work AI Platform. All courses are aligned with our official developer documentation at [developers.glean.com](https://developers.glean.com).
 
-## Training Programs
+**Access**: [learning-paths.html](../learning-paths.html)
 
-### 1. Live Webinars
+---
 
-Monthly live interactive sessions with Glean experts and Q&A.
+## 🎓 Learning Paths
 
-**Schedule**: First Wednesday of every month, 2:00 PM PT  
-**Duration**: 90 minutes (60 min presentation + 30 min Q&A)  
-**Format**: Virtual (Zoom)  
-**Recording**: Available within 24 hours for registered attendees
+### Path 1: Direct API Integration (16 hours)
+**Build custom agents using Glean's REST APIs with official client libraries**
 
-#### Upcoming Webinars (Q1 2026)
+[Official Guide](https://developers.glean.com/guides/agents/direct-api)
 
-**January 8, 2026 - Glean for Engineering Teams**
-- Onboarding best practices
-- Team workflows and collaboration
-- Admin controls and security
-- SSO and access management
+#### Module 1: API Fundamentals (3 hours)
+- Understanding Glean's Client API vs Indexing API
+- Authentication and API tokens
+- Rate limits and best practices
+- Setting up your development environment
 
-**February 5, 2026 - Advanced AI Workflows**
-- Custom rules and prompts
-- Agent orchestration
-- MCP integration strategies
-- Building internal MCP servers
+#### Module 2: Client Libraries (4 hours)
+- **Python SDK**: `pip install glean-api-client`
+- **TypeScript SDK**: `npm install @gleanwork/api-client`
+- **Go SDK**: `go get github.com/gleanwork/api-client-go`
+- **Java SDK**: Maven/Gradle configuration
+- [Client Libraries Documentation](https://developers.glean.com/libraries/api-clients)
 
-**March 5, 2026 - Maximizing Developer Productivity**
-- Power user shortcuts and workflows
-- Custom extensions for your stack
-- Integration with CI/CD pipelines
-- Metrics and adoption tracking
+#### Module 3: Core APIs (5 hours)
+- **Chat API**: Conversational AI with context
+- **Search API**: Enterprise search capabilities
+- **Agents API**: Manage pre-built agents
+- **Documents API**: Access and manipulate documents
+- **Entities API**: People, projects, and organizational data
+
+#### Module 4: Building Your First Agent (4 hours)
+- Project: Customer Support Agent
+- Implementing search context retrieval
+- Building conversational responses
+- Managing conversation history
+- Error handling and fallbacks
+
+**Assessment**: Build a production-ready agent with custom business logic
+
+---
+
+### Path 2: LangChain Integration (12 hours)
+**Build AI agents using Python and the LangChain framework**
+
+[Official Guide](https://developers.glean.com/guides/agents/langchain)
+
+#### Module 1: Setup (2 hours)
+- Installing `langchain-glean`
+```bash
+pip install -U langchain-glean
+```
+- API token configuration
+- Environment variables setup
+- User-scoped tokens with required scopes (`chat`, `search`)
+
+#### Module 2: LangChain Basics (3 hours)
+- LangChain architecture overview
+- Chains and agents
+- Memory and conversation state
+- Tool integration patterns
+
+#### Module 3: Glean Tools in LangChain (4 hours)
+- Using Glean as a retriever
+- Implementing RAG patterns
+- Multi-step reasoning
+- Context management
+
+#### Module 4: Production Deployment (3 hours)
+- FastAPI integration
+- Streaming responses
+- Error handling
+- Monitoring and logging
+
+**Assessment**: Build an AI assistant that answers questions using company knowledge
+
+---
+
+### Path 3: Agent Toolkit (14 hours)
+**Use pre-built tools across multiple agent frameworks**
+
+[Official Guide](https://developers.glean.com/guides/agents/toolkit)
+
+#### Module 1: Toolkit Overview (2 hours)
+- When to use the Agent Toolkit
+- Supported frameworks
+- Installation for each framework
+```bash
+# OpenAI
+pip install glean-agent-toolkit[openai]
+# LangChain
+pip install glean-agent-toolkit[langchain]
+# CrewAI
+pip install glean-agent-toolkit[crewai]
+# Google ADK  
+pip install glean-agent-toolkit[adk]
+```
+
+#### Module 2: Available Tools (4 hours)
+- **glean_search**: Company knowledge base search
+- **employee_search**: Find employees by attributes
+- **calendar_search**: Meetings and events
+- **code_search**: Source code repositories
+- **gmail_search**: Gmail integration
+- **outlook_search**: Outlook integration
+
+#### Module 3: Framework Integration (4 hours)
+- OpenAI Assistants integration
+- LangChain tools
+- CrewAI multi-agent systems
+- Google ADK implementation
+
+#### Module 4: Custom Tools (4 hours)
+- Creating custom Glean tools
+- Tool chaining and composition
+- Cross-framework compatibility
+- Testing and validation
+
+**Assessment**: Build a multi-agent system using CrewAI with Glean tools
+
+---
+
+### Path 4: MCP Integration (10 hours)
+**Connect AI tools to Glean's enterprise knowledge with zero setup**
+
+[Official Guide](https://developers.glean.com/guides/mcp)
+
+#### Module 1: MCP Fundamentals (2 hours)
+- Model Context Protocol overview
+- Remote vs Local MCP servers
+- Supported host applications
+- Authentication methods
+
+#### Module 2: Remote MCP Server (3 hours)
+- Opening the MCP Configurator
+- OAuth setup
+- Configuration for Claude Desktop
+- Configuration for Cursor IDE
+- Configuration for Windsurf
+- [Administrator Guide](https://docs.glean.com/admin/mcp)
+
+#### Module 3: MCP Tools (3 hours)
+- **company_search**: Query enterprise content
+- **chat**: Conversational AI
+- **people_profile_search**: Employee directory
+- **read_documents**: Retrieve documents by ID/URL
+
+#### Module 4: Local MCP Server (2 hours)
+- Self-hosted implementation
+- `@gleanwork/local-mcp-server`
+- Custom tool development
+- Air-gapped environments
+
+**Assessment**: Configure MCP for your organization and build a custom tool
+
+---
+
+### Path 5: Web SDK Integration (12 hours)
+**Embed AI-powered search and chat into your intranet portal**
+
+[Official Guide](https://developers.glean.com/libraries/web-sdk/overview)
+
+#### Module 1: SDK Setup (2 hours)
+- Installation and configuration
+- Third-party cookie management
+- Authentication setup
+- Component overview
+
+#### Module 2: Available Components (4 hours)
+- **Glean Chat**: Embed full chat functionality
+- **Autocomplete + Search Results**: Custom search page
+- **Modal Search**: Overlay dialog implementation
+- **Sidebar Search**: Contextual recommendations
+- **Recommendations Component**: Embedded suggestions
+
+#### Module 3: Customization (3 hours)
+- UI customization
+- Theme integration
+- Component props and configuration
+- Event handling
+
+#### Module 4: Production Deployment (3 hours)
+- Performance optimization
+- Security considerations
+- Analytics integration
+- A/B testing
+
+**Assessment**: Build a custom search page with Glean components
+
+---
+
+### Path 6: NVIDIA NIM Integration (8 hours)
+**Build agents with NVIDIA NIM microservices and Glean**
+
+[Official Guide](https://developers.glean.com/guides/agents/nvidia-example)
+
+#### Module 1: Setup (2 hours)
+- NVIDIA API key configuration
+- LangChain NVIDIA endpoints
+- Glean API setup
+- Environment configuration
+```python
+from langchain_nvidia_ai_endpoints import ChatNVIDIA, NVIDIAEmbeddings
+```
+
+#### Module 2: RAG Architecture (3 hours)
+- Understanding retrieval-augmented generation
+- Using Glean as a retriever
+- Embedding models
+- Context injection
+
+#### Module 3: LangGraph Agent (2 hours)
+- Agent state management
+- Multi-step reasoning
+- Tool integration
+- Response generation
+
+#### Module 4: Production Optimization (1 hour)
+- Performance tuning
+- Cost optimization
+- Monitoring and observability
+- Scaling considerations
+
+**Assessment**: Build a customer support agent with NVIDIA NIM + Glean
+
+---
+
+## 🏆 Certifications
+
+### Glean API Developer (Beginner)
+- **Duration**: 10 hours
+- **Prerequisites**: Basic Python or TypeScript knowledge
+- **Topics**: Client APIs, Authentication, Basic agent building
+- **Assessment**: Build a simple search integration
+- **Cost**: Free
+
+### Glean Integration Specialist (Intermediate)
+- **Duration**: 20 hours
+- **Prerequisites**: API Developer certification
+- **Topics**: LangChain, Agent Toolkit, Web SDK, MCP
+- **Assessment**: Build a production agent with one framework
+- **Cost**: $299 (Free for Enterprise)
+
+### Glean Solutions Architect (Advanced)
+- **Duration**: 40 hours
+- **Prerequisites**: Integration Specialist certification
+- **Topics**: Multi-framework integration, custom tools, enterprise architecture
+- **Assessment**: Design and implement a complete solution
+- **Cost**: $999 (50% off for Enterprise)
+
+---
+
+## 📚 Course Catalog
+
+### API Fundamentals
+- **Duration**: 4 hours
+- **Level**: Beginner
+- **Format**: Self-paced
+- **Topics**: Client API, Indexing API, Authentication, Rate limits
+
+### Building Agents with Direct API
+- **Duration**: 8 hours
+- **Level**: Intermediate
+- **Format**: Instructor-led + labs
+- **Topics**: Chat API, Search API, Agents API, Custom logic
+
+### LangChain for Enterprise AI
+- **Duration**: 12 hours
+- **Level**: Intermediate
+- **Format**: Project-based
+- **Topics**: LangChain integration, RAG patterns, Production deployment
+
+### Multi-Agent Systems with CrewAI
+- **Duration**: 10 hours
+- **Level**: Advanced
+- **Format**: Hands-on workshop
+- **Topics**: Agent Toolkit, CrewAI, Orchestration, Testing
+
+### MCP Configuration & Management
+- **Duration**: 6 hours
+- **Level**: Intermediate
+- **Format**: Live workshop
+- **Topics**: Remote MCP, OAuth, Host configuration, Custom tools
+
+### Web SDK Deep Dive
+- **Duration**: 8 hours
+- **Level**: Intermediate
+- **Format**: Code-along
+- **Topics**: All components, Customization, Production deployment
+
+### NVIDIA NIM + Glean Integration
+- **Duration**: 6 hours
+- **Level**: Advanced
+- **Format**: Technical workshop
+- **Topics**: NIM microservices, RAG, LangGraph, Optimization
+
+---
+
+## 🎯 Enterprise Training
+
+### Custom Training Programs
+
+**Half-Day Workshop** (4 hours)
+- Focus on one specific topic
+- Up to 30 participants
+- Includes hands-on lab time
+- $5,000
+
+**Full-Day Intensive** (8 hours)
+- Cover multiple topics
+- Up to 25 participants
+- Includes project work
+- $10,000
+
+**Multi-Day Bootcamp** (2-5 days)
+- Comprehensive training program
+- Certification preparation
+- Custom curriculum
+- $25,000 - $75,000
+
+### Training Delivery Options
+
+1. **Virtual Instructor-Led**
+   - Live online sessions
+   - Interactive labs
+   - Q&A and support
+
+2. **On-Site**
+   - At your office
+   - Hands-on collaboration
+   - Custom environments
+
+3. **Hybrid**
+   - Mix of virtual and on-site
+   - Flexible scheduling
+   - Ongoing support
+
+4. **Self-Paced Online**
+   - Access anytime
+   - Video lessons
+   - Automated labs
+   - Support forums
+
+---
+
+## 📅 Live Webinars (Monthly)
+
+### Upcoming Schedule
+
+**January 2026: Getting Started with Glean APIs**
+- Introduction to Client and Indexing APIs
+- Your first API integration
+- Best practices and common patterns
+
+**February 2026: Building AI Agents**
+- Direct API vs LangChain vs Agent Toolkit
+- When to use each approach
+- Live coding demonstration
+
+**March 2026: MCP Deep Dive**
+- Remote vs Local MCP servers
+- Configuring for different hosts
+- Building custom MCP tools
+
+**April 2026: Production Deployment**
+- Security and authentication
+- Scaling and performance
+- Monitoring and observability
 
 [Register for Webinars](https://academy.glean.dev/webinars)
 
 ---
 
-### 2. Certification Program
+## 🔗 Quick Links
 
-Professional certifications to validate Glean expertise and demonstrate proficiency.
-
-#### Available Certifications
-
-**Glean Certified User**
-- **Level**: Beginner
-- **Duration**: 2-3 hours
-- **Format**: Self-paced online learning + assessment
-- **Topics**: Basic features, navigation, AI commands, blocks, workflows
-- **Assessment**: 50 questions, 80% pass rate required
-- **Cost**: Free
-- **Renewal**: None required
-
-**Glean Certified Power User**
-- **Level**: Intermediate
-- **Duration**: 8-10 hours
-- **Format**: Structured learning path + hands-on labs + assessment
-- **Topics**: Advanced features, customization, MCP basics, team workflows, troubleshooting
-- **Assessment**: 75 questions + 3 hands-on challenges
-- **Cost**: $99 (Free for Enterprise customers)
-- **Renewal**: Every 2 years
-
-**Glean Certified Administrator**
-- **Level**: Advanced
-- **Duration**: 12-15 hours
-- **Format**: Advanced learning path + scenario-based labs + proctored exam
-- **Topics**: Enterprise deployment, SSO/SCIM, security policies, team management, analytics, support
-- **Assessment**: 100 questions + 5 real-world scenarios + live troubleshooting
-- **Cost**: $299 (Free for Enterprise customers)
-- **Renewal**: Annually
-
-**Glean Certified MCP Developer**
-- **Level**: Expert
-- **Duration**: 20+ hours
-- **Format**: Technical deep-dive + portfolio project + code review
-- **Topics**: MCP architecture, server development, security best practices, performance optimization, marketplace publishing
-- **Assessment**: Build and publish a production MCP server + technical interview
-- **Cost**: $499 (50% discount for Enterprise customers)
-- **Renewal**: Every 2 years
-
-#### Certification Benefits
-
-✅ Digital badge for LinkedIn and email signatures  
-✅ Listed in public certification directory  
-✅ Access to exclusive certification holder Slack channel  
-✅ Early access to new features and beta programs  
-✅ Certificate suitable for framing  
-✅ CPE credits (where applicable)
-
-[Explore Certifications](https://academy.glean.dev/certifications)
+- **Developer Portal**: https://developers.glean.com
+- **Learning Paths**: [learning-paths.html](../learning-paths.html)
+- **API Reference**: https://developers.glean.com/api/client-api
+- **GitHub Examples**: https://github.com/gleanwork
+- **Community Slack**: https://glean.dev/slack
 
 ---
 
-### 3. Structured Learning Paths
+## 💡 Getting Started
 
-Curated curricula with guided progression from beginner to expert.
+1. **Choose Your Path**: Select a learning path based on your needs
+2. **Complete Prerequisites**: Ensure you have the required knowledge
+3. **Enroll in Courses**: Self-paced or instructor-led options
+4. **Complete Projects**: Hands-on assessments
+5. **Get Certified**: Validate your expertise
 
-#### Learning Path: Beginner to Power User (12 hours)
-
-**Module 1: Getting Started** (2 hours)
-- Installation and setup
-- Interface overview
-- Basic navigation and commands
-- Your first workflow
-
-**Module 2: AI Features** (2 hours)
-- AI command search
-- Natural language commands
-- Command explanations
-- Custom prompts
-
-**Module 3: Blocks & Workflows** (2 hours)
-- Understanding blocks
-- Block actions and sharing
-- Creating workflows
-- Parameterized workflows
-
-**Module 4: Customization** (2 hours)
-- Themes and appearance
-- Keyboard shortcuts
-- Settings and preferences
-- Extensions and integrations
-
-**Module 5: Advanced Productivity** (2 hours)
-- Split panes and multiplexing
-- Session management
-- History and search
-- Collaborative sessions
-
-**Module 6: Troubleshooting** (2 hours)
-- Common issues and solutions
-- Performance optimization
-- Debugging workflows
-- Getting help
-
-**Assessment**: Glean Certified User exam
+[Start Learning Now →](../learning-paths.html)
 
 ---
 
-#### Learning Path: MCP Development (20 hours)
+## 📞 Contact
 
-**Module 1: MCP Fundamentals** (3 hours)
-- MCP architecture and protocol
-- Server types and use cases
-- Development environment setup
-- Hello World MCP server
+**Enterprise Training Inquiries**: academy@glean.com  
+**Certification Support**: cert@glean.com  
+**Technical Questions**: support@glean.com
 
-**Module 2: Building MCP Servers** (5 hours)
-- Server implementation patterns
-- Handling requests and responses
-- State management
-- Error handling
-
-**Module 3: Advanced MCP Features** (4 hours)
-- Streaming and batching
-- Custom schemas
-- Authentication and authorization
-- Rate limiting and throttling
-
-**Module 4: Testing & Deployment** (3 hours)
-- Unit and integration testing
-- CI/CD pipelines
-- Containerization
-- Monitoring and logging
-
-**Module 5: Security Best Practices** (3 hours)
-- Input validation
-- Secure data handling
-- Encryption and secrets management
-- Security auditing
-
-**Module 6: Marketplace Publishing** (2 hours)
-- Marketplace requirements
-- Documentation standards
-- Version management
-- Community support
-
-**Assessment**: Glean Certified MCP Developer portfolio project
-
----
-
-### 4. Custom Enterprise Training
-
-Tailored training programs for your organization's specific needs.
-
-#### On-Site Training
-
-Bring Glean experts to your office for immersive, hands-on training.
-
-**Formats Available:**
-- Half-day workshops (4 hours)
-- Full-day intensive (8 hours)
-- Multi-day bootcamps (2-5 days)
-
-**Typical Agenda (Full Day):**
-- Morning: Interactive presentations and demos
-- Lunch: Working lunch with Q&A
-- Afternoon: Hands-on labs with your team's actual workflows
-- Closing: Office hours and custom use case reviews
-
-**Pricing:**
-- Half-day: $5,000 + travel
-- Full-day: $8,000 + travel
-- Multi-day: Custom quote
-
-#### Virtual Training
-
-Live, instructor-led training delivered remotely to your team.
-
-**Formats Available:**
-- 2-hour workshops
-- 4-hour half-day sessions
-- Multi-week programs (1-2 hours per week)
-
-**Delivery:**
-- Via Zoom or your preferred platform
-- Up to 50 participants per session
-- Interactive with breakout rooms
-- Recorded for async viewing
-
-**Pricing:**
-- 2-hour workshop: $2,000
-- Half-day session: $3,500
-- Multi-week program: Custom quote
-
-#### Train-the-Trainer
-
-Enable your internal champions to train other employees.
-
-**Program Includes:**
-- 2-day intensive facilitator training
-- Complete training materials and slide decks
-- Facilitator guide with teaching notes
-- Access to updated content as Glean evolves
-- Ongoing support from Glean Academy team
-
-**Ideal For:**
-- Learning & Development teams
-- DevOps teams leading adoption
-- Engineering managers
-- Developer advocates
-
-**Pricing:** $15,000 (includes up to 5 trainers)
-
-[Request Custom Training](https://academy.glean.dev/custom-training)
-
----
-
-### 5. Team Onboarding Program
-
-Structured 30-day onboarding program for new enterprise customers.
-
-#### What's Included
-
-**Week 1: Foundation**
-- Kickoff call with Customer Success Manager
-- Access to Glean Academy platform
-- Admin setup and configuration
-- Initial team training session (2 hours)
-
-**Week 2: Adoption**
-- Self-paced learning assignments
-- Office hours with Glean experts (2 sessions)
-- Early adopter feedback collection
-
-**Week 3: Optimization**
-- Custom workflow development workshop
-- Integration with your tools
-- Security and compliance review
-
-**Week 4: Scale**
-- Train-the-trainer session for internal champions
-- Rollout planning
-- Success metrics review
-- Graduation and ongoing support plan
-
-**Deliverables:**
-- Customized training materials
-- Recorded sessions for future hires
-- Integration playbook
-- Adoption dashboard
-
-**Included with Enterprise plan**
-
----
-
-## Learning Platform Features
-
-### Team Dashboard
-
-Administrators get visibility into team progress:
-
-- Training completion rates
-- Certification status
-- Individual learning paths
-- Time invested in training
-- Skill gap analysis
-- Recommended next courses
-
-### Individual Progress Tracking
-
-Learners can track their own journey:
-
-- Courses completed
-- Certifications earned
-- Learning streak
-- Skill badges
-- Leaderboard ranking
-- Personalized recommendations
-
-### Integration with LMS
-
-Glean Academy integrates with popular Learning Management Systems:
-
-- **Supported**: Workday Learning, Cornerstone, SAP SuccessFactors, Docebo, TalentLMS
-- **Features**: SSO, grade passback, completion tracking, SCORM compliance
-
----
-
-## Webinar Series
-
-### Monthly Enterprise Series
-
-**Topics rotating quarterly:**
-- Deployment best practices
-- Security and compliance
-- Productivity metrics and ROI
-- Advanced team workflows
-- Integration strategies
-- Change management
-
-### Technical Deep Dives
-
-**Topics rotating quarterly:**
-- MCP development patterns
-- Extension development
-- Custom rules and prompts
-- Performance optimization
-- Troubleshooting and debugging
-
-### Executive Briefings
-
-**Quarterly sessions for leadership:**
-- Developer productivity trends
-- Glean adoption case studies
-- ROI measurement frameworks
-- Competitive landscape
-- Roadmap previews
-
----
-
-## Pricing
-
-### Individual (Self-Service)
-
-- **Glean University (videos)**: Free
-- **Webinar attendance**: Free
-- **Glean Certified User**: Free
-- **Glean Certified Power User**: $99
-- **Glean Certified Administrator**: $299
-- **Glean Certified MCP Developer**: $499
-
-### Enterprise (Team Plans)
-
-**Included with Enterprise subscription:**
-- All certifications free for employees
-- Team dashboard and progress tracking
-- 30-day onboarding program
-- Quarterly executive briefings
-- Priority webinar access
-- LMS integration
-
-**À la carte:**
-- Custom on-site training: $5,000 - $8,000/day
-- Virtual training: $2,000 - $3,500/session
-- Train-the-trainer: $15,000
-
----
-
-## Getting Started
-
-### For Individuals
-
-1. Create free account at [academy.glean.dev](https://academy.glean.dev)
-2. Browse learning paths
-3. Start with beginner courses
-4. Progress to certification
-
-### For Enterprises
-
-1. Contact sales: [academy.glean.dev/enterprise](https://academy.glean.dev/enterprise)
-2. Schedule needs assessment
-3. Receive custom training plan
-4. Launch onboarding program
-
----
-
-## Success Stories
-
-### TechCorp (5,000 engineers)
-
-> "Glean Academy's train-the-trainer program enabled us to scale adoption across 50 engineering teams in just 6 weeks. Our productivity metrics show 25% faster command execution and significantly reduced context switching."
-> 
-> — **Sarah Chen, VP Engineering**
-
-**Results:**
-- 82% adoption rate in 90 days
-- 47 certified administrators
-- 800+ certified power users
-- 35% reduction in terminal-related support tickets
-
-### DataFlow Systems (300 engineers)
-
-> "The custom onboarding program was game-changing. Within 30 days, our entire engineering org was not just using Glean, but building custom MCP servers for our internal tools."
-> 
-> — **Marcus Johnson, CTO**
-
-**Results:**
-- 100% adoption in 30 days
-- 12 internal MCP servers built
-- 8 certified MCP developers
-- Featured in Glean case studies
-
----
-
-## Support & Resources
-
-- **Email**: academy@glean.dev
-- **Slack**: #glean-academy channel
-- **Office Hours**: Tuesdays 2-4pm PT
-- **Documentation**: [docs.glean.dev/academy](https://docs.glean.dev/academy)
-- **Status**: [status.academy.glean.dev](https://status.academy.glean.dev)
-
----
-
-## FAQ
-
-**Q: Are recordings available if I miss a live webinar?**  
-A: Yes, all webinar recordings are available within 24 hours to registered attendees.
-
-**Q: How long are certifications valid?**  
-A: Glean Certified User never expires. Power User and Administrator certs expire after 2 years. MCP Developer expires after 2 years.
-
-**Q: Can I get CPE credits for certifications?**  
-A: Yes, Glean certifications qualify for CPE credits. Details provided upon completion.
-
-**Q: Do you offer group discounts for certifications?**  
-A: Yes! Contact sales for team pricing (10+ learners).
-
-**Q: Can we white-label the training for our internal university?**  
-A: Yes, this is available for Enterprise customers. Contact your CSM.
-
-**Q: How do I become a Glean Academy instructor?**  
-A: We're always looking for community experts! Email academy@glean.dev with your background and proposed topics.
-
----
-
-**Transform your team into Glean experts. Start learning today.** 🎓
+**Office Hours**: Every Tuesday & Thursday, 2-4 PM PT  
+[Schedule Office Hours](https://glean.dev/office-hours)
